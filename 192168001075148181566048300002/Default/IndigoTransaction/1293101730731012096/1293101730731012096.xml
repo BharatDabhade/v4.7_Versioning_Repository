@@ -1,0 +1,439 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<data>
+    <AU_TRANSACTION>
+        <AU_REVISION><![CDATA[null]]></AU_REVISION>
+        <AU_WEBPDXML><![CDATA[<?xml version="1.0" encoding="UTF-8"?>
+<bpmn2:definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:bpmn2="http://www.omg.org/spec/BPMN/20100524/MODEL" xmlns:bpmndi="http://www.omg.org/spec/BPMN/20100524/DI" xmlns:dc="http://www.omg.org/spec/DD/20100524/DC" xmlns:di="http://www.omg.org/spec/DD/20100524/DI" xmlns:ap="http://adeptia.com/schema/bpmn/ap" xmlns:bioc="http://bpmn.io/schema/bpmn/biocolor/1.0" id="sample-diagram" targetNamespace="http://bpmn.io/schema/bpmn" xsi:schemaLocation="http://www.omg.org/spec/BPMN/20100524/MODEL BPMN20.xsd">
+  <bpmn2:process id="mainProcess" isExecutable="false">
+    <bpmn2:extensionElements>
+      <ap:properties>
+        <ap:property name="version">[ABPM_._ESCAPE_._CDATA_._START]1.0[ABPM_._ESCAPE_._CDATA_._END]</ap:property>
+      </ap:properties>
+    </bpmn2:extensionElements>
+    <bpmn2:startEvent id="StartEvent_1" name="Start Event">
+      <bpmn2:outgoing>SequenceFlow_0po4xyq</bpmn2:outgoing>
+    </bpmn2:startEvent>
+    <bpmn2:task id="Task_1xar8ms" name="mm_lan_source">
+      <bpmn2:extensionElements>
+        <ap:streams>
+          <ap:stream id="stream_0acaphe" name="mm_lan_source" consumer="Task_0ssf2e2" source="Task_1xar8ms" error="false" visible="false" dataObjectReferenceId="" />
+        </ap:streams>
+        <ap:properties>
+          <ap:property name="restartTriesCount">[ABPM_._ESCAPE_._CDATA_._START]0[ABPM_._ESCAPE_._CDATA_._END]</ap:property>
+          <ap:property name="restartWaitTime">[ABPM_._ESCAPE_._CDATA_._START]60[ABPM_._ESCAPE_._CDATA_._END]</ap:property>
+          <ap:property name="source">[ABPM_._ESCAPE_._CDATA_._START][ABPM_._ESCAPE_._CDATA_._END]</ap:property>
+          <ap:property name="streamNames">[ABPM_._ESCAPE_._CDATA_._START]mm_lan_source[ABPM_._ESCAPE_._CDATA_._END]</ap:property>
+          <ap:property name="targetConnectTimeout">[ABPM_._ESCAPE_._CDATA_._START]300[ABPM_._ESCAPE_._CDATA_._END]</ap:property>
+          <ap:property name="eventContextEnabled">[ABPM_._ESCAPE_._CDATA_._START]true[ABPM_._ESCAPE_._CDATA_._END]</ap:property>
+        </ap:properties>
+        <ap:node>
+          <ap:attribute name="label">[ABPM_._ESCAPE_._CDATA_._START]mm_lan_source[ABPM_._ESCAPE_._CDATA_._END]</ap:attribute>
+          <ap:attribute name="type">[ABPM_._ESCAPE_._CDATA_._START]LanFileSource[ABPM_._ESCAPE_._CDATA_._END]</ap:attribute>
+          <ap:attribute name="id">[ABPM_._ESCAPE_._CDATA_._START]1293100696688275456[ABPM_._ESCAPE_._CDATA_._END]</ap:attribute>
+          <ap:attribute name="name">[ABPM_._ESCAPE_._CDATA_._START]mm_lan_source[ABPM_._ESCAPE_._CDATA_._END]</ap:attribute>
+          <ap:attribute name="async">[ABPM_._ESCAPE_._CDATA_._START]false[ABPM_._ESCAPE_._CDATA_._END]</ap:attribute>
+          <ap:attribute name="signal">[ABPM_._ESCAPE_._CDATA_._START]SignalComplete[ABPM_._ESCAPE_._CDATA_._END]</ap:attribute>
+          <ap:attribute name="comments">[ABPM_._ESCAPE_._CDATA_._START][ABPM_._ESCAPE_._CDATA_._END]</ap:attribute>
+          <ap:attribute name="serverEntity">[ABPM_._ESCAPE_._CDATA_._START]false[ABPM_._ESCAPE_._CDATA_._END]</ap:attribute>
+          <ap:attribute name="serviceType">[ABPM_._ESCAPE_._CDATA_._START]activity[ABPM_._ESCAPE_._CDATA_._END]</ap:attribute>
+          <ap:attribute name="uiType">[ABPM_._ESCAPE_._CDATA_._START]LanFileSource[ABPM_._ESCAPE_._CDATA_._END]</ap:attribute>
+          <ap:attribute name="jtaEnlist">[ABPM_._ESCAPE_._CDATA_._START]false[ABPM_._ESCAPE_._CDATA_._END]</ap:attribute>
+        </ap:node>
+      </bpmn2:extensionElements>
+      <bpmn2:incoming>SequenceFlow_0po4xyq</bpmn2:incoming>
+      <bpmn2:outgoing>SequenceFlow_0i00z8c</bpmn2:outgoing>
+    </bpmn2:task>
+    <bpmn2:task id="Task_0ssf2e2" name="mm_text_layout">
+      <bpmn2:extensionElements>
+        <ap:node>
+          <ap:attribute name="label">[ABPM_._ESCAPE_._CDATA_._START]mm_text_layout[ABPM_._ESCAPE_._CDATA_._END]</ap:attribute>
+          <ap:attribute name="type">[ABPM_._ESCAPE_._CDATA_._START]TextSchema[ABPM_._ESCAPE_._CDATA_._END]</ap:attribute>
+          <ap:attribute name="id">[ABPM_._ESCAPE_._CDATA_._START]1293100920097878016[ABPM_._ESCAPE_._CDATA_._END]</ap:attribute>
+          <ap:attribute name="name">[ABPM_._ESCAPE_._CDATA_._START]mm_text_layout[ABPM_._ESCAPE_._CDATA_._END]</ap:attribute>
+          <ap:attribute name="async">[ABPM_._ESCAPE_._CDATA_._START]false[ABPM_._ESCAPE_._CDATA_._END]</ap:attribute>
+          <ap:attribute name="signal">[ABPM_._ESCAPE_._CDATA_._START]SignalComplete[ABPM_._ESCAPE_._CDATA_._END]</ap:attribute>
+          <ap:attribute name="comments">[ABPM_._ESCAPE_._CDATA_._START][ABPM_._ESCAPE_._CDATA_._END]</ap:attribute>
+          <ap:attribute name="serverEntity">[ABPM_._ESCAPE_._CDATA_._START]false[ABPM_._ESCAPE_._CDATA_._END]</ap:attribute>
+          <ap:attribute name="serviceType">[ABPM_._ESCAPE_._CDATA_._START]activity[ABPM_._ESCAPE_._CDATA_._END]</ap:attribute>
+          <ap:attribute name="uiType">[ABPM_._ESCAPE_._CDATA_._START]TextSchema[ABPM_._ESCAPE_._CDATA_._END]</ap:attribute>
+        </ap:node>
+        <ap:streams>
+          <ap:stream id="stream_0g3q5s2" name="mm_text_layout" consumer="Task_1m7fu9g" source="Task_0ssf2e2" error="false" visible="false" dataObjectReferenceId="" />
+        </ap:streams>
+        <ap:properties>
+          <ap:property name="restartTriesCount">[ABPM_._ESCAPE_._CDATA_._START]0[ABPM_._ESCAPE_._CDATA_._END]</ap:property>
+          <ap:property name="restartWaitTime">[ABPM_._ESCAPE_._CDATA_._START]60[ABPM_._ESCAPE_._CDATA_._END]</ap:property>
+          <ap:property name="source">[ABPM_._ESCAPE_._CDATA_._START]mm_lan_source[ABPM_._ESCAPE_._CDATA_._END]</ap:property>
+          <ap:property name="streamNames">[ABPM_._ESCAPE_._CDATA_._START]mm_text_layout[ABPM_._ESCAPE_._CDATA_._END]</ap:property>
+          <ap:property name="targetConnectTimeout">[ABPM_._ESCAPE_._CDATA_._START]300[ABPM_._ESCAPE_._CDATA_._END]</ap:property>
+          <ap:property name="characterSetEncoding">[ABPM_._ESCAPE_._CDATA_._START]UTF-8[ABPM_._ESCAPE_._CDATA_._END]</ap:property>
+          <ap:property name="transformer">[ABPM_._ESCAPE_._CDATA_._START]Stream2XmlStreamTransformer[ABPM_._ESCAPE_._CDATA_._END]</ap:property>
+          <ap:property name="intermediateFormat">[ABPM_._ESCAPE_._CDATA_._START]Native[ABPM_._ESCAPE_._CDATA_._END]</ap:property>
+          <ap:property name="dataAction">[ABPM_._ESCAPE_._CDATA_._START]No Action[ABPM_._ESCAPE_._CDATA_._END]</ap:property>
+          <ap:property name="errorRecordHandleType">[ABPM_._ESCAPE_._CDATA_._START]File[ABPM_._ESCAPE_._CDATA_._END]</ap:property>
+        </ap:properties>
+      </bpmn2:extensionElements>
+      <bpmn2:incoming>SequenceFlow_0i00z8c</bpmn2:incoming>
+      <bpmn2:outgoing>SequenceFlow_196w3ip</bpmn2:outgoing>
+    </bpmn2:task>
+    <bpmn2:task id="Task_1dyl4ut" name="mm_text_layout">
+      <bpmn2:extensionElements>
+        <ap:streams>
+          <ap:stream id="stream_0m1lu4x" name="mm_text_layout" consumer="Task_0fp4i5j" source="Task_1dyl4ut" error="false" visible="false" dataObjectReferenceId="" />
+        </ap:streams>
+        <ap:node>
+          <ap:attribute name="label">[ABPM_._ESCAPE_._CDATA_._START]mm_text_layout[ABPM_._ESCAPE_._CDATA_._END]</ap:attribute>
+          <ap:attribute name="type">[ABPM_._ESCAPE_._CDATA_._START]TextSchema[ABPM_._ESCAPE_._CDATA_._END]</ap:attribute>
+          <ap:attribute name="id">[ABPM_._ESCAPE_._CDATA_._START]1293100920097878016[ABPM_._ESCAPE_._CDATA_._END]</ap:attribute>
+          <ap:attribute name="name">[ABPM_._ESCAPE_._CDATA_._START]mm_text_layout_target[ABPM_._ESCAPE_._CDATA_._END]</ap:attribute>
+          <ap:attribute name="async">[ABPM_._ESCAPE_._CDATA_._START]false[ABPM_._ESCAPE_._CDATA_._END]</ap:attribute>
+          <ap:attribute name="signal">[ABPM_._ESCAPE_._CDATA_._START]SignalComplete[ABPM_._ESCAPE_._CDATA_._END]</ap:attribute>
+          <ap:attribute name="comments">[ABPM_._ESCAPE_._CDATA_._START][ABPM_._ESCAPE_._CDATA_._END]</ap:attribute>
+          <ap:attribute name="serverEntity">[ABPM_._ESCAPE_._CDATA_._START]false[ABPM_._ESCAPE_._CDATA_._END]</ap:attribute>
+          <ap:attribute name="serviceType">[ABPM_._ESCAPE_._CDATA_._START]activity[ABPM_._ESCAPE_._CDATA_._END]</ap:attribute>
+          <ap:attribute name="uiType">[ABPM_._ESCAPE_._CDATA_._START]TextSchema[ABPM_._ESCAPE_._CDATA_._END]</ap:attribute>
+        </ap:node>
+        <ap:properties>
+          <ap:property name="restartTriesCount">[ABPM_._ESCAPE_._CDATA_._START]0[ABPM_._ESCAPE_._CDATA_._END]</ap:property>
+          <ap:property name="restartWaitTime">[ABPM_._ESCAPE_._CDATA_._START]60[ABPM_._ESCAPE_._CDATA_._END]</ap:property>
+          <ap:property name="source">[ABPM_._ESCAPE_._CDATA_._START]mm_mapping_text[ABPM_._ESCAPE_._CDATA_._END]</ap:property>
+          <ap:property name="streamNames">[ABPM_._ESCAPE_._CDATA_._START]mm_text_layout[ABPM_._ESCAPE_._CDATA_._END]</ap:property>
+          <ap:property name="targetConnectTimeout">[ABPM_._ESCAPE_._CDATA_._START]300[ABPM_._ESCAPE_._CDATA_._END]</ap:property>
+          <ap:property name="characterSetEncoding">[ABPM_._ESCAPE_._CDATA_._START]UTF-8[ABPM_._ESCAPE_._CDATA_._END]</ap:property>
+          <ap:property name="transformer">[ABPM_._ESCAPE_._CDATA_._START]XmlStream2StreamTransformer[ABPM_._ESCAPE_._CDATA_._END]</ap:property>
+          <ap:property name="intermediateFormat">[ABPM_._ESCAPE_._CDATA_._START]Native[ABPM_._ESCAPE_._CDATA_._END]</ap:property>
+          <ap:property name="dataAction">[ABPM_._ESCAPE_._CDATA_._START]No Action[ABPM_._ESCAPE_._CDATA_._END]</ap:property>
+          <ap:property name="errorRecordHandleType">[ABPM_._ESCAPE_._CDATA_._START]File[ABPM_._ESCAPE_._CDATA_._END]</ap:property>
+        </ap:properties>
+      </bpmn2:extensionElements>
+      <bpmn2:incoming>SequenceFlow_0u775vi</bpmn2:incoming>
+      <bpmn2:outgoing>SequenceFlow_07olcu1</bpmn2:outgoing>
+    </bpmn2:task>
+    <bpmn2:task id="Task_1m7fu9g" name="mm_mapping_text">
+      <bpmn2:extensionElements>
+        <ap:streams>
+          <ap:stream name="mm_mapping_text" id="stream_1ropd9x" dataObjectReferenceId="" consumer="Task_1dyl4ut" error="false" visible="false" source="Task_1m7fu9g" />
+        </ap:streams>
+        <ap:node>
+          <ap:attribute name="label">[ABPM_._ESCAPE_._CDATA_._START]mm_mapping_text[ABPM_._ESCAPE_._CDATA_._END]</ap:attribute>
+          <ap:attribute name="type">[ABPM_._ESCAPE_._CDATA_._START]DataMapping[ABPM_._ESCAPE_._CDATA_._END]</ap:attribute>
+          <ap:attribute name="id">[ABPM_._ESCAPE_._CDATA_._START]1293101125224509440[ABPM_._ESCAPE_._CDATA_._END]</ap:attribute>
+          <ap:attribute name="name">[ABPM_._ESCAPE_._CDATA_._START]mm_mapping_text[ABPM_._ESCAPE_._CDATA_._END]</ap:attribute>
+          <ap:attribute name="async">[ABPM_._ESCAPE_._CDATA_._START]false[ABPM_._ESCAPE_._CDATA_._END]</ap:attribute>
+          <ap:attribute name="signal">[ABPM_._ESCAPE_._CDATA_._START]SignalComplete[ABPM_._ESCAPE_._CDATA_._END]</ap:attribute>
+          <ap:attribute name="comments">[ABPM_._ESCAPE_._CDATA_._START][ABPM_._ESCAPE_._CDATA_._END]</ap:attribute>
+          <ap:attribute name="serverEntity">[ABPM_._ESCAPE_._CDATA_._START]false[ABPM_._ESCAPE_._CDATA_._END]</ap:attribute>
+          <ap:attribute name="serviceType">[ABPM_._ESCAPE_._CDATA_._START]activity[ABPM_._ESCAPE_._CDATA_._END]</ap:attribute>
+          <ap:attribute name="uiType">[ABPM_._ESCAPE_._CDATA_._START]DataMapping[ABPM_._ESCAPE_._CDATA_._END]</ap:attribute>
+        </ap:node>
+        <ap:properties>
+          <ap:property name="restartTriesCount">[ABPM_._ESCAPE_._CDATA_._START]0[ABPM_._ESCAPE_._CDATA_._END]</ap:property>
+          <ap:property name="restartWaitTime">[ABPM_._ESCAPE_._CDATA_._START]60[ABPM_._ESCAPE_._CDATA_._END]</ap:property>
+          <ap:property name="source">[ABPM_._ESCAPE_._CDATA_._START]mm_text_layout[ABPM_._ESCAPE_._CDATA_._END]</ap:property>
+          <ap:property name="streamNames">[ABPM_._ESCAPE_._CDATA_._START]mm_mapping_text[ABPM_._ESCAPE_._CDATA_._END]</ap:property>
+          <ap:property name="targetConnectTimeout">[ABPM_._ESCAPE_._CDATA_._START]300[ABPM_._ESCAPE_._CDATA_._END]</ap:property>
+          <ap:property name="characterSetEncoding">[ABPM_._ESCAPE_._CDATA_._START]UTF-8[ABPM_._ESCAPE_._CDATA_._END]</ap:property>
+          <ap:property name="generateStream">[ABPM_._ESCAPE_._CDATA_._START]true[ABPM_._ESCAPE_._CDATA_._END]</ap:property>
+          <ap:property name="consumeStream">[ABPM_._ESCAPE_._CDATA_._START]true[ABPM_._ESCAPE_._CDATA_._END]</ap:property>
+          <ap:property name="errorRecordHandleType">[ABPM_._ESCAPE_._CDATA_._START]File[ABPM_._ESCAPE_._CDATA_._END]</ap:property>
+          <ap:property name="transformerType">[ABPM_._ESCAPE_._CDATA_._START]Saxon[ABPM_._ESCAPE_._CDATA_._END]</ap:property>
+        </ap:properties>
+      </bpmn2:extensionElements>
+      <bpmn2:incoming>SequenceFlow_196w3ip</bpmn2:incoming>
+      <bpmn2:outgoing>SequenceFlow_0u775vi</bpmn2:outgoing>
+    </bpmn2:task>
+    <bpmn2:sequenceFlow id="SequenceFlow_0po4xyq" sourceRef="StartEvent_1" targetRef="Task_1xar8ms" />
+    <bpmn2:sequenceFlow id="SequenceFlow_0i00z8c" sourceRef="Task_1xar8ms" targetRef="Task_0ssf2e2" />
+    <bpmn2:sequenceFlow id="SequenceFlow_196w3ip" sourceRef="Task_0ssf2e2" targetRef="Task_1m7fu9g" />
+    <bpmn2:sequenceFlow id="SequenceFlow_0u775vi" sourceRef="Task_1m7fu9g" targetRef="Task_1dyl4ut" />
+    <bpmn2:endEvent id="EndEvent_0dbpk7i" name="End Event">
+      <bpmn2:extensionElements>
+        <ap:properties>
+          <ap:property name="attachNotification">[ABPM_._ESCAPE_._CDATA_._START]false[ABPM_._ESCAPE_._CDATA_._END]</ap:property>
+          <ap:property name="mailNotification">[ABPM_._ESCAPE_._CDATA_._START][ABPM_._ESCAPE_._CDATA_._END]</ap:property>
+        </ap:properties>
+        <ap:node>
+          <ap:attribute name="label">[ABPM_._ESCAPE_._CDATA_._START]End Event[ABPM_._ESCAPE_._CDATA_._END]</ap:attribute>
+          <ap:attribute name="comments">[ABPM_._ESCAPE_._CDATA_._START][ABPM_._ESCAPE_._CDATA_._END]</ap:attribute>
+        </ap:node>
+      </bpmn2:extensionElements>
+      <bpmn2:incoming>SequenceFlow_0d84bb1</bpmn2:incoming>
+    </bpmn2:endEvent>
+    <bpmn2:task id="Task_0fp4i5j" name="bd_ASB_queue_Listerner_Trg">
+      <bpmn2:extensionElements>
+        <ap:properties>
+          <ap:property name="restartTriesCount">[ABPM_._ESCAPE_._CDATA_._START]0[ABPM_._ESCAPE_._CDATA_._END]</ap:property>
+          <ap:property name="restartWaitTime">[ABPM_._ESCAPE_._CDATA_._START]60[ABPM_._ESCAPE_._CDATA_._END]</ap:property>
+          <ap:property name="source">[ABPM_._ESCAPE_._CDATA_._START]mm_text_layout_target[mm_text_layout][ABPM_._ESCAPE_._CDATA_._END]</ap:property>
+          <ap:property name="streamNames">[ABPM_._ESCAPE_._CDATA_._START][ABPM_._ESCAPE_._CDATA_._END]</ap:property>
+          <ap:property name="targetConnectTimeout">[ABPM_._ESCAPE_._CDATA_._START]300[ABPM_._ESCAPE_._CDATA_._END]</ap:property>
+        </ap:properties>
+        <ap:node>
+          <ap:attribute name="label">[ABPM_._ESCAPE_._CDATA_._START]bd_ASB_queue_Listerner_Trg[ABPM_._ESCAPE_._CDATA_._END]</ap:attribute>
+          <ap:attribute name="type">[ABPM_._ESCAPE_._CDATA_._START]FtpTarget[ABPM_._ESCAPE_._CDATA_._END]</ap:attribute>
+          <ap:attribute name="id">[ABPM_._ESCAPE_._CDATA_._START]1427951161845137408[ABPM_._ESCAPE_._CDATA_._END]</ap:attribute>
+          <ap:attribute name="name">[ABPM_._ESCAPE_._CDATA_._START]bd_ASB_queue_Listerner_Trg[ABPM_._ESCAPE_._CDATA_._END]</ap:attribute>
+          <ap:attribute name="async">[ABPM_._ESCAPE_._CDATA_._START]false[ABPM_._ESCAPE_._CDATA_._END]</ap:attribute>
+          <ap:attribute name="connector">[ABPM_._ESCAPE_._CDATA_._START]false[ABPM_._ESCAPE_._CDATA_._END]</ap:attribute>
+          <ap:attribute name="signal">[ABPM_._ESCAPE_._CDATA_._START]SignalComplete[ABPM_._ESCAPE_._CDATA_._END]</ap:attribute>
+          <ap:attribute name="comments">[ABPM_._ESCAPE_._CDATA_._START][ABPM_._ESCAPE_._CDATA_._END]</ap:attribute>
+          <ap:attribute name="serverEntity">[ABPM_._ESCAPE_._CDATA_._START]false[ABPM_._ESCAPE_._CDATA_._END]</ap:attribute>
+          <ap:attribute name="serviceType">[ABPM_._ESCAPE_._CDATA_._START]activity[ABPM_._ESCAPE_._CDATA_._END]</ap:attribute>
+          <ap:attribute name="uiType">[ABPM_._ESCAPE_._CDATA_._START]FtpTarget[ABPM_._ESCAPE_._CDATA_._END]</ap:attribute>
+        </ap:node>
+      </bpmn2:extensionElements>
+      <bpmn2:incoming>SequenceFlow_07olcu1</bpmn2:incoming>
+      <bpmn2:outgoing>SequenceFlow_0d84bb1</bpmn2:outgoing>
+    </bpmn2:task>
+    <bpmn2:sequenceFlow id="SequenceFlow_07olcu1" sourceRef="Task_1dyl4ut" targetRef="Task_0fp4i5j" />
+    <bpmn2:sequenceFlow id="SequenceFlow_0d84bb1" sourceRef="Task_0fp4i5j" targetRef="EndEvent_0dbpk7i" />
+  </bpmn2:process>
+  <bpmndi:BPMNDiagram id="BPMNDiagram_1">
+    <bpmndi:BPMNPlane id="BPMNPlane_1" bpmnElement="mainProcess">
+      <bpmndi:BPMNShape id="_BPMNShape_StartEvent_2" bpmnElement="StartEvent_1" bioc:stroke="#808080">
+        <dc:Bounds x="100" y="200" width="36" height="36" />
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="Task_1xar8ms_di" bpmnElement="Task_1xar8ms" bioc:stroke="#808080" bioc:fill="url(#task_color)">
+        <dc:Bounds x="174" y="188" width="130" height="60" />
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="Task_0ssf2e2_di" bpmnElement="Task_0ssf2e2" bioc:stroke="#808080" bioc:fill="url(#task_color)">
+        <dc:Bounds x="338" y="188" width="130" height="60" />
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="Task_1dyl4ut_di" bpmnElement="Task_1dyl4ut" bioc:stroke="#808080" bioc:fill="url(#task_color)">
+        <dc:Bounds x="657" y="188" width="130" height="60" />
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="Task_1m7fu9g_di" bpmnElement="Task_1m7fu9g" bioc:stroke="#808080" bioc:fill="url(#task_color)">
+        <dc:Bounds x="501" y="188" width="130" height="60" />
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNEdge id="SequenceFlow_0po4xyq_di" bpmnElement="SequenceFlow_0po4xyq" bioc:stroke="#008000">
+        <di:waypoint x="136" y="218" />
+        <di:waypoint x="174" y="218" />
+        <bpmndi:BPMNLabel>
+          <dc:Bounds x="155" y="197" width="0" height="12" />
+        </bpmndi:BPMNLabel>
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id="SequenceFlow_0i00z8c_di" bpmnElement="SequenceFlow_0i00z8c" bioc:stroke="#008000">
+        <di:waypoint x="304" y="218" />
+        <di:waypoint x="338" y="218" />
+        <bpmndi:BPMNLabel>
+          <dc:Bounds x="276" y="197" width="90" height="12" />
+        </bpmndi:BPMNLabel>
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id="SequenceFlow_196w3ip_di" bpmnElement="SequenceFlow_196w3ip" bioc:stroke="#808080">
+        <di:waypoint x="468" y="218" />
+        <di:waypoint x="501" y="218" />
+        <bpmndi:BPMNLabel>
+          <dc:Bounds x="439.5" y="197" width="90" height="12" />
+        </bpmndi:BPMNLabel>
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id="SequenceFlow_0u775vi_di" bpmnElement="SequenceFlow_0u775vi" bioc:stroke="#808080">
+        <di:waypoint x="631" y="218" />
+        <di:waypoint x="657" y="218" />
+        <bpmndi:BPMNLabel>
+          <dc:Bounds x="599" y="197" width="90" height="12" />
+        </bpmndi:BPMNLabel>
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNShape id="EndEvent_0dbpk7i_di" bpmnElement="EndEvent_0dbpk7i" bioc:stroke="#808080" bioc:fill="url(#endevent_color)">
+        <dc:Bounds x="980" y="200" width="36" height="36" />
+        <bpmndi:BPMNLabel>
+          <dc:Bounds x="972" y="240" width="52" height="12" />
+        </bpmndi:BPMNLabel>
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="Task_0fp4i5j_di" bpmnElement="Task_0fp4i5j" bioc:stroke="#808080" bioc:fill="url(#task_color)">
+        <dc:Bounds x="820" y="188" width="130" height="60" />
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNEdge id="SequenceFlow_07olcu1_di" bpmnElement="SequenceFlow_07olcu1" bioc:stroke="#808080">
+        <di:waypoint x="787" y="218" />
+        <di:waypoint x="820" y="218" />
+        <bpmndi:BPMNLabel>
+          <dc:Bounds x="803.5" y="197" width="0" height="12" />
+        </bpmndi:BPMNLabel>
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id="SequenceFlow_0d84bb1_di" bpmnElement="SequenceFlow_0d84bb1" bioc:stroke="#808080">
+        <di:waypoint x="950" y="218" />
+        <di:waypoint x="980" y="218" />
+        <bpmndi:BPMNLabel>
+          <dc:Bounds x="965" y="197" width="0" height="12" />
+        </bpmndi:BPMNLabel>
+      </bpmndi:BPMNEdge>
+    </bpmndi:BPMNPlane>
+  </bpmndi:BPMNDiagram>
+</bpmn2:definitions>
+]]></AU_WEBPDXML>
+        <AU_TRACKVARIABLES><![CDATA[<?xml version="1.0"?><Variables></Variables>]]></AU_TRACKVARIABLES>
+        <AU_DATAENCRYPTIONATREST><![CDATA[useGlobalPolicy]]></AU_DATAENCRYPTIONATREST>
+        <AU_TEMPLATENAME><![CDATA[Process Designer]]></AU_TEMPLATENAME>
+        <AU_GROUPOWNER><![CDATA[IndigoGroup:192168001075148181566048300002]]></AU_GROUPOWNER>
+        <AU_COMMENTS><![CDATA[null]]></AU_COMMENTS>
+        <AU_CREATIONDATE><![CDATA[2024-10-08 06:44:37.0]]></AU_CREATIONDATE>
+        <AU_ACTIVEFLAG><![CDATA[1]]></AU_ACTIVEFLAG>
+        <AU_RETAINVARXML><![CDATA[0]]></AU_RETAINVARXML>
+        <AU_OLDFLOWDESCRIPTOR><![CDATA[null]]></AU_OLDFLOWDESCRIPTOR>
+        <AU_MODIFIEDDATE><![CDATA[2025-10-15 09:37:55.0]]></AU_MODIFIEDDATE>
+        <AU_LOGGINGLEVEL><![CDATA[ERROR]]></AU_LOGGINGLEVEL>
+        <AU_PREVIOUSVERSION><![CDATA[null]]></AU_PREVIOUSVERSION>
+        <AU_USEROWNER><![CDATA[IndigoUser:1427614637623595008]]></AU_USEROWNER>
+        <AU_REALTIMECONFIGURATION><![CDATA[0]]></AU_REALTIMECONFIGURATION>
+        <AU_FLOWDESCRIPTOR><![CDATA[<?xml version="1.0" encoding="UTF-8"?>
+<AdeptiaPE xmlns="jelly:com.werken.blissed.jelly.BlissedTagLibrary" xmlns:version="4.7" xmlns:j="jelly:core" xmlns:abpm="jelly:com.adeptia.indigo.jelly.IndigoTagLibrary" xmlns:pd="jelly:com.adeptia.indigo.pd.ProcessDesignerTagLibrary">
+   <process name="mainProcess" start="startState" var="mainProcess">
+      <state name="startState">
+         <activity>
+            <abpm:installGlobalExceptionHandlers/>
+         </activity>
+      </state>
+      <state name="Task_1xar8ms">
+         <activity>
+            <abpm:activity name="mm_lan_source" async="false" id="1293100696688275456" jtaEnlist="false" signal="SignalComplete" type="LanFileSource">
+               <abpm:params>
+                  <abpm:param name="restartTriesCount">[ABPM_._ESCAPE_._CDATA_._START]0[ABPM_._ESCAPE_._CDATA_._END]</abpm:param>
+                  <abpm:param name="restartWaitTime">[ABPM_._ESCAPE_._CDATA_._START]60[ABPM_._ESCAPE_._CDATA_._END]</abpm:param>
+                  <abpm:param name="streamNames">[ABPM_._ESCAPE_._CDATA_._START]default[ABPM_._ESCAPE_._CDATA_._END]</abpm:param>
+                  <abpm:param name="targetConnectTimeout">[ABPM_._ESCAPE_._CDATA_._START]300[ABPM_._ESCAPE_._CDATA_._END]</abpm:param>
+                  <abpm:param name="eventContextEnabled">[ABPM_._ESCAPE_._CDATA_._START]true[ABPM_._ESCAPE_._CDATA_._END]</abpm:param>
+               </abpm:params>
+            </abpm:activity>
+         </activity>
+      </state>
+      <state name="Task_0ssf2e2">
+         <activity>
+            <abpm:activity name="mm_text_layout" async="false" id="" signal="SignalComplete" type="Stream2XmlStreamTransformer">
+               <abpm:params>
+                  <abpm:param name="restartTriesCount">[ABPM_._ESCAPE_._CDATA_._START]0[ABPM_._ESCAPE_._CDATA_._END]</abpm:param>
+                  <abpm:param name="restartWaitTime">[ABPM_._ESCAPE_._CDATA_._START]60[ABPM_._ESCAPE_._CDATA_._END]</abpm:param>
+                  <abpm:param name="source">[ABPM_._ESCAPE_._CDATA_._START]mm_lan_source[ABPM_._ESCAPE_._CDATA_._END]</abpm:param>
+                  <abpm:param name="streamNames">[ABPM_._ESCAPE_._CDATA_._START]default[ABPM_._ESCAPE_._CDATA_._END]</abpm:param>
+                  <abpm:param name="targetConnectTimeout">[ABPM_._ESCAPE_._CDATA_._START]300[ABPM_._ESCAPE_._CDATA_._END]</abpm:param>
+                  <abpm:param name="characterSetEncoding">[ABPM_._ESCAPE_._CDATA_._START]UTF-8[ABPM_._ESCAPE_._CDATA_._END]</abpm:param>
+                  <abpm:param name="transformer">[ABPM_._ESCAPE_._CDATA_._START]Stream2XmlStreamTransformer[ABPM_._ESCAPE_._CDATA_._END]</abpm:param>
+                  <abpm:param name="intermediateFormat">[ABPM_._ESCAPE_._CDATA_._START]Native[ABPM_._ESCAPE_._CDATA_._END]</abpm:param>
+                  <abpm:param name="dataAction">[ABPM_._ESCAPE_._CDATA_._START]No Action[ABPM_._ESCAPE_._CDATA_._END]</abpm:param>
+                  <abpm:param name="errorRecordHandleType">[ABPM_._ESCAPE_._CDATA_._START]File[ABPM_._ESCAPE_._CDATA_._END]</abpm:param>
+                  <abpm:param name="schemaTypedId">[ABPM_._ESCAPE_._CDATA_._START]TextSchema:1293100920097878016[ABPM_._ESCAPE_._CDATA_._END]</abpm:param>
+               </abpm:params>
+            </abpm:activity>
+         </activity>
+      </state>
+      <state name="Task_1dyl4ut">
+         <activity>
+            <abpm:activity name="mm_text_layout_target" async="false" id="" signal="SignalComplete" type="XmlStream2StreamTransformer">
+               <abpm:params>
+                  <abpm:param name="restartTriesCount">[ABPM_._ESCAPE_._CDATA_._START]0[ABPM_._ESCAPE_._CDATA_._END]</abpm:param>
+                  <abpm:param name="restartWaitTime">[ABPM_._ESCAPE_._CDATA_._START]60[ABPM_._ESCAPE_._CDATA_._END]</abpm:param>
+                  <abpm:param name="source">[ABPM_._ESCAPE_._CDATA_._START]mm_mapping_text[ABPM_._ESCAPE_._CDATA_._END]</abpm:param>
+                  <abpm:param name="streamNames">[ABPM_._ESCAPE_._CDATA_._START]mm_text_layout[ABPM_._ESCAPE_._CDATA_._END]</abpm:param>
+                  <abpm:param name="targetConnectTimeout">[ABPM_._ESCAPE_._CDATA_._START]300[ABPM_._ESCAPE_._CDATA_._END]</abpm:param>
+                  <abpm:param name="characterSetEncoding">[ABPM_._ESCAPE_._CDATA_._START]UTF-8[ABPM_._ESCAPE_._CDATA_._END]</abpm:param>
+                  <abpm:param name="transformer">[ABPM_._ESCAPE_._CDATA_._START]XmlStream2StreamTransformer[ABPM_._ESCAPE_._CDATA_._END]</abpm:param>
+                  <abpm:param name="intermediateFormat">[ABPM_._ESCAPE_._CDATA_._START]Native[ABPM_._ESCAPE_._CDATA_._END]</abpm:param>
+                  <abpm:param name="dataAction">[ABPM_._ESCAPE_._CDATA_._START]No Action[ABPM_._ESCAPE_._CDATA_._END]</abpm:param>
+                  <abpm:param name="errorRecordHandleType">[ABPM_._ESCAPE_._CDATA_._START]File[ABPM_._ESCAPE_._CDATA_._END]</abpm:param>
+                  <abpm:param name="schemaTypedId">[ABPM_._ESCAPE_._CDATA_._START]TextSchema:1293100920097878016[ABPM_._ESCAPE_._CDATA_._END]</abpm:param>
+               </abpm:params>
+            </abpm:activity>
+         </activity>
+      </state>
+      <state name="Task_1m7fu9g">
+         <activity>
+            <abpm:activity name="mm_mapping_text" async="false" id="1293101125224509440" signal="SignalComplete" type="DataMapping">
+               <abpm:params>
+                  <abpm:param name="restartTriesCount">[ABPM_._ESCAPE_._CDATA_._START]0[ABPM_._ESCAPE_._CDATA_._END]</abpm:param>
+                  <abpm:param name="restartWaitTime">[ABPM_._ESCAPE_._CDATA_._START]60[ABPM_._ESCAPE_._CDATA_._END]</abpm:param>
+                  <abpm:param name="source">[ABPM_._ESCAPE_._CDATA_._START]mm_text_layout[ABPM_._ESCAPE_._CDATA_._END]</abpm:param>
+                  <abpm:param name="streamNames">[ABPM_._ESCAPE_._CDATA_._START]default[ABPM_._ESCAPE_._CDATA_._END]</abpm:param>
+                  <abpm:param name="targetConnectTimeout">[ABPM_._ESCAPE_._CDATA_._START]300[ABPM_._ESCAPE_._CDATA_._END]</abpm:param>
+                  <abpm:param name="characterSetEncoding">[ABPM_._ESCAPE_._CDATA_._START]UTF-8[ABPM_._ESCAPE_._CDATA_._END]</abpm:param>
+                  <abpm:param name="generateStream">[ABPM_._ESCAPE_._CDATA_._START]true[ABPM_._ESCAPE_._CDATA_._END]</abpm:param>
+                  <abpm:param name="Consume Stream">[ABPM_._ESCAPE_._CDATA_._START]true[ABPM_._ESCAPE_._CDATA_._END]</abpm:param>
+                  <abpm:param name="errorRecordHandleType">[ABPM_._ESCAPE_._CDATA_._START]File[ABPM_._ESCAPE_._CDATA_._END]</abpm:param>
+                  <abpm:param name="transformerType">[ABPM_._ESCAPE_._CDATA_._START]Saxon[ABPM_._ESCAPE_._CDATA_._END]</abpm:param>
+               </abpm:params>
+            </abpm:activity>
+         </activity>
+      </state>
+      <state name="Task_0fp4i5j">
+         <activity>
+            <abpm:activity name="bd_ASB_queue_Listerner_Trg" async="false" id="1427951161845137408" signal="SignalComplete" type="FtpTarget">
+               <abpm:params>
+                  <abpm:param name="restartTriesCount">[ABPM_._ESCAPE_._CDATA_._START]0[ABPM_._ESCAPE_._CDATA_._END]</abpm:param>
+                  <abpm:param name="restartWaitTime">[ABPM_._ESCAPE_._CDATA_._START]60[ABPM_._ESCAPE_._CDATA_._END]</abpm:param>
+                  <abpm:param name="source">[ABPM_._ESCAPE_._CDATA_._START]mm_text_layout_target[mm_text_layout][ABPM_._ESCAPE_._CDATA_._END]</abpm:param>
+                  <abpm:param name="streamNames">[ABPM_._ESCAPE_._CDATA_._START][ABPM_._ESCAPE_._CDATA_._END]</abpm:param>
+                  <abpm:param name="targetConnectTimeout">[ABPM_._ESCAPE_._CDATA_._START]300[ABPM_._ESCAPE_._CDATA_._END]</abpm:param>
+               </abpm:params>
+            </abpm:activity>
+         </activity>
+      </state>
+      <state name="StartEvent_1">
+         <activity>
+            <pd:event type="start" subType="none"/>
+         </activity>
+      </state>
+      <state name="EndEvent_0dbpk7i">
+         <activity>
+            <pd:event type="end" subType="none"/>
+         </activity>
+      </state>
+      <transition from="startState" to="StartEvent_1"/>
+      <transition from="StartEvent_1" to="Task_1xar8ms"/>
+      <transition from="Task_1xar8ms" to="Task_0ssf2e2"/>
+      <transition from="Task_0ssf2e2" to="Task_1m7fu9g"/>
+      <transition from="Task_1m7fu9g" to="Task_1dyl4ut"/>
+      <transition from="Task_1dyl4ut" to="Task_0fp4i5j"/>
+      <transition from="Task_0fp4i5j" to="EndEvent_0dbpk7i"/>
+   </process>
+</AdeptiaPE>
+]]></AU_FLOWDESCRIPTOR>
+        <AU_LOGRETENTIONACTION><![CDATA[L]]></AU_LOGRETENTIONACTION>
+        <AU_MODIFIEDBY><![CDATA[IndigoUser:1427614637623595008]]></AU_MODIFIEDBY>
+        <AU_PRIORITY><![CDATA[LOW]]></AU_PRIORITY>
+        <AU_VERSION><![CDATA[1]]></AU_VERSION>
+        <AU_ADVANCED><![CDATA[1]]></AU_ADVANCED>
+        <AU_SYNCHRONIZED><![CDATA[0]]></AU_SYNCHRONIZED>
+        <AU_REPOSITORYACTION><![CDATA[L]]></AU_REPOSITORYACTION>
+        <AU_PROJECTOWNER><![CDATA[Default]]></AU_PROJECTOWNER>
+        <AU_PERMISSIONMASK><![CDATA[770]]></AU_PERMISSIONMASK>
+        <AU_CONNECTDASHBOARDLOGGING><![CDATA[1]]></AU_CONNECTDASHBOARDLOGGING>
+        <AU_CHILDFLOWS><![CDATA[null]]></AU_CHILDFLOWS>
+        <AU_ENTITYNAME><![CDATA[bd_asb_pf_qa_queue]]></AU_ENTITYNAME>
+        <AU_DESCRIPTION><![CDATA[bd_asb_pf_qa_queue]]></AU_DESCRIPTION>
+        <AU_ID><![CDATA[1293101730731012096]]></AU_ID>
+        <AU_RECOVERABLE><![CDATA[1]]></AU_RECOVERABLE>
+        <AU_ACTIVEVERSION><![CDATA[1]]></AU_ACTIVEVERSION>
+    </AU_TRANSACTION>
+    <columnInfo dbtype="2">
+        <column name="AU_ID" type="12"/>
+        <column name="AU_VERSION" type="12"/>
+        <column name="AU_PREVIOUSVERSION" type="12"/>
+        <column name="AU_ACTIVEVERSION" type="2"/>
+        <column name="AU_ENTITYNAME" type="12"/>
+        <column name="AU_USEROWNER" type="12"/>
+        <column name="AU_GROUPOWNER" type="12"/>
+        <column name="AU_PERMISSIONMASK" type="12"/>
+        <column name="AU_DESCRIPTION" type="12"/>
+        <column name="AU_COMMENTS" type="12"/>
+        <column name="AU_MODIFIEDBY" type="12"/>
+        <column name="AU_CREATIONDATE" type="93"/>
+        <column name="AU_MODIFIEDDATE" type="93"/>
+        <column name="AU_REVISION" type="12"/>
+        <column name="AU_SYNCHRONIZED" type="2"/>
+        <column name="AU_PROJECTOWNER" type="12"/>
+        <column name="AU_FLOWDESCRIPTOR" type="2005"/>
+        <column name="AU_ACTIVEFLAG" type="2"/>
+        <column name="AU_TEMPLATENAME" type="12"/>
+        <column name="AU_ADVANCED" type="2"/>
+        <column name="AU_LOGGINGLEVEL" type="12"/>
+        <column name="AU_PRIORITY" type="12"/>
+        <column name="AU_REPOSITORYACTION" type="12"/>
+        <column name="AU_LOGRETENTIONACTION" type="12"/>
+        <column name="AU_CHILDFLOWS" type="2005"/>
+        <column name="AU_TRACKVARIABLES" type="2005"/>
+        <column name="AU_RETAINVARXML" type="2"/>
+        <column name="AU_RECOVERABLE" type="2"/>
+        <column name="AU_REALTIMECONFIGURATION" type="2"/>
+        <column name="AU_WEBPDXML" type="2005"/>
+        <column name="AU_OLDFLOWDESCRIPTOR" type="2005"/>
+        <column name="AU_DATAENCRYPTIONATREST" type="12"/>
+        <column name="AU_CONNECTDASHBOARDLOGGING" type="2"/>
+    </columnInfo>
+</data>
