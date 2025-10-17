@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<data>
+    <AU_APPLICATIONTARGET>
+        <AU_ADAPTERPROTOCOL><![CDATA[connector]]></AU_ADAPTERPROTOCOL>
+        <AU_REQSCHEMAID><![CDATA[null]]></AU_REQSCHEMAID>
+        <AU_GROUPOWNER><![CDATA[IndigoGroup:192168001075148181566048300002]]></AU_GROUPOWNER>
+        <AU_RESSCHEMAID><![CDATA[null]]></AU_RESSCHEMAID>
+        <AU_EXTERNALID><![CDATA[null]]></AU_EXTERNALID>
+        <AU_PROJECTOWNER><![CDATA[Project:1428612378147409920]]></AU_PROJECTOWNER>
+        <AU_SYNCHRONIZED><![CDATA[0]]></AU_SYNCHRONIZED>
+        <AU_DESTACTION><![CDATA[null]]></AU_DESTACTION>
+        <AU_MODIFIEDDATE><![CDATA[2025-10-17 05:47:58.0]]></AU_MODIFIEDDATE>
+        <AU_FILTERIN><![CDATA[null]]></AU_FILTERIN>
+        <AU_REFERENCEFIELD><![CDATA[null]]></AU_REFERENCEFIELD>
+        <AU_ACTIVEVERSION><![CDATA[1]]></AU_ACTIVEVERSION>
+        <AU_MODIFIEDBY><![CDATA[IndigoUser:1428309039961600000]]></AU_MODIFIEDBY>
+        <AU_PREVIOUSVERSION><![CDATA[null]]></AU_PREVIOUSVERSION>
+        <AU_COMMENTS><![CDATA[null]]></AU_COMMENTS>
+        <AU_CONNECTORID><![CDATA[1194602506738491392]]></AU_CONNECTORID>
+        <AU_PERMISSIONMASK><![CDATA[770]]></AU_PERMISSIONMASK>
+        <AU_DELETEONSUCCESS><![CDATA[0]]></AU_DELETEONSUCCESS>
+        <AU_FILENAME><![CDATA[.txt]]></AU_FILENAME>
+        <AU_ACCOUNTID><![CDATA[OAuthAccount:1428620498894573568]]></AU_ACCOUNTID>
+        <AU_DESCRIPTION><![CDATA[Target_1428619657910415360_5]]></AU_DESCRIPTION>
+        <AU_VERSION><![CDATA[1]]></AU_VERSION>
+        <AU_FILEPATTERN><![CDATA[0|0|N|auto]]></AU_FILEPATTERN>
+        <AU_FILEBASELOCATION><![CDATA[null]]></AU_FILEBASELOCATION>
+        <AU_CREATIONDATE><![CDATA[2025-10-17 05:47:58.0]]></AU_CREATIONDATE>
+        <AU_ENTITYNAME><![CDATA[Target_1428619657910415360_5]]></AU_ENTITYNAME>
+        <AU_REVISION><![CDATA[null]]></AU_REVISION>
+        <AU_USEROWNER><![CDATA[IndigoUser:1428309039961600000]]></AU_USEROWNER>
+        <AU_ID><![CDATA[1428620537372078080]]></AU_ID>
+        <AU_PARAMETERJSON><![CDATA[{"dynamicParams":[],"pathparams":[{"parents":"102gqhySYNabeUQrxGINjeOr_H7OpwCTK"}],"queryparams":[],"headerparams":[],"dynamicUiParams":[{"parents":"/Test_Target"}]}]]></AU_PARAMETERJSON>
+        <AU_OPERATION><![CDATA[UploadFile]]></AU_OPERATION>
+        <AU_ADAPTERTYPE><![CDATA[1194602506738491392]]></AU_ADAPTERTYPE>
+    </AU_APPLICATIONTARGET>
+    <columnInfo dbtype="2">
+        <column name="AU_ID" type="12"/>
+        <column name="AU_VERSION" type="12"/>
+        <column name="AU_PREVIOUSVERSION" type="12"/>
+        <column name="AU_ACTIVEVERSION" type="2"/>
+        <column name="AU_ENTITYNAME" type="12"/>
+        <column name="AU_USEROWNER" type="12"/>
+        <column name="AU_GROUPOWNER" type="12"/>
+        <column name="AU_PERMISSIONMASK" type="12"/>
+        <column name="AU_DESCRIPTION" type="12"/>
+        <column name="AU_COMMENTS" type="12"/>
+        <column name="AU_MODIFIEDBY" type="12"/>
+        <column name="AU_CREATIONDATE" type="93"/>
+        <column name="AU_MODIFIEDDATE" type="93"/>
+        <column name="AU_REVISION" type="12"/>
+        <column name="AU_SYNCHRONIZED" type="2"/>
+        <column name="AU_PROJECTOWNER" type="12"/>
+        <column name="AU_ADAPTERTYPE" type="12"/>
+        <column name="AU_ACCOUNTID" type="12"/>
+        <column name="AU_ADAPTERPROTOCOL" type="12"/>
+        <column name="AU_OPERATION" type="12"/>
+        <column name="AU_REFERENCEFIELD" type="12"/>
+        <column name="AU_EXTERNALID" type="12"/>
+        <column name="AU_FILEBASELOCATION" type="12"/>
+        <column name="AU_FILENAME" type="12"/>
+        <column name="AU_FILEPATTERN" type="12"/>
+        <column name="AU_PARAMETERJSON" type="2005"/>
+        <column name="AU_DESTACTION" type="12"/>
+        <column name="AU_REQSCHEMAID" type="12"/>
+        <column name="AU_RESSCHEMAID" type="12"/>
+        <column name="AU_FILTERIN" type="2005"/>
+        <column name="AU_DELETEONSUCCESS" type="2"/>
+        <column name="AU_CONNECTORID" type="12"/>
+    </columnInfo>
+</data>

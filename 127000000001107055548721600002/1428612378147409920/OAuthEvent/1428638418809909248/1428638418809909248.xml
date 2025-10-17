@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<data>
+    <AU_OAUTHEVENT>
+        <AU_REVISION><![CDATA[null]]></AU_REVISION>
+        <AU_USEROWNER><![CDATA[IndigoUser:127000000001107055536473900001]]></AU_USEROWNER>
+        <AU_REQSCHEMAID><![CDATA[null]]></AU_REQSCHEMAID>
+        <AU_MODIFIEDDATE><![CDATA[2025-10-17 06:59:01.0]]></AU_MODIFIEDDATE>
+        <AU_STABLETIME><![CDATA[null]]></AU_STABLETIME>
+        <AU_ACTIVATEFLAG><![CDATA[0]]></AU_ACTIVATEFLAG>
+        <AU_EVENTEXPIRYDATETIME><![CDATA[null]]></AU_EVENTEXPIRYDATETIME>
+        <AU_DESCRIPTION><![CDATA[SourceEvent_1428637276370620416_1]]></AU_DESCRIPTION>
+        <AU_TRIGGERINSEQUENCE><![CDATA[0]]></AU_TRIGGERINSEQUENCE>
+        <AU_PROJECTOWNER><![CDATA[Project:1428612378147409920]]></AU_PROJECTOWNER>
+        <AU_PREVIOUSVERSION><![CDATA[null]]></AU_PREVIOUSVERSION>
+        <AU_PERMISSIONMASK><![CDATA[770]]></AU_PERMISSIONMASK>
+        <AU_MISFIREINSTRUCTIONS><![CDATA[null]]></AU_MISFIREINSTRUCTIONS>
+        <AU_PARAMETERSXML><![CDATA[<fields></fields>]]></AU_PARAMETERSXML>
+        <AU_EVENTSTARTDATETIME><![CDATA[null]]></AU_EVENTSTARTDATETIME>
+        <AU_CONNECTORID><![CDATA[1194602506738491392]]></AU_CONNECTORID>
+        <AU_REFERENCEFIELD><![CDATA[{"dynamicParams":[],"pathparams":[{"fileId":"1bjpskMIrhuxYSY8LF6pMylUkUZklI_4h"}],"queryparams":[],"headerparams":[],"dynamicUiParams":[{"fileId":"/Test_Source/TextDummy - Copy.txt"}]}]]></AU_REFERENCEFIELD>
+        <AU_MAILNOTIFICATIONACTION><![CDATA[null]]></AU_MAILNOTIFICATIONACTION>
+        <AU_ENTITYNAME><![CDATA[SourceEvent_1428637276370620416_1]]></AU_ENTITYNAME>
+        <AU_RESSCHEMAID><![CDATA[null]]></AU_RESSCHEMAID>
+        <AU_ID><![CDATA[1428638418809909248]]></AU_ID>
+        <AU_CREATIONMODE><![CDATA[Simple]]></AU_CREATIONMODE>
+        <AU_CREATIONDATE><![CDATA[2025-10-17 06:59:01.0]]></AU_CREATIONDATE>
+        <AU_VERSION><![CDATA[1]]></AU_VERSION>
+        <AU_ADAPTERTYPE><![CDATA[1194602506738491392]]></AU_ADAPTERTYPE>
+        <AU_GROUPOWNER><![CDATA[IndigoGroup:127000000001107055548721600002]]></AU_GROUPOWNER>
+        <AU_ACCOUNTID><![CDATA[OAuthAccount:1428620498894573568]]></AU_ACCOUNTID>
+        <AU_MODIFIEDBY><![CDATA[IndigoUser:127000000001107055536473900001]]></AU_MODIFIEDBY>
+        <AU_ACTIVEVERSION><![CDATA[1]]></AU_ACTIVEVERSION>
+        <AU_CALENDARTYPE><![CDATA[AllDays]]></AU_CALENDARTYPE>
+        <AU_RUNINITIALLOAD><![CDATA[0]]></AU_RUNINITIALLOAD>
+        <AU_SYNCHRONIZED><![CDATA[0]]></AU_SYNCHRONIZED>
+        <AU_FILTERIN><![CDATA[null]]></AU_FILTERIN>
+        <AU_FILEBASELOCATION><![CDATA[null]]></AU_FILEBASELOCATION>
+        <AU_POLLINGFREQUENCY><![CDATA[5$m]]></AU_POLLINGFREQUENCY>
+        <AU_BUSINESSINTERVAL><![CDATA[     ? ]]></AU_BUSINESSINTERVAL>
+        <AU_RECEIVEREMAILIDS><![CDATA[null]]></AU_RECEIVEREMAILIDS>
+        <AU_TRIGGERTYPE><![CDATA[GetFile]]></AU_TRIGGERTYPE>
+        <AU_COMMENTS><![CDATA[null]]></AU_COMMENTS>
+        <AU_PROCESSPERPOLL><![CDATA[-1]]></AU_PROCESSPERPOLL>
+    </AU_OAUTHEVENT>
+    <columnInfo dbtype="2">
+        <column name="AU_ID" type="12"/>
+        <column name="AU_VERSION" type="12"/>
+        <column name="AU_PREVIOUSVERSION" type="12"/>
+        <column name="AU_ACTIVEVERSION" type="2"/>
+        <column name="AU_ENTITYNAME" type="12"/>
+        <column name="AU_USEROWNER" type="12"/>
+        <column name="AU_GROUPOWNER" type="12"/>
+        <column name="AU_PERMISSIONMASK" type="12"/>
+        <column name="AU_DESCRIPTION" type="12"/>
+        <column name="AU_COMMENTS" type="12"/>
+        <column name="AU_MODIFIEDBY" type="12"/>
+        <column name="AU_CREATIONDATE" type="93"/>
+        <column name="AU_MODIFIEDDATE" type="93"/>
+        <column name="AU_REVISION" type="12"/>
+        <column name="AU_SYNCHRONIZED" type="2"/>
+        <column name="AU_PROJECTOWNER" type="12"/>
+        <column name="AU_ACTIVATEFLAG" type="2"/>
+        <column name="AU_EVENTSTARTDATETIME" type="12"/>
+        <column name="AU_EVENTEXPIRYDATETIME" type="12"/>
+        <column name="AU_TRIGGERINSEQUENCE" type="2"/>
+        <column name="AU_CALENDARTYPE" type="12"/>
+        <column name="AU_BUSINESSINTERVAL" type="12"/>
+        <column name="AU_CREATIONMODE" type="12"/>
+        <column name="AU_RECEIVEREMAILIDS" type="12"/>
+        <column name="AU_MISFIREINSTRUCTIONS" type="12"/>
+        <column name="AU_PROCESSPERPOLL" type="2"/>
+        <column name="AU_TRIGGERTYPE" type="12"/>
+        <column name="AU_ADAPTERTYPE" type="12"/>
+        <column name="AU_POLLINGFREQUENCY" type="12"/>
+        <column name="AU_ACCOUNTID" type="12"/>
+        <column name="AU_FILEBASELOCATION" type="12"/>
+        <column name="AU_FILTERIN" type="2005"/>
+        <column name="AU_REFERENCEFIELD" type="12"/>
+        <column name="AU_PARAMETERSXML" type="12"/>
+        <column name="AU_RUNINITIALLOAD" type="2"/>
+        <column name="AU_STABLETIME" type="12"/>
+        <column name="AU_REQSCHEMAID" type="12"/>
+        <column name="AU_RESSCHEMAID" type="12"/>
+        <column name="AU_CONNECTORID" type="12"/>
+        <column name="AU_MAILNOTIFICATIONACTION" type="12"/>
+    </columnInfo>
+</data>

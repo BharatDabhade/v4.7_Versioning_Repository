@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<data>
+    <AU_WSPROVIDER>
+        <AU_OUTPUTROOT><![CDATA[Root]]></AU_OUTPUTROOT>
+        <AU_REQUESTSERVICENAME><![CDATA[SS_Soap_Provider]]></AU_REQUESTSERVICENAME>
+        <AU_ENABLEATTACHMENT><![CDATA[0]]></AU_ENABLEATTACHMENT>
+        <AU_DESCRIPTION><![CDATA[SS_Soap_Provider]]></AU_DESCRIPTION>
+        <AU_WSPROVIDERVERSION><![CDATA[3.0]]></AU_WSPROVIDERVERSION>
+        <AU_OPERATIONNAME><![CDATA[doGet]]></AU_OPERATIONNAME>
+        <AU_RELATIONSHIPTYPE><![CDATA[null]]></AU_RELATIONSHIPTYPE>
+        <AU_FORMATTYPE><![CDATA[null]]></AU_FORMATTYPE>
+        <AU_SECURITYPOLICYID><![CDATA[null]]></AU_SECURITYPOLICYID>
+        <AU_PUBLISHMODE><![CDATA[standalone]]></AU_PUBLISHMODE>
+        <AU_WSAADDRESSING><![CDATA[0]]></AU_WSAADDRESSING>
+        <AU_PAYLOADPROCESSTYPE><![CDATA[stream]]></AU_PAYLOADPROCESSTYPE>
+        <AU_RESOURCEENDPATH><![CDATA[null]]></AU_RESOURCEENDPATH>
+        <AU_CREATIONDATE><![CDATA[2025-10-17 05:37:53.0]]></AU_CREATIONDATE>
+        <AU_RELATESTO><![CDATA[null]]></AU_RELATESTO>
+        <AU_PERMISSIONMASK><![CDATA[770]]></AU_PERMISSIONMASK>
+        <AU_ENABLESSL><![CDATA[on]]></AU_ENABLESSL>
+        <AU_ENDPOINT><![CDATA[null]]></AU_ENDPOINT>
+        <AU_REVISION><![CDATA[null]]></AU_REVISION>
+        <AU_MODIFIEDDATE><![CDATA[2025-10-17 05:37:53.0]]></AU_MODIFIEDDATE>
+        <AU_RESPONSEHEADERXML><![CDATA[null]]></AU_RESPONSEHEADERXML>
+        <AU_SELECTEDPORT><![CDATA[443]]></AU_SELECTEDPORT>
+        <AU_APIVERSION><![CDATA[null]]></AU_APIVERSION>
+        <AU_MUSTUNDERSTAND><![CDATA[None]]></AU_MUSTUNDERSTAND>
+        <AU_ACTIVEVERSION><![CDATA[1]]></AU_ACTIVEVERSION>
+        <AU_WSDLFILEPATH><![CDATA[null]]></AU_WSDLFILEPATH>
+        <AU_INPUTXMLSCHEMAID><![CDATA[XMLSchema:1425739581932875776]]></AU_INPUTXMLSCHEMAID>
+        <AU_FROM><![CDATA[null]]></AU_FROM>
+        <AU_ENTITYNAME><![CDATA[SS_Soap_Provider]]></AU_ENTITYNAME>
+        <AU_FILEREFERENCESID><![CDATA[null]]></AU_FILEREFERENCESID>
+        <AU_INPUTVARIABLENAME><![CDATA[restRequest]]></AU_INPUTVARIABLENAME>
+        <AU_APIDOC><![CDATA[null]]></AU_APIDOC>
+        <AU_WEBSERVICEVERSION><![CDATA[2.0]]></AU_WEBSERVICEVERSION>
+        <AU_CONFIGURATION><![CDATA[null]]></AU_CONFIGURATION>
+        <AU_PUBLISHED><![CDATA[1]]></AU_PUBLISHED>
+        <AU_WSAREPLYTO><![CDATA[null]]></AU_WSAREPLYTO>
+        <AU_RESPONSESERVICENAME><![CDATA[null]]></AU_RESPONSESERVICENAME>
+        <AU_USEROWNER><![CDATA[IndigoUser:1428309039961600000]]></AU_USEROWNER>
+        <AU_OUTPUTXMLSCHEMAID><![CDATA[XMLSchema:1425739581932875776]]></AU_OUTPUTXMLSCHEMAID>
+        <AU_SOAPVERSION><![CDATA[SOAP_1.1]]></AU_SOAPVERSION>
+        <AU_MODIFIEDBY><![CDATA[IndigoUser:1428309039961600000]]></AU_MODIFIEDBY>
+        <AU_REPLYTOREFERENCEPARAM><![CDATA[null]]></AU_REPLYTOREFERENCEPARAM>
+        <AU_GROUPOWNER><![CDATA[IndigoGroup:192168001075148181566048300002]]></AU_GROUPOWNER>
+        <AU_DEFAULTPROCESSFLOW><![CDATA[null]]></AU_DEFAULTPROCESSFLOW>
+        <AU_PREVIOUSVERSION><![CDATA[null]]></AU_PREVIOUSVERSION>
+        <AU_METHODPARAMETERXML><![CDATA[null]]></AU_METHODPARAMETERXML>
+        <AU_METHODTYPE><![CDATA[null]]></AU_METHODTYPE>
+        <AU_PORTS><![CDATA[null]]></AU_PORTS>
+        <AU_WSAVERSION><![CDATA[200508]]></AU_WSAVERSION>
+        <AU_VERSION><![CDATA[1]]></AU_VERSION>
+        <AU_FAULTTOREFERENCEPARAM><![CDATA[null]]></AU_FAULTTOREFERENCEPARAM>
+        <AU_OUTPUTVARIABLENAME><![CDATA[restResponse]]></AU_OUTPUTVARIABLENAME>
+        <AU_INPUTXSD><![CDATA[null]]></AU_INPUTXSD>
+        <AU_FAULTTO><![CDATA[null]]></AU_FAULTTO>
+        <AU_MESSAGEID><![CDATA[null]]></AU_MESSAGEID>
+        <AU_BINDING><![CDATA[WsTransactionImlMetroSoap11SoapBinding]]></AU_BINDING>
+        <AU_SERVICENAME><![CDATA[null]]></AU_SERVICENAME>
+        <AU_RESOURCEPARAMETERXML><![CDATA[null]]></AU_RESOURCEPARAMETERXML>
+        <AU_WSDLPATH><![CDATA[https://qaconfig-api.adeptia.com:443/wsdl/services/SS_Soap_Provider?wsdl]]></AU_WSDLPATH>
+        <AU_PUBLISHTYPE><![CDATA[soap]]></AU_PUBLISHTYPE>
+        <AU_SYNCHRONIZED><![CDATA[0]]></AU_SYNCHRONIZED>
+        <AU_DELETEONSUCCESS><![CDATA[0]]></AU_DELETEONSUCCESS>
+        <AU_ID><![CDATA[1428617997460959232]]></AU_ID>
+        <AU_OUTPUTXSD><![CDATA[null]]></AU_OUTPUTXSD>
+        <AU_COMMENTS><![CDATA[null]]></AU_COMMENTS>
+        <AU_SERVICELOCATION><![CDATA[services]]></AU_SERVICELOCATION>
+        <AU_PROJECTOWNER><![CDATA[Project:1428612378147409920]]></AU_PROJECTOWNER>
+        <AU_WSAACTION><![CDATA[null]]></AU_WSAACTION>
+        <AU_CREATIONMODE><![CDATA[manual]]></AU_CREATIONMODE>
+        <AU_PROVIDERTEMPLATEMAPPING><![CDATA[null]]></AU_PROVIDERTEMPLATEMAPPING>
+        <AU_ENCODINGUSED><![CDATA[UTF-8]]></AU_ENCODINGUSED>
+        <AU_WSATO><![CDATA[null]]></AU_WSATO>
+        <AU_PORTTYPE><![CDATA[null]]></AU_PORTTYPE>
+        <AU_SYNCHRONOUS><![CDATA[0]]></AU_SYNCHRONOUS>
+        <AU_TRANSACTIONID><![CDATA[Transaction:1428616213700005888]]></AU_TRANSACTIONID>
+        <AU_PRESENTATIONPARAMETERXML><![CDATA[null]]></AU_PRESENTATIONPARAMETERXML>
+        <AU_INPUTROOT><![CDATA[Root]]></AU_INPUTROOT>
+    </AU_WSPROVIDER>
+    <columnInfo dbtype="2">
+        <column name="AU_ID" type="12"/>
+        <column name="AU_VERSION" type="12"/>
+        <column name="AU_PREVIOUSVERSION" type="12"/>
+        <column name="AU_ACTIVEVERSION" type="2"/>
+        <column name="AU_ENTITYNAME" type="12"/>
+        <column name="AU_USEROWNER" type="12"/>
+        <column name="AU_GROUPOWNER" type="12"/>
+        <column name="AU_PERMISSIONMASK" type="12"/>
+        <column name="AU_DESCRIPTION" type="12"/>
+        <column name="AU_COMMENTS" type="12"/>
+        <column name="AU_MODIFIEDBY" type="12"/>
+        <column name="AU_CREATIONDATE" type="93"/>
+        <column name="AU_MODIFIEDDATE" type="93"/>
+        <column name="AU_REVISION" type="12"/>
+        <column name="AU_SYNCHRONIZED" type="2"/>
+        <column name="AU_PROJECTOWNER" type="12"/>
+        <column name="AU_METHODPARAMETERXML" type="2005"/>
+        <column name="AU_WEBSERVICEVERSION" type="12"/>
+        <column name="AU_BINDING" type="12"/>
+        <column name="AU_PRESENTATIONPARAMETERXML" type="2005"/>
+        <column name="AU_RESOURCEPARAMETERXML" type="2005"/>
+        <column name="AU_RESPONSEHEADERXML" type="2005"/>
+        <column name="AU_RESOURCEENDPATH" type="12"/>
+        <column name="AU_METHODTYPE" type="12"/>
+        <column name="AU_PUBLISHTYPE" type="12"/>
+        <column name="AU_PAYLOADPROCESSTYPE" type="12"/>
+        <column name="AU_ENABLESSL" type="12"/>
+        <column name="AU_TRANSACTIONID" type="12"/>
+        <column name="AU_SYNCHRONOUS" type="2"/>
+        <column name="AU_PUBLISHED" type="2"/>
+        <column name="AU_PUBLISHMODE" type="12"/>
+        <column name="AU_PROVIDERTEMPLATEMAPPING" type="2005"/>
+        <column name="AU_REQUESTSERVICENAME" type="12"/>
+        <column name="AU_SERVICELOCATION" type="12"/>
+        <column name="AU_RESPONSESERVICENAME" type="12"/>
+        <column name="AU_FILEREFERENCESID" type="12"/>
+        <column name="AU_INPUTXMLSCHEMAID" type="12"/>
+        <column name="AU_INPUTROOT" type="12"/>
+        <column name="AU_OUTPUTXMLSCHEMAID" type="12"/>
+        <column name="AU_OUTPUTROOT" type="12"/>
+        <column name="AU_INPUTVARIABLENAME" type="12"/>
+        <column name="AU_OUTPUTVARIABLENAME" type="12"/>
+        <column name="AU_OPERATIONNAME" type="12"/>
+        <column name="AU_SECURITYPOLICYID" type="12"/>
+        <column name="AU_WSDLPATH" type="12"/>
+        <column name="AU_CREATIONMODE" type="12"/>
+        <column name="AU_WSDLFILEPATH" type="12"/>
+        <column name="AU_SERVICENAME" type="12"/>
+        <column name="AU_DEFAULTPROCESSFLOW" type="12"/>
+        <column name="AU_SELECTEDPORT" type="12"/>
+        <column name="AU_ENDPOINT" type="12"/>
+        <column name="AU_PORTS" type="12"/>
+        <column name="AU_PORTTYPE" type="12"/>
+        <column name="AU_CONFIGURATION" type="2005"/>
+        <column name="AU_SOAPVERSION" type="12"/>
+        <column name="AU_INPUTXSD" type="2005"/>
+        <column name="AU_OUTPUTXSD" type="2005"/>
+        <column name="AU_WSAADDRESSING" type="2"/>
+        <column name="AU_ENABLEATTACHMENT" type="2"/>
+        <column name="AU_MUSTUNDERSTAND" type="12"/>
+        <column name="AU_WSAVERSION" type="12"/>
+        <column name="AU_WSAACTION" type="12"/>
+        <column name="AU_WSATO" type="12"/>
+        <column name="AU_WSAREPLYTO" type="12"/>
+        <column name="AU_REPLYTOREFERENCEPARAM" type="12"/>
+        <column name="AU_MESSAGEID" type="12"/>
+        <column name="AU_FROM" type="12"/>
+        <column name="AU_FAULTTO" type="12"/>
+        <column name="AU_FAULTTOREFERENCEPARAM" type="12"/>
+        <column name="AU_RELATESTO" type="12"/>
+        <column name="AU_RELATIONSHIPTYPE" type="12"/>
+        <column name="AU_FORMATTYPE" type="12"/>
+        <column name="AU_ENCODINGUSED" type="12"/>
+        <column name="AU_APIVERSION" type="12"/>
+        <column name="AU_WSPROVIDERVERSION" type="12"/>
+        <column name="AU_APIDOC" type="2005"/>
+        <column name="AU_DELETEONSUCCESS" type="2"/>
+    </columnInfo>
+</data>

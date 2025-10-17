@@ -1,30 +1,122 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <data>
     <AU_TRANSACTION>
-        <AU_PERMISSIONMASK><![CDATA[770]]></AU_PERMISSIONMASK>
-        <AU_LOGGINGLEVEL><![CDATA[ERROR]]></AU_LOGGINGLEVEL>
-        <AU_CONNECTDASHBOARDLOGGING><![CDATA[1]]></AU_CONNECTDASHBOARDLOGGING>
-        <AU_CREATIONDATE><![CDATA[2025-10-17 05:19:11.0]]></AU_CREATIONDATE>
-        <AU_RECOVERABLE><![CDATA[1]]></AU_RECOVERABLE>
-        <AU_TEMPLATENAME><![CDATA[Process Designer]]></AU_TEMPLATENAME>
-        <AU_OLDFLOWDESCRIPTOR><![CDATA[null]]></AU_OLDFLOWDESCRIPTOR>
+        <AU_FLOWDESCRIPTOR><![CDATA[<?xml version="1.0" encoding="UTF-8"?>
+<AdeptiaPE xmlns="jelly:com.werken.blissed.jelly.BlissedTagLibrary" xmlns:version="4.7" xmlns:j="jelly:core" xmlns:abpm="jelly:com.adeptia.indigo.jelly.IndigoTagLibrary" xmlns:pd="jelly:com.adeptia.indigo.pd.ProcessDesignerTagLibrary">
+   <process name="mainProcess" start="startState" var="mainProcess">
+      <state name="startState">
+         <activity>
+            <abpm:installGlobalExceptionHandlers/>
+         </activity>
+      </state>
+      <state name="Task_1m9z7et">
+         <activity>
+            <abpm:activity name="SS_FTP_Source" async="false" id="1428613232384528384" jtaEnlist="false" signal="SignalComplete" type="FtpSource">
+               <abpm:params>
+                  <abpm:param name="restartTriesCount">[ABPM_._ESCAPE_._CDATA_._START]0[ABPM_._ESCAPE_._CDATA_._END]</abpm:param>
+                  <abpm:param name="restartWaitTime">[ABPM_._ESCAPE_._CDATA_._START]60[ABPM_._ESCAPE_._CDATA_._END]</abpm:param>
+                  <abpm:param name="streamNames">[ABPM_._ESCAPE_._CDATA_._START]default[ABPM_._ESCAPE_._CDATA_._END]</abpm:param>
+                  <abpm:param name="targetConnectTimeout">[ABPM_._ESCAPE_._CDATA_._START]300[ABPM_._ESCAPE_._CDATA_._END]</abpm:param>
+                  <abpm:param name="eventContextEnabled">[ABPM_._ESCAPE_._CDATA_._START]true[ABPM_._ESCAPE_._CDATA_._END]</abpm:param>
+               </abpm:params>
+            </abpm:activity>
+         </activity>
+      </state>
+      <state name="Task_0v1pj11">
+         <activity>
+            <abpm:activity name="SS_Text_Layout" async="false" id="" signal="SignalComplete" type="Stream2XmlStreamTransformer">
+               <abpm:params>
+                  <abpm:param name="restartTriesCount">[ABPM_._ESCAPE_._CDATA_._START]0[ABPM_._ESCAPE_._CDATA_._END]</abpm:param>
+                  <abpm:param name="restartWaitTime">[ABPM_._ESCAPE_._CDATA_._START]60[ABPM_._ESCAPE_._CDATA_._END]</abpm:param>
+                  <abpm:param name="source">[ABPM_._ESCAPE_._CDATA_._START]SS_FTP_Source[ABPM_._ESCAPE_._CDATA_._END]</abpm:param>
+                  <abpm:param name="streamNames">[ABPM_._ESCAPE_._CDATA_._START]default[ABPM_._ESCAPE_._CDATA_._END]</abpm:param>
+                  <abpm:param name="targetConnectTimeout">[ABPM_._ESCAPE_._CDATA_._START]300[ABPM_._ESCAPE_._CDATA_._END]</abpm:param>
+                  <abpm:param name="characterSetEncoding">[ABPM_._ESCAPE_._CDATA_._START]UTF-8[ABPM_._ESCAPE_._CDATA_._END]</abpm:param>
+                  <abpm:param name="transformer">[ABPM_._ESCAPE_._CDATA_._START]Stream2XmlStreamTransformer[ABPM_._ESCAPE_._CDATA_._END]</abpm:param>
+                  <abpm:param name="intermediateFormat">[ABPM_._ESCAPE_._CDATA_._START]Native[ABPM_._ESCAPE_._CDATA_._END]</abpm:param>
+                  <abpm:param name="dataAction">[ABPM_._ESCAPE_._CDATA_._START]No Action[ABPM_._ESCAPE_._CDATA_._END]</abpm:param>
+                  <abpm:param name="errorRecordHandleType">[ABPM_._ESCAPE_._CDATA_._START]File[ABPM_._ESCAPE_._CDATA_._END]</abpm:param>
+                  <abpm:param name="schemaTypedId">[ABPM_._ESCAPE_._CDATA_._START]TextSchema:1428613565626175488[ABPM_._ESCAPE_._CDATA_._END]</abpm:param>
+               </abpm:params>
+            </abpm:activity>
+         </activity>
+      </state>
+      <state name="Task_0smkdbt">
+         <activity>
+            <abpm:activity name="SS_Mapping" async="false" id="1428613955720572928" signal="SignalComplete" type="DataMapping">
+               <abpm:params>
+                  <abpm:param name="restartTriesCount">[ABPM_._ESCAPE_._CDATA_._START]0[ABPM_._ESCAPE_._CDATA_._END]</abpm:param>
+                  <abpm:param name="restartWaitTime">[ABPM_._ESCAPE_._CDATA_._START]60[ABPM_._ESCAPE_._CDATA_._END]</abpm:param>
+                  <abpm:param name="source">[ABPM_._ESCAPE_._CDATA_._START]SS_Text_Layout[ABPM_._ESCAPE_._CDATA_._END]</abpm:param>
+                  <abpm:param name="streamNames">[ABPM_._ESCAPE_._CDATA_._START]default[ABPM_._ESCAPE_._CDATA_._END]</abpm:param>
+                  <abpm:param name="targetConnectTimeout">[ABPM_._ESCAPE_._CDATA_._START]300[ABPM_._ESCAPE_._CDATA_._END]</abpm:param>
+                  <abpm:param name="characterSetEncoding">[ABPM_._ESCAPE_._CDATA_._START]UTF-8[ABPM_._ESCAPE_._CDATA_._END]</abpm:param>
+                  <abpm:param name="generateStream">[ABPM_._ESCAPE_._CDATA_._START]true[ABPM_._ESCAPE_._CDATA_._END]</abpm:param>
+                  <abpm:param name="Consume Stream">[ABPM_._ESCAPE_._CDATA_._START]true[ABPM_._ESCAPE_._CDATA_._END]</abpm:param>
+                  <abpm:param name="errorRecordHandleType">[ABPM_._ESCAPE_._CDATA_._START]File[ABPM_._ESCAPE_._CDATA_._END]</abpm:param>
+                  <abpm:param name="transformerType">[ABPM_._ESCAPE_._CDATA_._START]Saxon[ABPM_._ESCAPE_._CDATA_._END]</abpm:param>
+               </abpm:params>
+            </abpm:activity>
+         </activity>
+      </state>
+      <state name="Task_1acvofv">
+         <activity>
+            <abpm:activity name="SS_Text_Layout_Target" async="false" id="" signal="SignalComplete" type="XmlStream2StreamTransformer">
+               <abpm:params>
+                  <abpm:param name="restartTriesCount">[ABPM_._ESCAPE_._CDATA_._START]0[ABPM_._ESCAPE_._CDATA_._END]</abpm:param>
+                  <abpm:param name="restartWaitTime">[ABPM_._ESCAPE_._CDATA_._START]60[ABPM_._ESCAPE_._CDATA_._END]</abpm:param>
+                  <abpm:param name="source">[ABPM_._ESCAPE_._CDATA_._START]SS_Mapping[ABPM_._ESCAPE_._CDATA_._END]</abpm:param>
+                  <abpm:param name="streamNames">[ABPM_._ESCAPE_._CDATA_._START]SS_Text_Layout[ABPM_._ESCAPE_._CDATA_._END]</abpm:param>
+                  <abpm:param name="targetConnectTimeout">[ABPM_._ESCAPE_._CDATA_._START]300[ABPM_._ESCAPE_._CDATA_._END]</abpm:param>
+                  <abpm:param name="characterSetEncoding">[ABPM_._ESCAPE_._CDATA_._START]UTF-8[ABPM_._ESCAPE_._CDATA_._END]</abpm:param>
+                  <abpm:param name="transformer">[ABPM_._ESCAPE_._CDATA_._START]XmlStream2StreamTransformer[ABPM_._ESCAPE_._CDATA_._END]</abpm:param>
+                  <abpm:param name="intermediateFormat">[ABPM_._ESCAPE_._CDATA_._START]Native[ABPM_._ESCAPE_._CDATA_._END]</abpm:param>
+                  <abpm:param name="dataAction">[ABPM_._ESCAPE_._CDATA_._START]No Action[ABPM_._ESCAPE_._CDATA_._END]</abpm:param>
+                  <abpm:param name="errorRecordHandleType">[ABPM_._ESCAPE_._CDATA_._START]File[ABPM_._ESCAPE_._CDATA_._END]</abpm:param>
+                  <abpm:param name="schemaTypedId">[ABPM_._ESCAPE_._CDATA_._START]TextSchema:1428613565626175488[ABPM_._ESCAPE_._CDATA_._END]</abpm:param>
+               </abpm:params>
+            </abpm:activity>
+         </activity>
+      </state>
+      <state name="Task_0yk3pez">
+         <activity>
+            <abpm:activity name="SS_FTP_Target" async="false" id="1428614670761324544" signal="SignalComplete" type="FtpTarget">
+               <abpm:params>
+                  <abpm:param name="restartTriesCount">[ABPM_._ESCAPE_._CDATA_._START]0[ABPM_._ESCAPE_._CDATA_._END]</abpm:param>
+                  <abpm:param name="restartWaitTime">[ABPM_._ESCAPE_._CDATA_._START]60[ABPM_._ESCAPE_._CDATA_._END]</abpm:param>
+                  <abpm:param name="source">[ABPM_._ESCAPE_._CDATA_._START]SS_Text_Layout_Target[SS_Text_Layout][ABPM_._ESCAPE_._CDATA_._END]</abpm:param>
+                  <abpm:param name="streamNames">[ABPM_._ESCAPE_._CDATA_._START][ABPM_._ESCAPE_._CDATA_._END]</abpm:param>
+                  <abpm:param name="targetConnectTimeout">[ABPM_._ESCAPE_._CDATA_._START]300[ABPM_._ESCAPE_._CDATA_._END]</abpm:param>
+               </abpm:params>
+            </abpm:activity>
+         </activity>
+      </state>
+      <state name="StartEvent_1">
+         <activity>
+            <pd:event type="start" subType="none"/>
+         </activity>
+      </state>
+      <state name="EndEvent_05xu246">
+         <activity>
+            <pd:event type="end" subType="none"/>
+         </activity>
+      </state>
+      <transition from="startState" to="StartEvent_1"/>
+      <transition from="StartEvent_1" to="Task_1m9z7et"/>
+      <transition from="Task_1m9z7et" to="Task_0v1pj11"/>
+      <transition from="Task_0v1pj11" to="Task_0smkdbt"/>
+      <transition from="Task_0smkdbt" to="Task_1acvofv"/>
+      <transition from="Task_1acvofv" to="Task_0yk3pez"/>
+      <transition from="Task_0yk3pez" to="EndEvent_05xu246"/>
+   </process>
+</AdeptiaPE>
+]]></AU_FLOWDESCRIPTOR>
         <AU_REALTIMECONFIGURATION><![CDATA[0]]></AU_REALTIMECONFIGURATION>
-        <AU_USEROWNER><![CDATA[IndigoUser:1428309039961600000]]></AU_USEROWNER>
-        <AU_CHILDFLOWS><![CDATA[null]]></AU_CHILDFLOWS>
-        <AU_MODIFIEDBY><![CDATA[IndigoUser:1428309039961600000]]></AU_MODIFIEDBY>
-        <AU_ID><![CDATA[1428613295180607488]]></AU_ID>
-        <AU_DATAENCRYPTIONATREST><![CDATA[useGlobalPolicy]]></AU_DATAENCRYPTIONATREST>
-        <AU_ACTIVEVERSION><![CDATA[1]]></AU_ACTIVEVERSION>
-        <AU_COMMENTS><![CDATA[null]]></AU_COMMENTS>
-        <AU_REVISION><![CDATA[null]]></AU_REVISION>
-        <AU_PREVIOUSVERSION><![CDATA[null]]></AU_PREVIOUSVERSION>
-        <AU_DESCRIPTION><![CDATA[SS_FTP_PF]]></AU_DESCRIPTION>
-        <AU_REPOSITORYACTION><![CDATA[L]]></AU_REPOSITORYACTION>
-        <AU_ADVANCED><![CDATA[1]]></AU_ADVANCED>
-        <AU_SYNCHRONIZED><![CDATA[0]]></AU_SYNCHRONIZED>
-        <AU_GROUPOWNER><![CDATA[IndigoGroup:192168001075148181566048300002]]></AU_GROUPOWNER>
+        <AU_VERSION><![CDATA[1]]></AU_VERSION>
         <AU_ENTITYNAME><![CDATA[SS_FTP_PF]]></AU_ENTITYNAME>
+        <AU_TRACKVARIABLES><![CDATA[<?xml version="1.0"?><Variables></Variables>]]></AU_TRACKVARIABLES>
         <AU_RETAINVARXML><![CDATA[0]]></AU_RETAINVARXML>
+        <AU_CREATIONDATE><![CDATA[2025-10-17 05:19:11.0]]></AU_CREATIONDATE>
         <AU_WEBPDXML><![CDATA[<?xml version="1.0" encoding="UTF-8"?>
 <bpmn2:definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:bpmn2="http://www.omg.org/spec/BPMN/20100524/MODEL" xmlns:bpmndi="http://www.omg.org/spec/BPMN/20100524/DI" xmlns:dc="http://www.omg.org/spec/DD/20100524/DC" xmlns:di="http://www.omg.org/spec/DD/20100524/DI" xmlns:ap="http://adeptia.com/schema/bpmn/ap" xmlns:bioc="http://bpmn.io/schema/bpmn/biocolor/1.0" id="sample-diagram" targetNamespace="http://bpmn.io/schema/bpmn" xsi:schemaLocation="http://www.omg.org/spec/BPMN/20100524/MODEL BPMN20.xsd">
   <bpmn2:process id="mainProcess" isExecutable="false">
@@ -287,123 +379,31 @@
   </bpmndi:BPMNDiagram>
 </bpmn2:definitions>
 ]]></AU_WEBPDXML>
-        <AU_ACTIVEFLAG><![CDATA[1]]></AU_ACTIVEFLAG>
+        <AU_CONNECTDASHBOARDLOGGING><![CDATA[1]]></AU_CONNECTDASHBOARDLOGGING>
+        <AU_REVISION><![CDATA[3d051aa61c89d0d503cee892e6e3e2e21581e0d8]]></AU_REVISION>
+        <AU_RECOVERABLE><![CDATA[1]]></AU_RECOVERABLE>
+        <AU_USEROWNER><![CDATA[IndigoUser:1428309039961600000]]></AU_USEROWNER>
         <AU_MODIFIEDDATE><![CDATA[2025-10-17 06:14:47.0]]></AU_MODIFIEDDATE>
-        <AU_FLOWDESCRIPTOR><![CDATA[<?xml version="1.0" encoding="UTF-8"?>
-<AdeptiaPE xmlns="jelly:com.werken.blissed.jelly.BlissedTagLibrary" xmlns:version="4.7" xmlns:j="jelly:core" xmlns:abpm="jelly:com.adeptia.indigo.jelly.IndigoTagLibrary" xmlns:pd="jelly:com.adeptia.indigo.pd.ProcessDesignerTagLibrary">
-   <process name="mainProcess" start="startState" var="mainProcess">
-      <state name="startState">
-         <activity>
-            <abpm:installGlobalExceptionHandlers/>
-         </activity>
-      </state>
-      <state name="Task_1m9z7et">
-         <activity>
-            <abpm:activity name="SS_FTP_Source" async="false" id="1428613232384528384" jtaEnlist="false" signal="SignalComplete" type="FtpSource">
-               <abpm:params>
-                  <abpm:param name="restartTriesCount">[ABPM_._ESCAPE_._CDATA_._START]0[ABPM_._ESCAPE_._CDATA_._END]</abpm:param>
-                  <abpm:param name="restartWaitTime">[ABPM_._ESCAPE_._CDATA_._START]60[ABPM_._ESCAPE_._CDATA_._END]</abpm:param>
-                  <abpm:param name="streamNames">[ABPM_._ESCAPE_._CDATA_._START]default[ABPM_._ESCAPE_._CDATA_._END]</abpm:param>
-                  <abpm:param name="targetConnectTimeout">[ABPM_._ESCAPE_._CDATA_._START]300[ABPM_._ESCAPE_._CDATA_._END]</abpm:param>
-                  <abpm:param name="eventContextEnabled">[ABPM_._ESCAPE_._CDATA_._START]true[ABPM_._ESCAPE_._CDATA_._END]</abpm:param>
-               </abpm:params>
-            </abpm:activity>
-         </activity>
-      </state>
-      <state name="Task_0v1pj11">
-         <activity>
-            <abpm:activity name="SS_Text_Layout" async="false" id="" signal="SignalComplete" type="Stream2XmlStreamTransformer">
-               <abpm:params>
-                  <abpm:param name="restartTriesCount">[ABPM_._ESCAPE_._CDATA_._START]0[ABPM_._ESCAPE_._CDATA_._END]</abpm:param>
-                  <abpm:param name="restartWaitTime">[ABPM_._ESCAPE_._CDATA_._START]60[ABPM_._ESCAPE_._CDATA_._END]</abpm:param>
-                  <abpm:param name="source">[ABPM_._ESCAPE_._CDATA_._START]SS_FTP_Source[ABPM_._ESCAPE_._CDATA_._END]</abpm:param>
-                  <abpm:param name="streamNames">[ABPM_._ESCAPE_._CDATA_._START]default[ABPM_._ESCAPE_._CDATA_._END]</abpm:param>
-                  <abpm:param name="targetConnectTimeout">[ABPM_._ESCAPE_._CDATA_._START]300[ABPM_._ESCAPE_._CDATA_._END]</abpm:param>
-                  <abpm:param name="characterSetEncoding">[ABPM_._ESCAPE_._CDATA_._START]UTF-8[ABPM_._ESCAPE_._CDATA_._END]</abpm:param>
-                  <abpm:param name="transformer">[ABPM_._ESCAPE_._CDATA_._START]Stream2XmlStreamTransformer[ABPM_._ESCAPE_._CDATA_._END]</abpm:param>
-                  <abpm:param name="intermediateFormat">[ABPM_._ESCAPE_._CDATA_._START]Native[ABPM_._ESCAPE_._CDATA_._END]</abpm:param>
-                  <abpm:param name="dataAction">[ABPM_._ESCAPE_._CDATA_._START]No Action[ABPM_._ESCAPE_._CDATA_._END]</abpm:param>
-                  <abpm:param name="errorRecordHandleType">[ABPM_._ESCAPE_._CDATA_._START]File[ABPM_._ESCAPE_._CDATA_._END]</abpm:param>
-                  <abpm:param name="schemaTypedId">[ABPM_._ESCAPE_._CDATA_._START]TextSchema:1428613565626175488[ABPM_._ESCAPE_._CDATA_._END]</abpm:param>
-               </abpm:params>
-            </abpm:activity>
-         </activity>
-      </state>
-      <state name="Task_0smkdbt">
-         <activity>
-            <abpm:activity name="SS_Mapping" async="false" id="1428613955720572928" signal="SignalComplete" type="DataMapping">
-               <abpm:params>
-                  <abpm:param name="restartTriesCount">[ABPM_._ESCAPE_._CDATA_._START]0[ABPM_._ESCAPE_._CDATA_._END]</abpm:param>
-                  <abpm:param name="restartWaitTime">[ABPM_._ESCAPE_._CDATA_._START]60[ABPM_._ESCAPE_._CDATA_._END]</abpm:param>
-                  <abpm:param name="source">[ABPM_._ESCAPE_._CDATA_._START]SS_Text_Layout[ABPM_._ESCAPE_._CDATA_._END]</abpm:param>
-                  <abpm:param name="streamNames">[ABPM_._ESCAPE_._CDATA_._START]default[ABPM_._ESCAPE_._CDATA_._END]</abpm:param>
-                  <abpm:param name="targetConnectTimeout">[ABPM_._ESCAPE_._CDATA_._START]300[ABPM_._ESCAPE_._CDATA_._END]</abpm:param>
-                  <abpm:param name="characterSetEncoding">[ABPM_._ESCAPE_._CDATA_._START]UTF-8[ABPM_._ESCAPE_._CDATA_._END]</abpm:param>
-                  <abpm:param name="generateStream">[ABPM_._ESCAPE_._CDATA_._START]true[ABPM_._ESCAPE_._CDATA_._END]</abpm:param>
-                  <abpm:param name="Consume Stream">[ABPM_._ESCAPE_._CDATA_._START]true[ABPM_._ESCAPE_._CDATA_._END]</abpm:param>
-                  <abpm:param name="errorRecordHandleType">[ABPM_._ESCAPE_._CDATA_._START]File[ABPM_._ESCAPE_._CDATA_._END]</abpm:param>
-                  <abpm:param name="transformerType">[ABPM_._ESCAPE_._CDATA_._START]Saxon[ABPM_._ESCAPE_._CDATA_._END]</abpm:param>
-               </abpm:params>
-            </abpm:activity>
-         </activity>
-      </state>
-      <state name="Task_1acvofv">
-         <activity>
-            <abpm:activity name="SS_Text_Layout_Target" async="false" id="" signal="SignalComplete" type="XmlStream2StreamTransformer">
-               <abpm:params>
-                  <abpm:param name="restartTriesCount">[ABPM_._ESCAPE_._CDATA_._START]0[ABPM_._ESCAPE_._CDATA_._END]</abpm:param>
-                  <abpm:param name="restartWaitTime">[ABPM_._ESCAPE_._CDATA_._START]60[ABPM_._ESCAPE_._CDATA_._END]</abpm:param>
-                  <abpm:param name="source">[ABPM_._ESCAPE_._CDATA_._START]SS_Mapping[ABPM_._ESCAPE_._CDATA_._END]</abpm:param>
-                  <abpm:param name="streamNames">[ABPM_._ESCAPE_._CDATA_._START]SS_Text_Layout[ABPM_._ESCAPE_._CDATA_._END]</abpm:param>
-                  <abpm:param name="targetConnectTimeout">[ABPM_._ESCAPE_._CDATA_._START]300[ABPM_._ESCAPE_._CDATA_._END]</abpm:param>
-                  <abpm:param name="characterSetEncoding">[ABPM_._ESCAPE_._CDATA_._START]UTF-8[ABPM_._ESCAPE_._CDATA_._END]</abpm:param>
-                  <abpm:param name="transformer">[ABPM_._ESCAPE_._CDATA_._START]XmlStream2StreamTransformer[ABPM_._ESCAPE_._CDATA_._END]</abpm:param>
-                  <abpm:param name="intermediateFormat">[ABPM_._ESCAPE_._CDATA_._START]Native[ABPM_._ESCAPE_._CDATA_._END]</abpm:param>
-                  <abpm:param name="dataAction">[ABPM_._ESCAPE_._CDATA_._START]No Action[ABPM_._ESCAPE_._CDATA_._END]</abpm:param>
-                  <abpm:param name="errorRecordHandleType">[ABPM_._ESCAPE_._CDATA_._START]File[ABPM_._ESCAPE_._CDATA_._END]</abpm:param>
-                  <abpm:param name="schemaTypedId">[ABPM_._ESCAPE_._CDATA_._START]TextSchema:1428613565626175488[ABPM_._ESCAPE_._CDATA_._END]</abpm:param>
-               </abpm:params>
-            </abpm:activity>
-         </activity>
-      </state>
-      <state name="Task_0yk3pez">
-         <activity>
-            <abpm:activity name="SS_FTP_Target" async="false" id="1428614670761324544" signal="SignalComplete" type="FtpTarget">
-               <abpm:params>
-                  <abpm:param name="restartTriesCount">[ABPM_._ESCAPE_._CDATA_._START]0[ABPM_._ESCAPE_._CDATA_._END]</abpm:param>
-                  <abpm:param name="restartWaitTime">[ABPM_._ESCAPE_._CDATA_._START]60[ABPM_._ESCAPE_._CDATA_._END]</abpm:param>
-                  <abpm:param name="source">[ABPM_._ESCAPE_._CDATA_._START]SS_Text_Layout_Target[SS_Text_Layout][ABPM_._ESCAPE_._CDATA_._END]</abpm:param>
-                  <abpm:param name="streamNames">[ABPM_._ESCAPE_._CDATA_._START][ABPM_._ESCAPE_._CDATA_._END]</abpm:param>
-                  <abpm:param name="targetConnectTimeout">[ABPM_._ESCAPE_._CDATA_._START]300[ABPM_._ESCAPE_._CDATA_._END]</abpm:param>
-               </abpm:params>
-            </abpm:activity>
-         </activity>
-      </state>
-      <state name="StartEvent_1">
-         <activity>
-            <pd:event type="start" subType="none"/>
-         </activity>
-      </state>
-      <state name="EndEvent_05xu246">
-         <activity>
-            <pd:event type="end" subType="none"/>
-         </activity>
-      </state>
-      <transition from="startState" to="StartEvent_1"/>
-      <transition from="StartEvent_1" to="Task_1m9z7et"/>
-      <transition from="Task_1m9z7et" to="Task_0v1pj11"/>
-      <transition from="Task_0v1pj11" to="Task_0smkdbt"/>
-      <transition from="Task_0smkdbt" to="Task_1acvofv"/>
-      <transition from="Task_1acvofv" to="Task_0yk3pez"/>
-      <transition from="Task_0yk3pez" to="EndEvent_05xu246"/>
-   </process>
-</AdeptiaPE>
-]]></AU_FLOWDESCRIPTOR>
+        <AU_LOGGINGLEVEL><![CDATA[ERROR]]></AU_LOGGINGLEVEL>
         <AU_PRIORITY><![CDATA[LOW]]></AU_PRIORITY>
-        <AU_VERSION><![CDATA[1]]></AU_VERSION>
+        <AU_ID><![CDATA[1428613295180607488]]></AU_ID>
+        <AU_ADVANCED><![CDATA[1]]></AU_ADVANCED>
+        <AU_PERMISSIONMASK><![CDATA[770]]></AU_PERMISSIONMASK>
+        <AU_GROUPOWNER><![CDATA[IndigoGroup:192168001075148181566048300002]]></AU_GROUPOWNER>
+        <AU_SYNCHRONIZED><![CDATA[1]]></AU_SYNCHRONIZED>
+        <AU_OLDFLOWDESCRIPTOR><![CDATA[null]]></AU_OLDFLOWDESCRIPTOR>
+        <AU_MODIFIEDBY><![CDATA[IndigoUser:1428309039961600000]]></AU_MODIFIEDBY>
+        <AU_CHILDFLOWS><![CDATA[null]]></AU_CHILDFLOWS>
+        <AU_DESCRIPTION><![CDATA[SS_FTP_PF]]></AU_DESCRIPTION>
+        <AU_DATAENCRYPTIONATREST><![CDATA[useGlobalPolicy]]></AU_DATAENCRYPTIONATREST>
+        <AU_REPOSITORYACTION><![CDATA[L]]></AU_REPOSITORYACTION>
+        <AU_COMMENTS><![CDATA[null]]></AU_COMMENTS>
         <AU_LOGRETENTIONACTION><![CDATA[L]]></AU_LOGRETENTIONACTION>
+        <AU_ACTIVEVERSION><![CDATA[1]]></AU_ACTIVEVERSION>
         <AU_PROJECTOWNER><![CDATA[Project:1428612378147409920]]></AU_PROJECTOWNER>
-        <AU_TRACKVARIABLES><![CDATA[<?xml version="1.0"?><Variables></Variables>]]></AU_TRACKVARIABLES>
+        <AU_PREVIOUSVERSION><![CDATA[null]]></AU_PREVIOUSVERSION>
+        <AU_TEMPLATENAME><![CDATA[Process Designer]]></AU_TEMPLATENAME>
+        <AU_ACTIVEFLAG><![CDATA[1]]></AU_ACTIVEFLAG>
     </AU_TRANSACTION>
     <columnInfo dbtype="2">
         <column name="AU_ID" type="12"/>
