@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<data>
+    <AU_OAuthAccount>
+        <au_clientSecret><![CDATA[EucPjmhmB2gQkWnBBxnhZ7jHdTUS7MwqKGzcg+Six3QVyWMaLIK5qILQunejuN5n]]></au_clientSecret>
+        <au_refreshToken><![CDATA[3YBJgo2pGHF8CN93kvmdNOJADP7Sn9SehZdknCyoiEbB/vmIcITEEFc/NAxDMjxaNr0P2SrKxOBr
+BNaR2cN0Si08V7crxuWMCHNG63KtMps=]]></au_refreshToken>
+        <au_projectOwner><![CDATA[Project:1431162336580464640]]></au_projectOwner>
+        <au_userOwner><![CDATA[IndigoUser:127000000001107055536473900001]]></au_userOwner>
+        <au_accessTokenSecret><![CDATA[null]]></au_accessTokenSecret>
+        <au_accessToken><![CDATA[eZcW1w0W/ikKYr8CkeUfE3WR816jnEX6DwAajBWo0uoFnHSgMS4gdDgr2jhzMav8]]></au_accessToken>
+        <au_comments><![CDATA[null]]></au_comments>
+        <au_synchronized><![CDATA[false]]></au_synchronized>
+        <AU_USERNAME><![CDATA[null]]></AU_USERNAME>
+        <au_modifiedBy><![CDATA[IndigoUser:127000000001107055536473900001]]></au_modifiedBy>
+        <au_revision><![CDATA[null]]></au_revision>
+        <AU_PASSWORD><![CDATA[null]]></AU_PASSWORD>
+        <au_userId><![CDATA[null]]></au_userId>
+        <au_id><![CDATA[1431174263580995584]]></au_id>
+        <au_groupOwner><![CDATA[IndigoGroup:127000000001107055548721600002]]></au_groupOwner>
+        <au_clientId><![CDATA[EKUE87afyMPZgrkfVQwQ2OfIm78Rqeu9IofatA48JaxGTBqJy+g0EnGWJ+pyQrN/]]></au_clientId>
+        <au_isMailAc><![CDATA[null]]></au_isMailAc>
+        <au_oauthClientId><![CDATA[OAuthClient:1431173857782083584]]></au_oauthClientId>
+        <au_oauthVersion><![CDATA[2.0]]></au_oauthVersion>
+        <au_permissionMask><![CDATA[770]]></au_permissionMask>
+        <au_version><![CDATA[1]]></au_version>
+        <au_adapterType><![CDATA[1244612838828449792]]></au_adapterType>
+        <au_modifiedDate><![CDATA[2025-10-24 06:55:34.37]]></au_modifiedDate>
+        <au_description><![CDATA[acc]]></au_description>
+        <au_parametersXml><![CDATA[<parameters><envType>[ABPM_._ESCAPE_._CDATA_._START]null[ABPM_._ESCAPE_._CDATA_._END]</envType><authType>[ABPM_._ESCAPE_._CDATA_._START]OAUTH2[ABPM_._ESCAPE_._CDATA_._END]</authType><grantType>[ABPM_._ESCAPE_._CDATA_._START]AUTH_CODE[ABPM_._ESCAPE_._CDATA_._END]</grantType><dateFormat>[ABPM_._ESCAPE_._CDATA_._START]yyyy-MM-dd'T'HH:mm:ss'Z'[ABPM_._ESCAPE_._CDATA_._END]</dateFormat><timeZone>[ABPM_._ESCAPE_._CDATA_._START]GMT[ABPM_._ESCAPE_._CDATA_._END]</timeZone><appClientId>[ABPM_._ESCAPE_._CDATA_._START]1431173857782083584[ABPM_._ESCAPE_._CDATA_._END]</appClientId></parameters>]]></au_parametersXml>
+        <au_previousVersion><![CDATA[]]></au_previousVersion>
+        <au_profileId><![CDATA[null]]></au_profileId>
+        <au_creationDate><![CDATA[2025-10-24 06:55:34.37]]></au_creationDate>
+        <au_instanceUrl><![CDATA[null]]></au_instanceUrl>
+        <au_activeVersion><![CDATA[true]]></au_activeVersion>
+        <au_entityName><![CDATA[acc]]></au_entityName>
+    </AU_OAuthAccount>
+    <columnInfo dbtype="0">
+        <column name="au_id" type="12"/>
+        <column name="au_version" type="12"/>
+        <column name="au_previousVersion" type="12"/>
+        <column name="au_activeVersion" type="-7"/>
+        <column name="au_entityName" type="12"/>
+        <column name="au_userOwner" type="12"/>
+        <column name="au_groupOwner" type="12"/>
+        <column name="au_permissionMask" type="12"/>
+        <column name="au_description" type="12"/>
+        <column name="au_comments" type="12"/>
+        <column name="au_modifiedBy" type="12"/>
+        <column name="au_creationDate" type="93"/>
+        <column name="au_modifiedDate" type="93"/>
+        <column name="au_revision" type="12"/>
+        <column name="au_synchronized" type="-7"/>
+        <column name="au_projectOwner" type="12"/>
+        <column name="au_accessToken" type="12"/>
+        <column name="au_instanceUrl" type="12"/>
+        <column name="au_adapterType" type="12"/>
+        <column name="au_oauthVersion" type="12"/>
+        <column name="au_clientId" type="12"/>
+        <column name="au_clientSecret" type="12"/>
+        <column name="au_accessTokenSecret" type="12"/>
+        <column name="au_refreshToken" type="12"/>
+        <column name="au_parametersXml" type="12"/>
+        <column name="au_profileId" type="12"/>
+        <column name="au_userId" type="12"/>
+        <column name="au_isMailAc" type="12"/>
+        <column name="AU_USERNAME" type="12"/>
+        <column name="AU_PASSWORD" type="12"/>
+        <column name="au_oauthClientId" type="12"/>
+    </columnInfo>
+</data>

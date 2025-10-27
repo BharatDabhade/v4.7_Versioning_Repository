@@ -1,0 +1,394 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<data>
+    <AU_MAPPINGTRANSFORMATION>
+        <au_json><![CDATA[{"json":{"category":"mapping","type":"mapping","encoding":"UTF-8","version":"1.0"},"cloneElements":"","filters":"","variables":{"variable":[]},"globalParameters":{"keys":{"key":[]},"contextVariables":{"contextVariable":[]}},"connections":{"connectionVariable":[]},"functions":{"externalFunction":[]},"filterUnmappedElements":false,"indentOutputXML":true,"xslVersion":"1.1","enableStreaming":false,"filterEmptyElements":false,"xslTransformer":"Saxon","characterSetEncoding":"UTF-8","DataViewerRecordCount":50,"dbQueryCaching":false,"isQuickSplittingEnabled":false,"TreeExpandLevelCountForWebService":5,"TreeExpandLevelForEasySchemaExtensions":10,"SelfRecursionLevel":0,"EnableTypesBuffering":true,"TreeExpandLevelCount":3,"onDemandLoadingOfXMLSchemaTree":true,"settingConfigs":{"xslVersion":"1.1","xslTransformer":"Saxon","filterUnmappedElements":false,"indentOutputXML":true,"filterEmptyElements":false,"enableStreaming":false,"characterSetEncoding":"UTF-8","DataViewerRecordCount":50,"dbQueryCaching":false,"isQuickSplittingEnabled":false,"TreeExpandLevelCountForWebService":5,"TreeExpandLevelForEasySchemaExtensions":10,"SelfRecursionLevel":0,"EnableTypesBuffering":true,"TreeExpandLevelCount":3,"onDemandLoadingOfXMLSchemaTree":true,"cDataSectionElements":"","excludeResultPrefixes":"saxonJavaMappingTransformation saxonJavaMapperQueryExecutor saxonJavaAggregateFunctionHandler str","cacheIncludedSchemas":false,"processElementFormDefault":true,"isAutoSaveEnable":true},"disableOuputNodes":{"disableOutputNodeProperty":[]},"isCustomXSLT":false,"contextSchemaLoadedAtSource":false,"contextSchemaLoadedAtTarget":false,"webservice":{"consumers":{"consumer":[]}},"GlobalPreCustomXSL":"","GlobalPostCustomXSL":"","xslTemplates":{"xslTemplateData":[]},"mappingTempId":null,"sourceXpath":"","targetXpath":"","connectorInfo":{},"cDataSectionElements":"","splittingData":false,"splitNumberOfRecords":"500","parallelProcessing":false,"maximumConcurrentProcessor":"1","CustomAutoMapInUse":"","excludeResultPrefixes":"saxonJavaMappingTransformation saxonJavaMapperQueryExecutor saxonJavaAggregateFunctionHandler str","cacheIncludedSchemas":false,"metaData":"","processElementFormDefault":true,"mappingInformation":{"mappingVersion":"6.1","mappingName":"fileupload","mappingProject":"Project:1431162336580464640","mappingDescription":"fileupload","sourceSchemaID":"TextSchema:1431173036564541440","targetSchemaID":"TextSchema:1431173036564541440","mappingOwnerGroup":"","mappingOwner":"","mappingLastModifiedBy":"","mappingCreationDate":"","mappingModifiedDate":"","reusable":null},"namespace":"","namespaceList":[],"foreach":"","targetRoots":{"targetRoot":[{"name":"Root","schemaName":"qa","schemaID":"TextSchema:1431173036564541440","stream":"output_1"}]},"sourceRoots":{"sourceRoot":[{"name":"Root","schemaName":"qa","schemaID":"TextSchema:1431173036564541440"}]},"contextSchemaDefinition":"","maps":[{"order":1,"targetName":"qa","targetfield":"Record","targetfieldpath":"/Root/Record","defaultEditor":"graphical","graphicalMappingJson":[{"elementId":"GraphicalElement-ext-1761289008078","elementItem":{"elementType":"SourceElement","name":"Record","expression":"$Input_qa/Root/Record","paramsCount":0,"syntax":"$Input_qa/Root/Record"},"elementPos":[1600,1520],"nextElementIds":["GraphicalElement-ext-1761289008079_IncomingElement-1"],"nextGraphicalElementIds":["GraphicalElement-ext-1761289008079"],"previousElementIds":[]},{"elementId":"GraphicalElement-ext-1761289008079","elementItem":{"elementType":"TargetElement","name":"Record","expression":"$Input_qa/Root/Record","paramsCount":1,"syntax":"qa/Root/Record"},"elementPos":[1800,1520],"nextElementIds":[],"nextGraphicalElementIds":[],"previousElementIds":["GraphicalElement-ext-1761289008078"]}],"expression":"$Input_qa/Root/Record","targetrecord":"Root","mapping":[{"sourceName":"qa","operatortype":"field","sourcefield":"Record","sourcefielddisplayname":"Record","sourcefieldpath":"/Root/Record","sourcerecord":"Root"}],"markComplete":false,"mapId":"Map-1","expressionNote":"","expressionPath":"$Input_qa/Root/Record"},{"order":1,"targetName":"qa","targetfield":"EMP_ID","targetfieldpath":"/Root/Record/EMP_ID","targetrecord":"Record","mapping":[{"sourceName":"qa","operatortype":"field","sourcefield":"EMP_ID","sourcefielddisplayname":"EMP_ID","sourcefieldpath":"/Root/Record/EMP_ID","sourcerecord":"Record"}],"markComplete":false,"mapId":"Map-2","expressionNote":"","expression":"$Input_qa/Root/Record/EMP_ID","expressionPath":"$Input_qa/Root/Record/EMP_ID","defaultEditor":"graphical","graphicalMappingJson":[{"elementId":"GraphicalElement-ext-1761289008081","elementItem":{"elementType":"SourceElement","name":"EMP_ID","expression":"$Input_qa/Root/Record/EMP_ID","paramsCount":0,"syntax":"$Input_qa/Root/Record/EMP_ID"},"elementPos":[1600,1520],"nextElementIds":["GraphicalElement-ext-1761289008082_IncomingElement-1"],"nextGraphicalElementIds":["GraphicalElement-ext-1761289008082"],"previousElementIds":[]},{"elementId":"GraphicalElement-ext-1761289008082","elementItem":{"elementType":"TargetElement","name":"EMP_ID","expression":"$Input_qa/Root/Record/EMP_ID","paramsCount":1,"syntax":"qa/Root/Record/EMP_ID"},"elementPos":[1800,1520],"nextElementIds":[],"nextGraphicalElementIds":[],"previousElementIds":["GraphicalElement-ext-1761289008081"]}]},{"order":1,"targetName":"qa","targetfield":"EMP_NAME","targetfieldpath":"/Root/Record/EMP_NAME","targetrecord":"Record","mapping":[{"sourceName":"qa","operatortype":"field","sourcefield":"EMP_NAME","sourcefielddisplayname":"EMP_NAME","sourcefieldpath":"/Root/Record/EMP_NAME","sourcerecord":"Record"}],"markComplete":false,"mapId":"Map-3","expressionNote":"","expression":"$Input_qa/Root/Record/EMP_NAME","expressionPath":"$Input_qa/Root/Record/EMP_NAME","defaultEditor":"graphical","graphicalMappingJson":[{"elementId":"GraphicalElement-ext-1761289008082","elementItem":{"elementType":"SourceElement","name":"EMP_NAME","expression":"$Input_qa/Root/Record/EMP_NAME","paramsCount":0,"syntax":"$Input_qa/Root/Record/EMP_NAME"},"elementPos":[1600,1520],"nextElementIds":["GraphicalElement-ext-1761289008083_IncomingElement-1"],"nextGraphicalElementIds":["GraphicalElement-ext-1761289008083"],"previousElementIds":[]},{"elementId":"GraphicalElement-ext-1761289008083","elementItem":{"elementType":"TargetElement","name":"EMP_NAME","expression":"$Input_qa/Root/Record/EMP_NAME","paramsCount":1,"syntax":"qa/Root/Record/EMP_NAME"},"elementPos":[1800,1520],"nextElementIds":[],"nextGraphicalElementIds":[],"previousElementIds":["GraphicalElement-ext-1761289008082"]}]},{"order":1,"targetName":"qa","targetfield":"DEPARTMENT","targetfieldpath":"/Root/Record/DEPARTMENT","targetrecord":"Record","mapping":[{"sourceName":"qa","operatortype":"field","sourcefield":"DEPARTMENT","sourcefielddisplayname":"DEPARTMENT","sourcefieldpath":"/Root/Record/DEPARTMENT","sourcerecord":"Record"}],"markComplete":false,"mapId":"Map-4","expressionNote":"","expression":"$Input_qa/Root/Record/DEPARTMENT","expressionPath":"$Input_qa/Root/Record/DEPARTMENT","defaultEditor":"graphical","graphicalMappingJson":[{"elementId":"GraphicalElement-ext-1761289008084","elementItem":{"elementType":"SourceElement","name":"DEPARTMENT","expression":"$Input_qa/Root/Record/DEPARTMENT","paramsCount":0,"syntax":"$Input_qa/Root/Record/DEPARTMENT"},"elementPos":[1600,1520],"nextElementIds":["GraphicalElement-ext-1761289008085_IncomingElement-1"],"nextGraphicalElementIds":["GraphicalElement-ext-1761289008085"],"previousElementIds":[]},{"elementId":"GraphicalElement-ext-1761289008085","elementItem":{"elementType":"TargetElement","name":"DEPARTMENT","expression":"$Input_qa/Root/Record/DEPARTMENT","paramsCount":1,"syntax":"qa/Root/Record/DEPARTMENT"},"elementPos":[1800,1520],"nextElementIds":[],"nextGraphicalElementIds":[],"previousElementIds":["GraphicalElement-ext-1761289008084"]}]},{"order":1,"targetName":"qa","targetfield":"JOIN_DATE","targetfieldpath":"/Root/Record/JOIN_DATE","targetrecord":"Record","mapping":[{"sourceName":"qa","operatortype":"field","sourcefield":"JOIN_DATE","sourcefielddisplayname":"JOIN_DATE","sourcefieldpath":"/Root/Record/JOIN_DATE","sourcerecord":"Record"}],"markComplete":false,"mapId":"Map-5","expressionNote":"","expression":"$Input_qa/Root/Record/JOIN_DATE","expressionPath":"$Input_qa/Root/Record/JOIN_DATE","defaultEditor":"graphical","graphicalMappingJson":[{"elementId":"GraphicalElement-ext-1761289008086","elementItem":{"elementType":"SourceElement","name":"JOIN_DATE","expression":"$Input_qa/Root/Record/JOIN_DATE","paramsCount":0,"syntax":"$Input_qa/Root/Record/JOIN_DATE"},"elementPos":[1600,1520],"nextElementIds":["GraphicalElement-ext-1761289008087_IncomingElement-1"],"nextGraphicalElementIds":["GraphicalElement-ext-1761289008087"],"previousElementIds":[]},{"elementId":"GraphicalElement-ext-1761289008087","elementItem":{"elementType":"TargetElement","name":"JOIN_DATE","expression":"$Input_qa/Root/Record/JOIN_DATE","paramsCount":1,"syntax":"qa/Root/Record/JOIN_DATE"},"elementPos":[1800,1520],"nextElementIds":[],"nextGraphicalElementIds":[],"previousElementIds":["GraphicalElement-ext-1761289008086"]}]},{"order":1,"targetName":"qa","targetfield":"SALARY","targetfieldpath":"/Root/Record/SALARY","targetrecord":"Record","mapping":[{"sourceName":"qa","operatortype":"field","sourcefield":"SALARY","sourcefielddisplayname":"SALARY","sourcefieldpath":"/Root/Record/SALARY","sourcerecord":"Record"}],"markComplete":false,"mapId":"Map-6","expressionNote":"","expression":"$Input_qa/Root/Record/SALARY","expressionPath":"$Input_qa/Root/Record/SALARY","defaultEditor":"graphical","graphicalMappingJson":[{"elementId":"GraphicalElement-ext-1761289008087","elementItem":{"elementType":"SourceElement","name":"SALARY","expression":"$Input_qa/Root/Record/SALARY","paramsCount":0,"syntax":"$Input_qa/Root/Record/SALARY"},"elementPos":[1600,1520],"nextElementIds":["GraphicalElement-ext-1761289008088_IncomingElement-1"],"nextGraphicalElementIds":["GraphicalElement-ext-1761289008088"],"previousElementIds":[]},{"elementId":"GraphicalElement-ext-1761289008088","elementItem":{"elementType":"TargetElement","name":"SALARY","expression":"$Input_qa/Root/Record/SALARY","paramsCount":1,"syntax":"qa/Root/Record/SALARY"},"elementPos":[1800,1520],"nextElementIds":[],"nextGraphicalElementIds":[],"previousElementIds":["GraphicalElement-ext-1761289008087"]}]},{"order":1,"targetName":"qa","targetfield":"@recordNumber","targetfieldpath":"/Root/Record/@recordNumber","targetrecord":"Record","mapping":[{"sourceName":"qa","operatortype":"field","sourcefield":"@recordNumber","sourcefielddisplayname":"@recordNumber","sourcefieldpath":"/Root/Record/@recordNumber","sourcerecord":"Record"}],"markComplete":false,"mapId":"Map-7","expressionNote":"","expression":"$Input_qa/Root/Record/@recordNumber","expressionPath":"$Input_qa/Root/Record/@recordNumber","defaultEditor":"graphical","graphicalMappingJson":[{"elementId":"GraphicalElement-ext-1761289008089","elementItem":{"elementType":"SourceElement","name":"@recordNumber","expression":"$Input_qa/Root/Record/@recordNumber","paramsCount":0,"syntax":"$Input_qa/Root/Record/@recordNumber"},"elementPos":[1600,1520],"nextElementIds":["GraphicalElement-ext-1761289008090_IncomingElement-1"],"nextGraphicalElementIds":["GraphicalElement-ext-1761289008090"],"previousElementIds":[]},{"elementId":"GraphicalElement-ext-1761289008090","elementItem":{"elementType":"TargetElement","name":"@recordNumber","expression":"$Input_qa/Root/Record/@recordNumber","paramsCount":1,"syntax":"qa/Root/Record/@recordNumber"},"elementPos":[1800,1520],"nextElementIds":[],"nextGraphicalElementIds":[],"previousElementIds":["GraphicalElement-ext-1761289008089"]}]}],"sourceExpandLevel":3,"targetExpandLevel":3,"modifiedDate":"1761289012130","isSaveAfterWarnings":false}]]></au_json>
+        <au_modifiedDate><![CDATA[2025-10-24 06:57:31.0]]></au_modifiedDate>
+        <au_activeVersion><![CDATA[true]]></au_activeVersion>
+        <au_enableAIMap><![CDATA[false]]></au_enableAIMap>
+        <au_permissionMask><![CDATA[770]]></au_permissionMask>
+        <AU_MULTI_VALUED_MAP><![CDATA[<MultiValuedMap/>]]></AU_MULTI_VALUED_MAP>
+        <au_reusable><![CDATA[true]]></au_reusable>
+        <au_projectOwner><![CDATA[Project:1431162336580464640]]></au_projectOwner>
+        <au_characterSetEncoding><![CDATA[UTF-8]]></au_characterSetEncoding>
+        <au_customAutoMap><![CDATA[]]></au_customAutoMap>
+        <au_xslFile><![CDATA[<?xml version='1.0'?>
+<xsl:stylesheet xmlns:xsl="http://www.w3.org/1999/XSL/Transform" version="1.1" xmlns:saxonJavaMappingTransformation="java:com.adeptia.indigo.services.mapping.MappingTransformation" xmlns:saxonJavaMapperQueryExecutor="java:com.adeptia.indigo.services.mapping.support.dbquery.MapperQueryExecutor" xmlns:saxonJavaAggregateFunctionHandler="java:com.adeptia.indigo.services.mapping.AggregateFunctionHandler"  xmlns:str="http://exslt.org/strings" exclude-result-prefixes="saxonJavaMappingTransformation saxonJavaMapperQueryExecutor saxonJavaAggregateFunctionHandler str" xmlns:saxon="http://saxon.sf.net/" extension-element-prefixes="saxon">
+<xsl:output method="xml" version="1.0" encoding="UTF-8" cdata-section-elements="" indent="yes" /><xsl:param name="_userName"/><xsl:param name="_password"/><xsl:param name="_class"/><xsl:param name="_identifier"/><xsl:param name="_subject"/><xsl:param name="_repositoryPath"/><xsl:param name="_Input1"/> <xsl:variable name="varConn" select="saxonJavaMapperQueryExecutor:getInstance($_identifier,'false')"/> <xsl:variable name="apos">'</xsl:variable> <xsl:variable name="quot">"</xsl:variable><xsl:template match="/"><Root><xsl:apply-templates select="Root/Record" mode="_Root_Record_order1">
+</xsl:apply-templates></Root></xsl:template><xsl:template match="/Root/Record" mode="_Root_Record_order1">
+<Record><xsl:attribute name="recordNumber"><xsl:value-of select="./@recordNumber"/></xsl:attribute><EMP_ID><xsl:value-of select="EMP_ID"/></EMP_ID><EMP_NAME><xsl:value-of select="EMP_NAME"/></EMP_NAME><DEPARTMENT><xsl:value-of select="DEPARTMENT"/></DEPARTMENT><JOIN_DATE><xsl:value-of select="JOIN_DATE"/></JOIN_DATE><SALARY><xsl:value-of select="SALARY"/></SALARY></Record></xsl:template></xsl:stylesheet>]]></au_xslFile>
+        <au_pdfFileName><![CDATA[Adp_Map_Rules1480715231086831645.pdf]]></au_pdfFileName>
+        <au_parallelProcessing><![CDATA[false]]></au_parallelProcessing>
+        <au_xslTransformer><![CDATA[Saxon]]></au_xslTransformer>
+        <au_mapXmlFile><![CDATA[<?xml version="1.0" encoding="UTF-8"?><maps version="4.4">
+<mappingInformation>
+    <mappingVersion>6.1</mappingVersion>
+    <mappingName>fileupload</mappingName>
+    <mappingProject>Project:1431162336580464640</mappingProject>
+    <mappingDescription>fileupload</mappingDescription>
+    <sourceSchemaID>TextSchema:1431173036564541440</sourceSchemaID>
+    <targetSchemaID>TextSchema:1431173036564541440</targetSchemaID>
+    <mappingOwnerGroup>administrators</mappingOwnerGroup>
+    <mappingOwner>Admin User</mappingOwner>
+    <mappingLastModifiedBy>Admin User</mappingLastModifiedBy>
+    <mappingCreationDate>Fri Oct 24 06:56:52 GMT 2025</mappingCreationDate>
+    <mappingModifiedDate>Fri Oct 24 06:57:30 GMT 2025</mappingModifiedDate>
+    <reusable>null</reusable>
+</mappingInformation>
+<sourceRoots>
+    <sourceRoot>
+        <name>Root</name>
+        <schemaName>qa</schemaName>
+        <schemaID>TextSchema:1431173036564541440</schemaID>
+    </sourceRoot>
+</sourceRoots>
+<targetRoots>
+    <targetRoot>
+        <name>Root</name>
+        <schemaName>qa</schemaName>
+        <schemaID>TextSchema:1431173036564541440</schemaID>
+        <stream>output_1</stream>
+    </targetRoot>
+</targetRoots>
+<nameSpace/>
+<xslProperty/>
+<GlobalPreCustomXSL/>
+<GlobalPostCustomXSL/>
+<xslTemplates/>
+<map>
+<order>1</order>
+ <targetName>qa</targetName>
+<dest>/Root/Record</dest>
+<preCustomXSL/>
+<postCustomXSL/>
+ <mapValue>$Input_qa/Root/Record</mapValue>
+ <forEach/>
+ <comments/>
+<namespacePrefix/>
+
+ <namespaceRemovePrefix>false</namespaceRemovePrefix>
+<localVariables/>
+ <Sorting/>
+ <Target name="Record">
+<Position height="25" identify="&lt;T&gt;" label="/Root/Record" mapString="$Input_qa/Root/Record" x="300" y="20">
+<SourceLines/>
+<TargetLines>
+<Line x1="180" y1="32" x2="280" y2="32"/>
+</TargetLines>
+</Position>
+<Position height="25" identify="&lt;S&gt;" label="$Input_qa/Root/Record" mapString="&lt;S&gt;$Input_qa/Root/Record" x="100" y="20">
+<SourceLines>
+<Line x1="180" y1="32" x2="280" y2="32"/>
+</SourceLines>
+<TargetLines/>
+</Position>
+</Target>
+<defaultEditor>graphical</defaultEditor>
+ </map>
+<map>
+<order>1</order>
+ <targetName>qa</targetName>
+<dest>/Root/Record/EMP_ID</dest>
+<preCustomXSL/>
+<postCustomXSL/>
+ <mapValue>$Input_qa/Root/Record/EMP_ID</mapValue>
+ <forEach/>
+ <comments/>
+<namespacePrefix/>
+
+ <namespaceRemovePrefix>false</namespaceRemovePrefix>
+<localVariables/>
+ <Sorting/>
+ <Target name="EMP_ID">
+<Position height="25" identify="&lt;T&gt;" label="/Root/Record/EMP_ID" mapString="$Input_qa/Root/Record/EMP_ID" x="300" y="20">
+<SourceLines/>
+<TargetLines>
+<Line x1="180" y1="32" x2="280" y2="32"/>
+</TargetLines>
+</Position>
+<Position height="25" identify="&lt;S&gt;" label="$Input_qa/Root/Record/EMP_ID" mapString="&lt;S&gt;$Input_qa/Root/Record/EMP_ID" x="100" y="20">
+<SourceLines>
+<Line x1="180" y1="32" x2="280" y2="32"/>
+</SourceLines>
+<TargetLines/>
+</Position>
+</Target>
+<defaultEditor>graphical</defaultEditor>
+ </map>
+<map>
+<order>1</order>
+ <targetName>qa</targetName>
+<dest>/Root/Record/EMP_NAME</dest>
+<preCustomXSL/>
+<postCustomXSL/>
+ <mapValue>$Input_qa/Root/Record/EMP_NAME</mapValue>
+ <forEach/>
+ <comments/>
+<namespacePrefix/>
+
+ <namespaceRemovePrefix>false</namespaceRemovePrefix>
+<localVariables/>
+ <Sorting/>
+ <Target name="EMP_NAME">
+<Position height="25" identify="&lt;S&gt;" label="$Input_qa/Root/Record/EMP_NAME" mapString="&lt;S&gt;$Input_qa/Root/Record/EMP_NAME" x="100" y="20">
+<SourceLines>
+<Line x1="180" y1="32" x2="280" y2="32"/>
+</SourceLines>
+<TargetLines/>
+</Position>
+<Position height="25" identify="&lt;T&gt;" label="/Root/Record/EMP_NAME" mapString="$Input_qa/Root/Record/EMP_NAME" x="300" y="20">
+<SourceLines/>
+<TargetLines>
+<Line x1="180" y1="32" x2="280" y2="32"/>
+</TargetLines>
+</Position>
+</Target>
+<defaultEditor>graphical</defaultEditor>
+ </map>
+<map>
+<order>1</order>
+ <targetName>qa</targetName>
+<dest>/Root/Record/DEPARTMENT</dest>
+<preCustomXSL/>
+<postCustomXSL/>
+ <mapValue>$Input_qa/Root/Record/DEPARTMENT</mapValue>
+ <forEach/>
+ <comments/>
+<namespacePrefix/>
+
+ <namespaceRemovePrefix>false</namespaceRemovePrefix>
+<localVariables/>
+ <Sorting/>
+ <Target name="DEPARTMENT">
+<Position height="25" identify="&lt;S&gt;" label="$Input_qa/Root/Record/DEPARTMENT" mapString="&lt;S&gt;$Input_qa/Root/Record/DEPARTMENT" x="100" y="20">
+<SourceLines>
+<Line x1="180" y1="32" x2="280" y2="32"/>
+</SourceLines>
+<TargetLines/>
+</Position>
+<Position height="25" identify="&lt;T&gt;" label="/Root/Record/DEPARTMENT" mapString="$Input_qa/Root/Record/DEPARTMENT" x="300" y="20">
+<SourceLines/>
+<TargetLines>
+<Line x1="180" y1="32" x2="280" y2="32"/>
+</TargetLines>
+</Position>
+</Target>
+<defaultEditor>graphical</defaultEditor>
+ </map>
+<map>
+<order>1</order>
+ <targetName>qa</targetName>
+<dest>/Root/Record/JOIN_DATE</dest>
+<preCustomXSL/>
+<postCustomXSL/>
+ <mapValue>$Input_qa/Root/Record/JOIN_DATE</mapValue>
+ <forEach/>
+ <comments/>
+<namespacePrefix/>
+
+ <namespaceRemovePrefix>false</namespaceRemovePrefix>
+<localVariables/>
+ <Sorting/>
+ <Target name="JOIN_DATE">
+<Position height="25" identify="&lt;S&gt;" label="$Input_qa/Root/Record/JOIN_DATE" mapString="&lt;S&gt;$Input_qa/Root/Record/JOIN_DATE" x="100" y="20">
+<SourceLines>
+<Line x1="180" y1="32" x2="280" y2="32"/>
+</SourceLines>
+<TargetLines/>
+</Position>
+<Position height="25" identify="&lt;T&gt;" label="/Root/Record/JOIN_DATE" mapString="$Input_qa/Root/Record/JOIN_DATE" x="300" y="20">
+<SourceLines/>
+<TargetLines>
+<Line x1="180" y1="32" x2="280" y2="32"/>
+</TargetLines>
+</Position>
+</Target>
+<defaultEditor>graphical</defaultEditor>
+ </map>
+<map>
+<order>1</order>
+ <targetName>qa</targetName>
+<dest>/Root/Record/SALARY</dest>
+<preCustomXSL/>
+<postCustomXSL/>
+ <mapValue>$Input_qa/Root/Record/SALARY</mapValue>
+ <forEach/>
+ <comments/>
+<namespacePrefix/>
+
+ <namespaceRemovePrefix>false</namespaceRemovePrefix>
+<localVariables/>
+ <Sorting/>
+ <Target name="SALARY">
+<Position height="25" identify="&lt;S&gt;" label="$Input_qa/Root/Record/SALARY" mapString="&lt;S&gt;$Input_qa/Root/Record/SALARY" x="100" y="20">
+<SourceLines>
+<Line x1="180" y1="32" x2="280" y2="32"/>
+</SourceLines>
+<TargetLines/>
+</Position>
+<Position height="25" identify="&lt;T&gt;" label="/Root/Record/SALARY" mapString="$Input_qa/Root/Record/SALARY" x="300" y="20">
+<SourceLines/>
+<TargetLines>
+<Line x1="180" y1="32" x2="280" y2="32"/>
+</TargetLines>
+</Position>
+</Target>
+<defaultEditor>graphical</defaultEditor>
+ </map>
+<map>
+<order>1</order>
+ <targetName>qa</targetName>
+<dest>/Root/Record/@recordNumber</dest>
+<preCustomXSL/>
+<postCustomXSL/>
+ <mapValue>$Input_qa/Root/Record/@recordNumber</mapValue>
+ <forEach/>
+ <comments/>
+<namespacePrefix/>
+
+ <namespaceRemovePrefix>false</namespaceRemovePrefix>
+<localVariables/>
+ <Sorting/>
+ <Target name="@recordNumber">
+<Position height="25" identify="&lt;T&gt;" label="/Root/Record/@recordNumber" mapString="$Input_qa/Root/Record/@recordNumber" x="300" y="20">
+<SourceLines/>
+<TargetLines>
+<Line x1="180" y1="32" x2="280" y2="32"/>
+</TargetLines>
+</Position>
+<Position height="25" identify="&lt;S&gt;" label="$Input_qa/Root/Record/@recordNumber" mapString="&lt;S&gt;$Input_qa/Root/Record/@recordNumber" x="100" y="20">
+<SourceLines>
+<Line x1="180" y1="32" x2="280" y2="32"/>
+</SourceLines>
+<TargetLines/>
+</Position>
+</Target>
+<defaultEditor>graphical</defaultEditor>
+ </map>
+<variables>
+</variables>
+
+<globalParameters>
+<keys>
+</keys>
+<contextVariables>
+</contextVariables>
+</globalParameters>
+
+<connections/>
+<functions>
+</functions>
+<disableOutputNodes>
+</disableOutputNodes>
+<filters/>
+    <valuemapNodes/>
+<accessLevel>
+<valueMap>global</valueMap>
+        <globalTemplate>global</globalTemplate>
+        <customAutoMap>global</customAutoMap>
+</accessLevel>
+<DataViewerRecordCount>50</DataViewerRecordCount>
+<isQuickSplittingEnabled>false</isQuickSplittingEnabled>
+<sourceExtensions/>
+<targetExtensions/>
+<disableOutputNodes/>
+<characterSetEncoding>UTF-8</characterSetEncoding>
+<tipOfTheDay>true</tipOfTheDay>
+<contextSchemaLoadedAtSource>false</contextSchemaLoadedAtSource>
+<contextSchemaLoadedAtTarget>false</contextSchemaLoadedAtTarget>
+<contextSchemaDefinition/>
+<filterUnmappedElement>false</filterUnmappedElement>
+<indentOutputXML>true</indentOutputXML>
+    <streamingMode>false</streamingMode>
+    <filterEmptyElements>false</filterEmptyElements>
+    <dbQueryCaching>false</dbQueryCaching>
+<cacheIncludedSchemas>false</cacheIncludedSchemas>
+<TreeExpandLevelCount>3</TreeExpandLevelCount>
+<TreeExpandLevelCountForWebService>5</TreeExpandLevelCountForWebService>
+<TreeExpandLevelForEasySchemaExtensions>10</TreeExpandLevelForEasySchemaExtensions>
+    <SelfRecursionLevel>0</SelfRecursionLevel>
+    <EnableTypesBuffering>true</EnableTypesBuffering>
+    <CdataSectionElements/>
+<excludeResultPrefixes> saxonJavaMappingTransformation saxonJavaMapperQueryExecutor saxonJavaAggregateFunctionHandler str</excludeResultPrefixes>
+<webservice>
+    <consumers/>
+</webservice>
+
+<CustomAutoMapInUse/>
+<processElementFormDefault>true</processElementFormDefault>
+<xslVersion2.0>false</xslVersion2.0>
+<xslVersion3.0>false</xslVersion3.0>
+<sourceXpath/>
+<targetXpath/>
+</maps>
+]]></au_mapXmlFile>
+        <au_aimapTrained><![CDATA[false]]></au_aimapTrained>
+        <au_targetSchema><![CDATA[TextSchema:1431173036564541440]]></au_targetSchema>
+        <au_storedProcedure><![CDATA[]]></au_storedProcedure>
+        <au_entityName><![CDATA[fileupload]]></au_entityName>
+        <au_userOwner><![CDATA[IndigoUser:127000000001107055536473900001]]></au_userOwner>
+        <au_splitFile><![CDATA[false]]></au_splitFile>
+        <au_comments><![CDATA[null]]></au_comments>
+        <au_concurrentProcessors><![CDATA[1]]></au_concurrentProcessors>
+        <au_dbInfoName><![CDATA[]]></au_dbInfoName>
+        <au_groupOwner><![CDATA[IndigoGroup:127000000001107055548721600002]]></au_groupOwner>
+        <au_numberOfRecords><![CDATA[500]]></au_numberOfRecords>
+        <au_persistDataEnabled><![CDATA[false]]></au_persistDataEnabled>
+        <au_previousVersion><![CDATA[]]></au_previousVersion>
+        <au_revision><![CDATA[null]]></au_revision>
+        <au_creationDate><![CDATA[2025-10-24 06:56:52.13]]></au_creationDate>
+        <au_id><![CDATA[1431174589738463232]]></au_id>
+        <au_xslTemplate><![CDATA[<XslTemplate/>]]></au_xslTemplate>
+        <au_description><![CDATA[fileupload]]></au_description>
+        <au_synchronized><![CDATA[false]]></au_synchronized>
+        <au_optimizedLoading><![CDATA[true]]></au_optimizedLoading>
+        <au_sourceSchema><![CDATA[TextSchema:1431173036564541440]]></au_sourceSchema>
+        <au_aimapFreeze><![CDATA[false]]></au_aimapFreeze>
+        <au_valueMap><![CDATA[<ValueMap/>]]></au_valueMap>
+        <au_modifiedBy><![CDATA[IndigoUser:127000000001107055536473900001]]></au_modifiedBy>
+        <au_version><![CDATA[1]]></au_version>
+        <au_metadata><![CDATA[]]></au_metadata>
+    </AU_MAPPINGTRANSFORMATION>
+    <columnInfo dbtype="0">
+        <column name="au_id" type="12"/>
+        <column name="au_version" type="12"/>
+        <column name="au_previousVersion" type="12"/>
+        <column name="au_activeVersion" type="-7"/>
+        <column name="au_entityName" type="12"/>
+        <column name="au_userOwner" type="12"/>
+        <column name="au_groupOwner" type="12"/>
+        <column name="au_permissionMask" type="12"/>
+        <column name="au_description" type="12"/>
+        <column name="au_comments" type="12"/>
+        <column name="au_modifiedBy" type="12"/>
+        <column name="au_creationDate" type="93"/>
+        <column name="au_modifiedDate" type="93"/>
+        <column name="au_revision" type="12"/>
+        <column name="au_synchronized" type="-7"/>
+        <column name="au_projectOwner" type="12"/>
+        <column name="au_persistDataEnabled" type="-7"/>
+        <column name="au_splitFile" type="-7"/>
+        <column name="au_numberOfRecords" type="4"/>
+        <column name="au_optimizedLoading" type="-7"/>
+        <column name="au_sourceSchema" type="12"/>
+        <column name="au_targetSchema" type="12"/>
+        <column name="au_xslFile" type="12"/>
+        <column name="au_metadata" type="12"/>
+        <column name="au_mapXmlFile" type="12"/>
+        <column name="au_json" type="12"/>
+        <column name="au_pdfFileName" type="12"/>
+        <column name="au_parallelProcessing" type="-7"/>
+        <column name="au_concurrentProcessors" type="4"/>
+        <column name="au_dbInfoName" type="12"/>
+        <column name="au_customAutoMap" type="12"/>
+        <column name="au_valueMap" type="12"/>
+        <column name="au_xslTemplate" type="12"/>
+        <column name="au_xslTransformer" type="12"/>
+        <column name="au_characterSetEncoding" type="12"/>
+        <column name="au_enableAIMap" type="-7"/>
+        <column name="au_reusable" type="-7"/>
+        <column name="au_storedProcedure" type="12"/>
+        <column name="au_aimapFreeze" type="-7"/>
+        <column name="au_aimapTrained" type="-7"/>
+        <column name="AU_MULTI_VALUED_MAP" type="12"/>
+    </columnInfo>
+</data>
