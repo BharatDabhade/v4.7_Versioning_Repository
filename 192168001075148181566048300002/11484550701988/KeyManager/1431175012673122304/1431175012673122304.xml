@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<data>
+    <AU_KEYMANAGER>
+        <au_privateKeyPassword><![CDATA[]]></au_privateKeyPassword>
+        <au_synchronized><![CDATA[false]]></au_synchronized>
+        <au_modifiedDate><![CDATA[2025-10-24 06:58:32.967]]></au_modifiedDate>
+        <au_previousVersion><![CDATA[]]></au_previousVersion>
+        <au_id><![CDATA[1431175012673122304]]></au_id>
+        <au_permissionMask><![CDATA[770]]></au_permissionMask>
+        <au_activeVersion><![CDATA[true]]></au_activeVersion>
+        <au_keyManagerType><![CDATA[SSH]]></au_keyManagerType>
+        <au_groupOwner><![CDATA[IndigoGroup:192168001075148181566048300002]]></au_groupOwner>
+        <au_revision><![CDATA[null]]></au_revision>
+        <au_keyType><![CDATA[Private]]></au_keyType>
+        <au_entityName><![CDATA[SS_KeyManager_Private]]></au_entityName>
+        <au_creationDate><![CDATA[2025-10-24 06:58:32.967]]></au_creationDate>
+        <au_userOwner><![CDATA[IndigoUser:1431162416096079872]]></au_userOwner>
+        <au_version><![CDATA[1]]></au_version>
+        <au_modifiedBy><![CDATA[IndigoUser:1431162416096079872]]></au_modifiedBy>
+        <au_description><![CDATA[SS_KeyManager_Private]]></au_description>
+        <au_comments><![CDATA[null]]></au_comments>
+        <au_projectOwner><![CDATA[Project:11484550701988]]></au_projectOwner>
+        <au_keyFilePath><![CDATA[QA_KeyManager_SFTP.ppk]]></au_keyFilePath>
+        <au_encryptKeyFile><![CDATA[false]]></au_encryptKeyFile>
+        <au_persistDataEnabled><![CDATA[false]]></au_persistDataEnabled>
+    </AU_KEYMANAGER>
+    <columnInfo dbtype="0">
+        <column name="au_id" type="12"/>
+        <column name="au_version" type="12"/>
+        <column name="au_previousVersion" type="12"/>
+        <column name="au_activeVersion" type="-7"/>
+        <column name="au_entityName" type="12"/>
+        <column name="au_userOwner" type="12"/>
+        <column name="au_groupOwner" type="12"/>
+        <column name="au_permissionMask" type="12"/>
+        <column name="au_description" type="12"/>
+        <column name="au_comments" type="12"/>
+        <column name="au_modifiedBy" type="12"/>
+        <column name="au_creationDate" type="93"/>
+        <column name="au_modifiedDate" type="93"/>
+        <column name="au_revision" type="12"/>
+        <column name="au_synchronized" type="-7"/>
+        <column name="au_projectOwner" type="12"/>
+        <column name="au_persistDataEnabled" type="-7"/>
+        <column name="au_keyType" type="12"/>
+        <column name="au_keyManagerType" type="12"/>
+        <column name="au_keyFilePath" type="12"/>
+        <column name="au_privateKeyPassword" type="12"/>
+        <column name="au_encryptKeyFile" type="-7"/>
+    </columnInfo>
+</data>
