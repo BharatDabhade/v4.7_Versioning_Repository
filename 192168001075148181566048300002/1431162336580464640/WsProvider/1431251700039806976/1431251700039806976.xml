@@ -1,83 +1,83 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <data>
     <AU_WSPROVIDER>
-        <au_inputXMLSchemaID><![CDATA[XMLSchema:1431250899112292352]]></au_inputXMLSchemaID>
-        <au_wsdlPath><![CDATA[https://aro-sql.adeptia.com:443/wsdl/services/SS_SoapProvider?wsdl]]></au_wsdlPath>
-        <au_fileReferencesID><![CDATA[]]></au_fileReferencesID>
-        <au_methodParameterXML><![CDATA[]]></au_methodParameterXML>
-        <au_requestServiceName><![CDATA[SS_SoapProvider]]></au_requestServiceName>
-        <au_inputXSD><![CDATA[]]></au_inputXSD>
-        <au_wsaTo><![CDATA[]]></au_wsaTo>
-        <au_binding><![CDATA[WsTransactionImlMetroSoap11SoapBinding]]></au_binding>
-        <au_enableAttachment><![CDATA[false]]></au_enableAttachment>
-        <au_wsaAction><![CDATA[]]></au_wsaAction>
-        <au_providerTemplateMapping><![CDATA[null]]></au_providerTemplateMapping>
-        <au_synchronous><![CDATA[false]]></au_synchronous>
-        <au_inputVariableName><![CDATA[restRequest]]></au_inputVariableName>
-        <au_encodingUsed><![CDATA[UTF-8]]></au_encodingUsed>
-        <au_modifiedDate><![CDATA[2025-10-24 12:14:00.0]]></au_modifiedDate>
-        <au_previousVersion><![CDATA[]]></au_previousVersion>
-        <au_outputVariableName><![CDATA[restResponse]]></au_outputVariableName>
+        <au_webServiceVersion><![CDATA[2.0]]></au_webServiceVersion>
+        <au_formatType><![CDATA[null]]></au_formatType>
         <au_groupOwner><![CDATA[IndigoGroup:192168001075148181566048300002]]></au_groupOwner>
-        <au_faultTo><![CDATA[]]></au_faultTo>
-        <au_permissionMask><![CDATA[770]]></au_permissionMask>
-        <au_outputXSD><![CDATA[]]></au_outputXSD>
-        <au_apiVersion><![CDATA[]]></au_apiVersion>
-        <au_payloadProcessType><![CDATA[stream]]></au_payloadProcessType>
+        <au_inputVariableName><![CDATA[restRequest]]></au_inputVariableName>
+        <au_outputRoot><![CDATA[Root]]></au_outputRoot>
+        <au_wsdlPath><![CDATA[https://aro-sql.adeptia.com:443/wsdl/services/SS_SoapProvider?wsdl]]></au_wsdlPath>
+        <au_defaultProcessFlow><![CDATA[null]]></au_defaultProcessFlow>
+        <au_inputXSD><![CDATA[]]></au_inputXSD>
+        <au_relatesTo><![CDATA[]]></au_relatesTo>
+        <au_modifiedDate><![CDATA[2025-10-24 12:14:00.0]]></au_modifiedDate>
+        <au_endPoint><![CDATA[]]></au_endPoint>
+        <au_methodType><![CDATA[null]]></au_methodType>
+        <au_binding><![CDATA[WsTransactionImlMetroSoap11SoapBinding]]></au_binding>
+        <au_wsaAction><![CDATA[]]></au_wsaAction>
+        <au_publishMode><![CDATA[standalone]]></au_publishMode>
         <au_modifiedBy><![CDATA[IndigoUser:1431162416096079872]]></au_modifiedBy>
+        <au_entityName><![CDATA[SS_SoapProvider]]></au_entityName>
+        <au_wsaTo><![CDATA[]]></au_wsaTo>
+        <au_serviceLocation><![CDATA[services]]></au_serviceLocation>
+        <au_relationshipType><![CDATA[]]></au_relationshipType>
+        <au_wsaReplyTo><![CDATA[]]></au_wsaReplyTo>
+        <au_creationDate><![CDATA[2025-10-24 12:03:16.0]]></au_creationDate>
+        <au_outputXMLSchemaID><![CDATA[XMLSchema:1431250899112292352]]></au_outputXMLSchemaID>
+        <au_encodingUsed><![CDATA[UTF-8]]></au_encodingUsed>
+        <au_soapVersion><![CDATA[SOAP_1.1]]></au_soapVersion>
+        <au_permissionMask><![CDATA[770]]></au_permissionMask>
+        <au_responseHeaderXML><![CDATA[]]></au_responseHeaderXML>
         <au_responseServiceName><![CDATA[]]></au_responseServiceName>
-        <au_replyToReferenceParam><![CDATA[]]></au_replyToReferenceParam>
+        <au_payloadProcessType><![CDATA[stream]]></au_payloadProcessType>
+        <au_mustUnderstand><![CDATA[None]]></au_mustUnderstand>
+        <au_securityPolicyID><![CDATA[]]></au_securityPolicyID>
+        <au_messageID><![CDATA[]]></au_messageID>
+        <au_deleteOnSuccess><![CDATA[false]]></au_deleteOnSuccess>
+        <au_id><![CDATA[1431251700039806976]]></au_id>
+        <au_portType><![CDATA[null]]></au_portType>
+        <au_methodParameterXML><![CDATA[]]></au_methodParameterXML>
+        <au_enableAttachment><![CDATA[false]]></au_enableAttachment>
+        <au_outputVariableName><![CDATA[restResponse]]></au_outputVariableName>
+        <au_apiVersion><![CDATA[]]></au_apiVersion>
+        <au_userOwner><![CDATA[IndigoUser:1431162416096079872]]></au_userOwner>
+        <au_synchronous><![CDATA[false]]></au_synchronous>
+        <au_ports><![CDATA[null]]></au_ports>
+        <au_description><![CDATA[SS_SoapProvider]]></au_description>
+        <au_inputRoot><![CDATA[Root]]></au_inputRoot>
+        <au_comments><![CDATA[null]]></au_comments>
+        <au_projectOwner><![CDATA[Project:1431162336580464640]]></au_projectOwner>
+        <au_presentationParameterXML><![CDATA[]]></au_presentationParameterXML>
+        <au_activeVersion><![CDATA[true]]></au_activeVersion>
+        <au_outputXSD><![CDATA[]]></au_outputXSD>
+        <au_revision><![CDATA[f1d3f895ac3c715caf41c673f0bc5f54d66529bb]]></au_revision>
+        <au_selectedPort><![CDATA[443]]></au_selectedPort>
         <au_creationMode><![CDATA[manual]]></au_creationMode>
+        <au_resourceParameterXML><![CDATA[null]]></au_resourceParameterXML>
+        <au_fileReferencesID><![CDATA[]]></au_fileReferencesID>
+        <au_synchronized><![CDATA[true]]></au_synchronized>
+        <au_apiDoc><![CDATA[null]]></au_apiDoc>
+        <au_previousVersion><![CDATA[]]></au_previousVersion>
+        <au_publishType><![CDATA[soap]]></au_publishType>
+        <au_faultTo><![CDATA[]]></au_faultTo>
+        <au_transactionID><![CDATA[Transaction:1431176843996508160]]></au_transactionID>
+        <au_inputXMLSchemaID><![CDATA[XMLSchema:1431250899112292352]]></au_inputXMLSchemaID>
+        <au_wsProviderVersion><![CDATA[3.0]]></au_wsProviderVersion>
+        <au_operationName><![CDATA[doGet]]></au_operationName>
+        <au_version><![CDATA[1]]></au_version>
+        <au_from><![CDATA[]]></au_from>
+        <au_published><![CDATA[true]]></au_published>
+        <au_resourceEndPath><![CDATA[]]></au_resourceEndPath>
+        <au_enableSSL><![CDATA[on]]></au_enableSSL>
+        <au_providerTemplateMapping><![CDATA[null]]></au_providerTemplateMapping>
+        <au_wsaVersion><![CDATA[200508]]></au_wsaVersion>
+        <au_requestServiceName><![CDATA[SS_SoapProvider]]></au_requestServiceName>
+        <au_configuration><![CDATA[]]></au_configuration>
         <au_faultToReferenceParam><![CDATA[]]></au_faultToReferenceParam>
         <au_serviceName><![CDATA[null]]></au_serviceName>
-        <au_entityName><![CDATA[SS_SoapProvider]]></au_entityName>
-        <au_methodType><![CDATA[null]]></au_methodType>
-        <au_configuration><![CDATA[]]></au_configuration>
-        <au_published><![CDATA[true]]></au_published>
-        <au_synchronized><![CDATA[true]]></au_synchronized>
-        <au_wsaAddressing><![CDATA[false]]></au_wsaAddressing>
-        <au_wsProviderVersion><![CDATA[3.0]]></au_wsProviderVersion>
-        <au_publishType><![CDATA[soap]]></au_publishType>
-        <au_wsaVersion><![CDATA[200508]]></au_wsaVersion>
-        <au_version><![CDATA[1]]></au_version>
-        <au_activeVersion><![CDATA[true]]></au_activeVersion>
-        <au_responseHeaderXML><![CDATA[]]></au_responseHeaderXML>
-        <au_webServiceVersion><![CDATA[2.0]]></au_webServiceVersion>
-        <au_selectedPort><![CDATA[443]]></au_selectedPort>
-        <au_id><![CDATA[1431251700039806976]]></au_id>
-        <au_mustUnderstand><![CDATA[None]]></au_mustUnderstand>
-        <au_defaultProcessFlow><![CDATA[null]]></au_defaultProcessFlow>
-        <au_outputRoot><![CDATA[Root]]></au_outputRoot>
-        <au_formatType><![CDATA[null]]></au_formatType>
-        <au_apiDoc><![CDATA[null]]></au_apiDoc>
-        <au_outputXMLSchemaID><![CDATA[XMLSchema:1431250899112292352]]></au_outputXMLSchemaID>
-        <au_relationshipType><![CDATA[]]></au_relationshipType>
-        <au_securityPolicyID><![CDATA[]]></au_securityPolicyID>
-        <au_portType><![CDATA[null]]></au_portType>
-        <au_relatesTo><![CDATA[]]></au_relatesTo>
-        <au_deleteOnSuccess><![CDATA[false]]></au_deleteOnSuccess>
         <au_wsdlFilePath><![CDATA[]]></au_wsdlFilePath>
-        <au_resourceParameterXML><![CDATA[null]]></au_resourceParameterXML>
-        <au_projectOwner><![CDATA[Project:1431162336580464640]]></au_projectOwner>
-        <au_operationName><![CDATA[doGet]]></au_operationName>
-        <au_from><![CDATA[]]></au_from>
-        <au_creationDate><![CDATA[2025-10-24 12:03:16.0]]></au_creationDate>
-        <au_soapVersion><![CDATA[SOAP_1.1]]></au_soapVersion>
-        <au_presentationParameterXML><![CDATA[]]></au_presentationParameterXML>
-        <au_serviceLocation><![CDATA[services]]></au_serviceLocation>
-        <au_userOwner><![CDATA[IndigoUser:1431162416096079872]]></au_userOwner>
-        <au_enableSSL><![CDATA[on]]></au_enableSSL>
-        <au_ports><![CDATA[null]]></au_ports>
-        <au_inputRoot><![CDATA[Root]]></au_inputRoot>
-        <au_wsaReplyTo><![CDATA[]]></au_wsaReplyTo>
-        <au_messageID><![CDATA[]]></au_messageID>
-        <au_transactionID><![CDATA[Transaction:1431176843996508160]]></au_transactionID>
-        <au_publishMode><![CDATA[standalone]]></au_publishMode>
-        <au_revision><![CDATA[522ce5be79224193dc1d3c1a86df607f0061875c]]></au_revision>
-        <au_endPoint><![CDATA[]]></au_endPoint>
-        <au_resourceEndPath><![CDATA[]]></au_resourceEndPath>
-        <au_comments><![CDATA[null]]></au_comments>
-        <au_description><![CDATA[SS_SoapProvider]]></au_description>
+        <au_replyToReferenceParam><![CDATA[]]></au_replyToReferenceParam>
+        <au_wsaAddressing><![CDATA[false]]></au_wsaAddressing>
     </AU_WSPROVIDER>
     <columnInfo dbtype="0">
         <column name="au_id" type="12"/>
