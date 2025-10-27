@@ -1,38 +1,38 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <data>
     <AU_FTPACCOUNT>
-        <au_ftpUserId><![CDATA[qaftp]]></au_ftpUserId>
-        <au_transferMode><![CDATA[Binary]]></au_transferMode>
-        <au_connectorName><![CDATA[null]]></au_connectorName>
-        <au_ftpType><![CDATA[FTP]]></au_ftpType>
-        <au_transferType><![CDATA[PASSIVE]]></au_transferType>
-        <au_projectOwner><![CDATA[Project:1431162336580464640]]></au_projectOwner>
-        <au_preferredAuthentications><![CDATA[null]]></au_preferredAuthentications>
-        <au_port><![CDATA[21]]></au_port>
-        <au_hostName><![CDATA[ftp2.adeptia.com]]></au_hostName>
-        <au_id><![CDATA[1432343996936318976]]></au_id>
-        <au_addOnConfigurations><![CDATA[]]></au_addOnConfigurations>
-        <au_modifiedDate><![CDATA[2025-10-27 12:23:40.54]]></au_modifiedDate>
-        <au_synchronized><![CDATA[true]]></au_synchronized>
-        <au_userOwner><![CDATA[IndigoUser:127000000001107055536473900001]]></au_userOwner>
-        <au_permissionMask><![CDATA[770]]></au_permissionMask>
-        <au_description><![CDATA[ss_ftpaccount]]></au_description>
-        <au_revision><![CDATA[f1d3f895ac3c715caf41c673f0bc5f54d66529bb]]></au_revision>
-        <au_password><![CDATA[YRdIYdV60R5FIPHMgwVr0g==]]></au_password>
-        <AU_CONFIGMETADATA><![CDATA[null]]></AU_CONFIGMETADATA>
         <au_groupOwner><![CDATA[IndigoGroup:127000000001107055548721600002]]></au_groupOwner>
-        <au_comments><![CDATA[null]]></au_comments>
-        <au_previousVersion><![CDATA[]]></au_previousVersion>
-        <au_keyManager><![CDATA[]]></au_keyManager>
-        <au_keyStoreNameForFTP><![CDATA[]]></au_keyStoreNameForFTP>
-        <au_ftpsMode><![CDATA[Explicit]]></au_ftpsMode>
         <au_modifiedBy><![CDATA[IndigoUser:127000000001107055536473900001]]></au_modifiedBy>
-        <au_creationDate><![CDATA[2025-10-27 12:23:40.54]]></au_creationDate>
-        <au_version><![CDATA[1]]></au_version>
         <au_activeVersion><![CDATA[true]]></au_activeVersion>
-        <au_ftpValidateServer><![CDATA[false]]></au_ftpValidateServer>
-        <au_ftpProtectionLevel><![CDATA[None]]></au_ftpProtectionLevel>
+        <au_synchronized><![CDATA[true]]></au_synchronized>
+        <au_port><![CDATA[21]]></au_port>
+        <au_description><![CDATA[ss_ftpaccount]]></au_description>
+        <au_userOwner><![CDATA[IndigoUser:127000000001107055536473900001]]></au_userOwner>
+        <au_version><![CDATA[1]]></au_version>
+        <au_modifiedDate><![CDATA[2025-10-27 12:23:40.54]]></au_modifiedDate>
+        <au_keyStoreNameForFTP><![CDATA[]]></au_keyStoreNameForFTP>
+        <au_transferType><![CDATA[PASSIVE]]></au_transferType>
         <au_entityName><![CDATA[ss_ftpaccount]]></au_entityName>
+        <au_password><![CDATA[YRdIYdV60R5FIPHMgwVr0g==]]></au_password>
+        <au_creationDate><![CDATA[2025-10-27 12:23:40.54]]></au_creationDate>
+        <au_ftpsMode><![CDATA[Explicit]]></au_ftpsMode>
+        <au_keyManager><![CDATA[]]></au_keyManager>
+        <au_hostName><![CDATA[ftp2.adeptia.com]]></au_hostName>
+        <au_revision><![CDATA[09d61823b3a30a39be9886c64708b3a4fad49e86]]></au_revision>
+        <au_addOnConfigurations><![CDATA[]]></au_addOnConfigurations>
+        <au_transferMode><![CDATA[Binary]]></au_transferMode>
+        <au_comments><![CDATA[null]]></au_comments>
+        <au_id><![CDATA[1432343996936318976]]></au_id>
+        <au_ftpType><![CDATA[FTP]]></au_ftpType>
+        <au_ftpUserId><![CDATA[qaftp]]></au_ftpUserId>
+        <au_permissionMask><![CDATA[770]]></au_permissionMask>
+        <au_previousVersion><![CDATA[]]></au_previousVersion>
+        <au_connectorName><![CDATA[null]]></au_connectorName>
+        <au_ftpValidateServer><![CDATA[false]]></au_ftpValidateServer>
+        <AU_CONFIGMETADATA><![CDATA[null]]></AU_CONFIGMETADATA>
+        <au_projectOwner><![CDATA[Project:1431162336580464640]]></au_projectOwner>
+        <au_ftpProtectionLevel><![CDATA[None]]></au_ftpProtectionLevel>
+        <au_preferredAuthentications><![CDATA[null]]></au_preferredAuthentications>
     </AU_FTPACCOUNT>
     <columnInfo dbtype="0">
         <column name="au_id" type="12"/>

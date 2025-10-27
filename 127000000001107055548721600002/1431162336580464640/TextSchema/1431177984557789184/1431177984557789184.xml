@@ -84,34 +84,34 @@
 		</xs:complexType>
 	</xs:element>
 </xs:schema>]]></au_xsd>
-        <au_decryptSecretKey><![CDATA[null]]></au_decryptSecretKey>
-        <au_entityName><![CDATA[vgstringtest]]></au_entityName>
-        <au_encryptSecretKey><![CDATA[null]]></au_encryptSecretKey>
-        <au_modifiedBy><![CDATA[IndigoUser:127000000001107055536473900001]]></au_modifiedBy>
-        <au_comments><![CDATA[null]]></au_comments>
-        <au_groupOwner><![CDATA[IndigoGroup:127000000001107055548721600002]]></au_groupOwner>
-        <au_permissionMask><![CDATA[770]]></au_permissionMask>
-        <au_revision><![CDATA[f1d3f895ac3c715caf41c673f0bc5f54d66529bb]]></au_revision>
-        <au_description><![CDATA[vgstringtest]]></au_description>
-        <AU_QUEUECAPACITY><![CDATA[1000]]></AU_QUEUECAPACITY>
-        <au_synchronized><![CDATA[true]]></au_synchronized>
-        <au_headerPresent><![CDATA[true]]></au_headerPresent>
-        <xsdFilePath><![CDATA[]]></xsdFilePath>
-        <au_advancedSchema><![CDATA[false]]></au_advancedSchema>
-        <AU_OPTIMIZE_PROCESSING><![CDATA[false]]></AU_OPTIMIZE_PROCESSING>
-        <au_encloseFieldsInQuotes><![CDATA[false]]></au_encloseFieldsInQuotes>
+        <au_json><![CDATA[null]]></au_json>
         <au_activeVersion><![CDATA[true]]></au_activeVersion>
+        <au_headerPresent><![CDATA[true]]></au_headerPresent>
         <au_modifiedDate><![CDATA[2025-10-24 07:10:21.52]]></au_modifiedDate>
-        <au_quotesHandlingOn><![CDATA[false]]></au_quotesHandlingOn>
+        <au_encloseFieldsInQuotes><![CDATA[false]]></au_encloseFieldsInQuotes>
+        <AU_QUEUECAPACITY><![CDATA[1000]]></AU_QUEUECAPACITY>
+        <au_entityName><![CDATA[vgstringtest]]></au_entityName>
+        <au_description><![CDATA[vgstringtest]]></au_description>
+        <au_creationDate><![CDATA[2025-10-24 07:10:21.52]]></au_creationDate>
+        <xsdFilePath><![CDATA[]]></xsdFilePath>
         <au_reusable><![CDATA[true]]></au_reusable>
         <au_userOwner><![CDATA[IndigoUser:127000000001107055536473900001]]></au_userOwner>
+        <au_advancedSchema><![CDATA[false]]></au_advancedSchema>
+        <au_encryptSecretKey><![CDATA[null]]></au_encryptSecretKey>
+        <au_comments><![CDATA[null]]></au_comments>
+        <au_revision><![CDATA[09d61823b3a30a39be9886c64708b3a4fad49e86]]></au_revision>
+        <au_synchronized><![CDATA[true]]></au_synchronized>
         <au_encodingUsed><![CDATA[UTF-8]]></au_encodingUsed>
-        <au_id><![CDATA[1431177984557789184]]></au_id>
-        <au_json><![CDATA[null]]></au_json>
-        <au_creationDate><![CDATA[2025-10-24 07:10:21.52]]></au_creationDate>
-        <au_version><![CDATA[1]]></au_version>
-        <au_previousVersion><![CDATA[]]></au_previousVersion>
+        <au_modifiedBy><![CDATA[IndigoUser:127000000001107055536473900001]]></au_modifiedBy>
+        <au_groupOwner><![CDATA[IndigoGroup:127000000001107055548721600002]]></au_groupOwner>
+        <AU_OPTIMIZE_PROCESSING><![CDATA[false]]></AU_OPTIMIZE_PROCESSING>
         <au_projectOwner><![CDATA[Project:1431162336580464640]]></au_projectOwner>
+        <au_decryptSecretKey><![CDATA[null]]></au_decryptSecretKey>
+        <au_id><![CDATA[1431177984557789184]]></au_id>
+        <au_previousVersion><![CDATA[]]></au_previousVersion>
+        <au_permissionMask><![CDATA[770]]></au_permissionMask>
+        <au_quotesHandlingOn><![CDATA[false]]></au_quotesHandlingOn>
+        <au_version><![CDATA[1]]></au_version>
     </AU_TEXTSCHEMA>
     <columnInfo dbtype="0">
         <column name="au_id" type="12"/>
