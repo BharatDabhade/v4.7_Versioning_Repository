@@ -1,47 +1,47 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <data>
     <AU_FILEEVENT>
-        <au_userId><![CDATA[]]></au_userId>
-        <au_id><![CDATA[1431188149155737600]]></au_id>
-        <au_triggerType><![CDATA[FileModified]]></au_triggerType>
-        <au_processDuplicateFile><![CDATA[true]]></au_processDuplicateFile>
-        <au_mailNotificationAction><![CDATA[]]></au_mailNotificationAction>
+        <au_processEmptyFile><![CDATA[true]]></au_processEmptyFile>
+        <au_password><![CDATA[]]></au_password>
         <au_creationMode><![CDATA[Simple]]></au_creationMode>
-        <au_projectOwner><![CDATA[Project:1431162336580464640]]></au_projectOwner>
-        <au_eventStartDateTime><![CDATA[]]></au_eventStartDateTime>
-        <au_receiverEmailIds><![CDATA[]]></au_receiverEmailIds>
-        <au_filterOut><![CDATA[]]></au_filterOut>
-        <au_groupOwner><![CDATA[IndigoGroup:192168001075148181566048300002]]></au_groupOwner>
-        <au_entityName><![CDATA[SS_FileEvent]]></au_entityName>
-        <au_useWindowsService><![CDATA[false]]></au_useWindowsService>
-        <au_synchronized><![CDATA[true]]></au_synchronized>
-        <au_businessInterval><![CDATA[]]></au_businessInterval>
-        <au_previousVersion><![CDATA[]]></au_previousVersion>
-        <au_misFireInstructions><![CDATA[ignoreMisfire]]></au_misFireInstructions>
+        <au_userId><![CDATA[]]></au_userId>
         <au_comments><![CDATA[null]]></au_comments>
-        <au_activeVersion><![CDATA[true]]></au_activeVersion>
-        <au_revision><![CDATA[fea5a4030bb49cfd192c5dfcfaa75de98be21be6]]></au_revision>
+        <au_checkModified><![CDATA[false]]></au_checkModified>
         <au_permissionMask><![CDATA[770]]></au_permissionMask>
-        <au_fileBaseLocation><![CDATA[/shared/shivam]]></au_fileBaseLocation>
-        <au_triggerInSequence><![CDATA[true]]></au_triggerInSequence>
-        <au_stableTime><![CDATA[5$s]]></au_stableTime>
-        <au_pollingFrequency><![CDATA[30$s]]></au_pollingFrequency>
-        <au_processPerPoll><![CDATA[-1]]></au_processPerPoll>
-        <au_activateFlag><![CDATA[false]]></au_activateFlag>
-        <au_filterIn><![CDATA[*.txt]]></au_filterIn>
+        <au_processDuplicateFile><![CDATA[true]]></au_processDuplicateFile>
+        <au_misFireInstructions><![CDATA[ignoreMisfire]]></au_misFireInstructions>
         <au_version><![CDATA[1]]></au_version>
-        <au_userOwner><![CDATA[IndigoUser:1431162416096079872]]></au_userOwner>
-        <au_modifiedBy><![CDATA[IndigoUser:1431162416096079872]]></au_modifiedBy>
         <au_modifiedDate><![CDATA[2025-10-24 08:03:58.0]]></au_modifiedDate>
+        <au_previousVersion><![CDATA[]]></au_previousVersion>
+        <au_synchronized><![CDATA[true]]></au_synchronized>
         <au_calendarType><![CDATA[AllDays]]></au_calendarType>
+        <au_eventStartDateTime><![CDATA[]]></au_eventStartDateTime>
+        <au_activateFlag><![CDATA[false]]></au_activateFlag>
+        <au_businessInterval><![CDATA[]]></au_businessInterval>
+        <au_groupOwner><![CDATA[IndigoGroup:192168001075148181566048300002]]></au_groupOwner>
+        <au_processPerPoll><![CDATA[-1]]></au_processPerPoll>
+        <au_modifiedBy><![CDATA[IndigoUser:1431162416096079872]]></au_modifiedBy>
+        <au_id><![CDATA[1431188149155737600]]></au_id>
+        <au_filterOut><![CDATA[]]></au_filterOut>
         <au_secure><![CDATA[false]]></au_secure>
         <au_runInitialLoad><![CDATA[false]]></au_runInitialLoad>
-        <au_password><![CDATA[]]></au_password>
-        <au_processEmptyFile><![CDATA[true]]></au_processEmptyFile>
-        <au_creationDate><![CDATA[2025-10-24 07:50:44.0]]></au_creationDate>
-        <au_eventExpiryDateTime><![CDATA[]]></au_eventExpiryDateTime>
-        <au_checkModified><![CDATA[false]]></au_checkModified>
+        <au_projectOwner><![CDATA[Project:1431162336580464640]]></au_projectOwner>
+        <au_userOwner><![CDATA[IndigoUser:1431162416096079872]]></au_userOwner>
         <au_description><![CDATA[SS_FileEvent]]></au_description>
+        <au_triggerInSequence><![CDATA[true]]></au_triggerInSequence>
+        <au_eventExpiryDateTime><![CDATA[]]></au_eventExpiryDateTime>
+        <au_entityName><![CDATA[SS_FileEvent]]></au_entityName>
+        <au_creationDate><![CDATA[2025-10-24 07:50:44.0]]></au_creationDate>
+        <au_receiverEmailIds><![CDATA[]]></au_receiverEmailIds>
+        <au_mailNotificationAction><![CDATA[]]></au_mailNotificationAction>
+        <au_filterIn><![CDATA[*.txt]]></au_filterIn>
+        <au_useWindowsService><![CDATA[false]]></au_useWindowsService>
+        <au_stableTime><![CDATA[5$s]]></au_stableTime>
+        <au_fileBaseLocation><![CDATA[/shared/shivam]]></au_fileBaseLocation>
+        <au_triggerType><![CDATA[FileModified]]></au_triggerType>
+        <au_pollingFrequency><![CDATA[30$s]]></au_pollingFrequency>
+        <au_revision><![CDATA[522ce5be79224193dc1d3c1a86df607f0061875c]]></au_revision>
+        <au_activeVersion><![CDATA[true]]></au_activeVersion>
     </AU_FILEEVENT>
     <columnInfo dbtype="0">
         <column name="au_id" type="12"/>

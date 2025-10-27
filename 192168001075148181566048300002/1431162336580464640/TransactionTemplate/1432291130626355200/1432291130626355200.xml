@@ -1,53 +1,53 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <data>
     <AC_TRANSACTION_TEMPLATE>
-        <SRC_TRIGGER><![CDATA[FileExists]]></SRC_TRIGGER>
         <SRC_APP_TYPE><![CDATA[ftp:ftp:FTP]]></SRC_APP_TYPE>
-        <DIRECTION><![CDATA[3201]]></DIRECTION>
-        <STATUS><![CDATA[602]]></STATUS>
-        <CREATED_USER><![CDATA[IndigoUser:1431162416096079872]]></CREATED_USER>
-        <NAME><![CDATA[ss_convert_outbound_content_temp]]></NAME>
-        <DISPLAY_NAME><![CDATA[ss_convert_outbound_content_temp]]></DISPLAY_NAME>
-        <DEST_EXTERNAL_ID><![CDATA[null]]></DEST_EXTERNAL_ID>
-        <SYNCHRONIZED><![CDATA[1]]></SYNCHRONIZED>
-        <LOCKED_BY_USER><![CDATA[null]]></LOCKED_BY_USER>
-        <CREATED_ROLE><![CDATA[2]]></CREATED_ROLE>
-        <LOG_MODE><![CDATA[null]]></LOG_MODE>
-        <DEST_APP_TYPE><![CDATA[null]]></DEST_APP_TYPE>
-        <DOCUMENTATION><![CDATA[null]]></DOCUMENTATION>
-        <CONTACT_USER><![CDATA[shivam.singh@adeptia.com]]></CONTACT_USER>
-        <DATA_ENCODING><![CDATA[UTF-8]]></DATA_ENCODING>
-        <MODIFIED_USER><![CDATA[IndigoUser:1431162416096079872]]></MODIFIED_USER>
-        <DEST_ACTION><![CDATA[null]]></DEST_ACTION>
-        <NOTIFICATION_MODE><![CDATA[1902]]></NOTIFICATION_MODE>
-        <MODIFIED_DATE><![CDATA[2025-10-27 09:03:30.443]]></MODIFIED_DATE>
-        <DISPLAY_TYPE><![CDATA[700]]></DISPLAY_TYPE>
-        <DEST_REFERENCE_FIELD><![CDATA[null]]></DEST_REFERENCE_FIELD>
-        <DESCRIPTION><![CDATA[ss_convert_outbound_content_temp]]></DESCRIPTION>
-        <CREATION_DATE><![CDATA[2025-10-27 08:53:36.217]]></CREATION_DATE>
-        <ACCESS_LEVEL><![CDATA[3100]]></ACCESS_LEVEL>
-        <PROCESS_TYPE><![CDATA[700]]></PROCESS_TYPE>
-        <APPROVAL_TYPE><![CDATA[3000]]></APPROVAL_TYPE>
-        <ERROR_ID><![CDATA[null]]></ERROR_ID>
-        <MODIFIED_BY><![CDATA[Shivam Singh]]></MODIFIED_BY>
-        <TYPE><![CDATA[504]]></TYPE>
-        <PARAMETERS_INFO><![CDATA[{"routingType":3500,"dataEncryptionAtRest":"useGlobalPolicy","mapperValidatorId":"","mapperExternalFunctionId":"","loggingLevel":"ERROR","activitiesLoggingRetention":"L"}]]></PARAMETERS_INFO>
-        <MODIFIED_GROUP><![CDATA[IndigoGroup:192168001075148181566048300002]]></MODIFIED_GROUP>
-        <SRC_REFERENCE_FIELD><![CDATA[]]></SRC_REFERENCE_FIELD>
-        <IN_USE><![CDATA[null]]></IN_USE>
-        <MODIFIED_ROLE><![CDATA[2]]></MODIFIED_ROLE>
-        <PROJECT_OWNER><![CDATA[Project:1431162336580464640]]></PROJECT_OWNER>
-        <SRC_CRITERIA><![CDATA[null]]></SRC_CRITERIA>
-        <REVISION><![CDATA[fea5a4030bb49cfd192c5dfcfaa75de98be21be6]]></REVISION>
-        <CREATED_BY><![CDATA[Shivam Singh]]></CREATED_BY>
-        <VARIABLE_INFO><![CDATA[]]></VARIABLE_INFO>
-        <COMPANY_ID><![CDATA[1]]></COMPANY_ID>
         <PARTNER_CONFIG_INFO><![CDATA[{"webFormData":{},"partnerConfiguration":[]}]]></PARTNER_CONFIG_INFO>
-        <CREATED_GROUP><![CDATA[IndigoGroup:192168001075148181566048300002]]></CREATED_GROUP>
-        <ID><![CDATA[1432291130626355200]]></ID>
-        <LOCKED_STATUS><![CDATA[2301]]></LOCKED_STATUS>
+        <ACCESS_LEVEL><![CDATA[3100]]></ACCESS_LEVEL>
+        <DEST_APP_TYPE><![CDATA[null]]></DEST_APP_TYPE>
+        <MODIFIED_USER><![CDATA[IndigoUser:1431162416096079872]]></MODIFIED_USER>
+        <SYNCHRONIZED><![CDATA[1]]></SYNCHRONIZED>
         <IN_USE_BY><![CDATA[null]]></IN_USE_BY>
+        <IN_USE><![CDATA[null]]></IN_USE>
+        <LOCKED_STATUS><![CDATA[2301]]></LOCKED_STATUS>
+        <MODIFIED_DATE><![CDATA[2025-10-27 09:03:30.443]]></MODIFIED_DATE>
+        <SRC_REFERENCE_FIELD><![CDATA[]]></SRC_REFERENCE_FIELD>
+        <LOCKED_BY_USER><![CDATA[null]]></LOCKED_BY_USER>
+        <SRC_TRIGGER><![CDATA[FileExists]]></SRC_TRIGGER>
+        <CREATED_ROLE><![CDATA[2]]></CREATED_ROLE>
+        <CREATED_USER><![CDATA[IndigoUser:1431162416096079872]]></CREATED_USER>
+        <APPROVAL_TYPE><![CDATA[3000]]></APPROVAL_TYPE>
+        <DOCUMENTATION><![CDATA[null]]></DOCUMENTATION>
+        <MODIFIED_BY><![CDATA[Shivam Singh]]></MODIFIED_BY>
+        <CREATED_GROUP><![CDATA[IndigoGroup:192168001075148181566048300002]]></CREATED_GROUP>
+        <PARAMETERS_INFO><![CDATA[{"routingType":3500,"dataEncryptionAtRest":"useGlobalPolicy","mapperValidatorId":"","mapperExternalFunctionId":"","loggingLevel":"ERROR","activitiesLoggingRetention":"L"}]]></PARAMETERS_INFO>
+        <PROCESS_TYPE><![CDATA[700]]></PROCESS_TYPE>
+        <NAME><![CDATA[ss_convert_outbound_content_temp]]></NAME>
+        <PROJECT_OWNER><![CDATA[Project:1431162336580464640]]></PROJECT_OWNER>
+        <ERROR_ID><![CDATA[null]]></ERROR_ID>
+        <NOTIFICATION_MODE><![CDATA[1902]]></NOTIFICATION_MODE>
+        <DEST_REFERENCE_FIELD><![CDATA[null]]></DEST_REFERENCE_FIELD>
+        <LOG_MODE><![CDATA[null]]></LOG_MODE>
+        <DATA_ENCODING><![CDATA[UTF-8]]></DATA_ENCODING>
         <LOCKED_TIMESTAMP><![CDATA[null]]></LOCKED_TIMESTAMP>
+        <VARIABLE_INFO><![CDATA[]]></VARIABLE_INFO>
+        <DESCRIPTION><![CDATA[ss_convert_outbound_content_temp]]></DESCRIPTION>
+        <ID><![CDATA[1432291130626355200]]></ID>
+        <CREATED_BY><![CDATA[Shivam Singh]]></CREATED_BY>
+        <STATUS><![CDATA[602]]></STATUS>
+        <CREATION_DATE><![CDATA[2025-10-27 08:53:36.217]]></CREATION_DATE>
+        <REVISION><![CDATA[522ce5be79224193dc1d3c1a86df607f0061875c]]></REVISION>
+        <DISPLAY_TYPE><![CDATA[700]]></DISPLAY_TYPE>
+        <TYPE><![CDATA[504]]></TYPE>
+        <COMPANY_ID><![CDATA[1]]></COMPANY_ID>
+        <DEST_EXTERNAL_ID><![CDATA[null]]></DEST_EXTERNAL_ID>
+        <DIRECTION><![CDATA[3201]]></DIRECTION>
+        <DISPLAY_NAME><![CDATA[ss_convert_outbound_content_temp]]></DISPLAY_NAME>
+        <MODIFIED_ROLE><![CDATA[2]]></MODIFIED_ROLE>
+        <SRC_CRITERIA><![CDATA[null]]></SRC_CRITERIA>
+        <DEST_ACTION><![CDATA[null]]></DEST_ACTION>
+        <MODIFIED_GROUP><![CDATA[IndigoGroup:192168001075148181566048300002]]></MODIFIED_GROUP>
+        <CONTACT_USER><![CDATA[shivam.singh@adeptia.com]]></CONTACT_USER>
     </AC_TRANSACTION_TEMPLATE>
     <columnInfo dbtype="0">
         <column name="ID" type="2"/>
