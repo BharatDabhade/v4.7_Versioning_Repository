@@ -1,31 +1,31 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <data>
     <AU_LANFILETARGET>
-        <au_modifiedBy><![CDATA[IndigoUser:1431162416096079872]]></au_modifiedBy>
-        <au_useWindowsService><![CDATA[false]]></au_useWindowsService>
         <au_id><![CDATA[1431170025637277696]]></au_id>
+        <au_revision><![CDATA[d5f58092fe93498f94760807ad29b0062d2f1c52]]></au_revision>
+        <au_useWindowsService><![CDATA[false]]></au_useWindowsService>
+        <au_modifiedBy><![CDATA[IndigoUser:1431162416096079872]]></au_modifiedBy>
+        <au_permissionMask><![CDATA[770]]></au_permissionMask>
+        <au_filePattern><![CDATA[0|0|N]]></au_filePattern>
+        <au_groupOwner><![CDATA[IndigoGroup:192168001075148181566048300002]]></au_groupOwner>
+        <au_entityName><![CDATA[SS_LAN_Target]]></au_entityName>
+        <au_filepath><![CDATA[/shared/shivam]]></au_filepath>
+        <au_secure><![CDATA[false]]></au_secure>
+        <au_fileName><![CDATA[TextDummy.txt]]></au_fileName>
+        <au_comments><![CDATA[null]]></au_comments>
+        <au_projectOwner><![CDATA[Project:1431162336580464640]]></au_projectOwner>
         <au_version><![CDATA[1]]></au_version>
+        <au_previousVersion><![CDATA[]]></au_previousVersion>
+        <au_creationDate><![CDATA[2025-10-24 06:38:43.967]]></au_creationDate>
+        <au_activeVersion><![CDATA[true]]></au_activeVersion>
+        <au_password><![CDATA[]]></au_password>
+        <au_userOwner><![CDATA[IndigoUser:1431162416096079872]]></au_userOwner>
         <au_modifiedDate><![CDATA[2025-10-24 06:38:43.967]]></au_modifiedDate>
         <au_autoFolderCreation><![CDATA[None]]></au_autoFolderCreation>
-        <au_fileName><![CDATA[TextDummy.txt]]></au_fileName>
-        <au_password><![CDATA[]]></au_password>
-        <au_groupOwner><![CDATA[IndigoGroup:192168001075148181566048300002]]></au_groupOwner>
-        <au_secure><![CDATA[false]]></au_secure>
-        <au_creationDate><![CDATA[2025-10-24 06:38:43.967]]></au_creationDate>
-        <au_synchronized><![CDATA[true]]></au_synchronized>
-        <au_projectOwner><![CDATA[Project:1431162336580464640]]></au_projectOwner>
         <au_userId><![CDATA[]]></au_userId>
-        <au_filepath><![CDATA[/shared/shivam]]></au_filepath>
-        <au_description><![CDATA[SS_LAN_Target]]></au_description>
-        <au_filePattern><![CDATA[0|0|N]]></au_filePattern>
-        <au_revision><![CDATA[5d5cc2302c75c8df34f04e7e9a64458daf81bc04]]></au_revision>
-        <au_previousVersion><![CDATA[]]></au_previousVersion>
-        <au_activeVersion><![CDATA[true]]></au_activeVersion>
         <au_fileSystem><![CDATA[UNIX]]></au_fileSystem>
-        <au_entityName><![CDATA[SS_LAN_Target]]></au_entityName>
-        <au_permissionMask><![CDATA[770]]></au_permissionMask>
-        <au_comments><![CDATA[null]]></au_comments>
-        <au_userOwner><![CDATA[IndigoUser:1431162416096079872]]></au_userOwner>
+        <au_synchronized><![CDATA[true]]></au_synchronized>
+        <au_description><![CDATA[SS_LAN_Target]]></au_description>
     </AU_LANFILETARGET>
     <columnInfo dbtype="0">
         <column name="au_id" type="12"/>

@@ -1,16 +1,37 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <data>
     <AU_WSPROVIDER>
-        <au_operationName><![CDATA[doGet]]></au_operationName>
-        <au_revision><![CDATA[5d5cc2302c75c8df34f04e7e9a64458daf81bc04]]></au_revision>
-        <au_previousVersion><![CDATA[]]></au_previousVersion>
-        <au_modifiedDate><![CDATA[2025-10-24 10:09:49.0]]></au_modifiedDate>
+        <au_selectedPort><![CDATA[443]]></au_selectedPort>
+        <au_binding><![CDATA[]]></au_binding>
+        <au_wsaVersion><![CDATA[null]]></au_wsaVersion>
+        <au_providerTemplateMapping><![CDATA[null]]></au_providerTemplateMapping>
+        <au_publishMode><![CDATA[standalone]]></au_publishMode>
+        <au_description><![CDATA[SS_RestProvider]]></au_description>
+        <au_outputXMLSchemaID><![CDATA[]]></au_outputXMLSchemaID>
+        <au_outputVariableName><![CDATA[]]></au_outputVariableName>
+        <au_inputXMLSchemaID><![CDATA[]]></au_inputXMLSchemaID>
+        <au_replyToReferenceParam><![CDATA[null]]></au_replyToReferenceParam>
+        <au_synchronized><![CDATA[true]]></au_synchronized>
+        <au_portType><![CDATA[null]]></au_portType>
+        <au_resourceParameterXML><![CDATA[<variables>
+</variables>
+]]></au_resourceParameterXML>
         <au_enableAttachment><![CDATA[false]]></au_enableAttachment>
-        <au_outputXSD><![CDATA[]]></au_outputXSD>
-        <au_ports><![CDATA[null]]></au_ports>
-        <au_payloadProcessType><![CDATA[stream]]></au_payloadProcessType>
+        <au_fileReferencesID><![CDATA[]]></au_fileReferencesID>
+        <au_defaultProcessFlow><![CDATA[null]]></au_defaultProcessFlow>
+        <au_comments><![CDATA[null]]></au_comments>
+        <au_operationName><![CDATA[doGet]]></au_operationName>
+        <au_synchronous><![CDATA[false]]></au_synchronous>
+        <au_published><![CDATA[true]]></au_published>
+        <au_methodParameterXML><![CDATA[<variables><methodtype methodname = "POST">
+</methodtype></variables>]]></au_methodParameterXML>
+        <au_responseServiceName><![CDATA[]]></au_responseServiceName>
+        <au_outputRoot><![CDATA[]]></au_outputRoot>
+        <au_permissionMask><![CDATA[770]]></au_permissionMask>
+        <au_from><![CDATA[null]]></au_from>
+        <au_responseHeaderXML><![CDATA[<variables><methodtype methodname = "POST">
+</methodtype></variables>]]></au_responseHeaderXML>
         <au_relatesTo><![CDATA[null]]></au_relatesTo>
-        <au_serviceLocation><![CDATA[]]></au_serviceLocation>
         <au_presentationParameterXML><![CDATA[<variables><methodtype methodname = "POST">
 <variable>
 <name>restRequest</name>
@@ -37,76 +58,55 @@
 <schemaname></schemaname>
 </variable>
 </methodtype></variables>]]></au_presentationParameterXML>
-        <au_selectedPort><![CDATA[443]]></au_selectedPort>
-        <au_configuration><![CDATA[]]></au_configuration>
-        <au_userOwner><![CDATA[IndigoUser:1431162416096079872]]></au_userOwner>
-        <au_id><![CDATA[1431177087895285760]]></au_id>
-        <au_deleteOnSuccess><![CDATA[false]]></au_deleteOnSuccess>
-        <au_enableSSL><![CDATA[on]]></au_enableSSL>
-        <au_resourceParameterXML><![CDATA[<variables>
-</variables>
-]]></au_resourceParameterXML>
-        <au_wsProviderVersion><![CDATA[4.0]]></au_wsProviderVersion>
-        <au_serviceName><![CDATA[null]]></au_serviceName>
-        <au_portType><![CDATA[null]]></au_portType>
-        <au_wsdlFilePath><![CDATA[]]></au_wsdlFilePath>
-        <au_inputXSD><![CDATA[]]></au_inputXSD>
-        <au_resourceEndPath><![CDATA[/SS_RestProvider]]></au_resourceEndPath>
-        <au_requestServiceName><![CDATA[]]></au_requestServiceName>
-        <au_apiVersion><![CDATA[]]></au_apiVersion>
-        <au_relationshipType><![CDATA[null]]></au_relationshipType>
-        <au_soapVersion><![CDATA[]]></au_soapVersion>
-        <au_wsaTo><![CDATA[null]]></au_wsaTo>
-        <au_replyToReferenceParam><![CDATA[null]]></au_replyToReferenceParam>
-        <au_binding><![CDATA[]]></au_binding>
-        <au_from><![CDATA[null]]></au_from>
-        <au_securityPolicyID><![CDATA[]]></au_securityPolicyID>
-        <au_mustUnderstand><![CDATA[null]]></au_mustUnderstand>
-        <au_creationDate><![CDATA[2025-10-24 07:06:47.0]]></au_creationDate>
-        <au_permissionMask><![CDATA[770]]></au_permissionMask>
-        <au_fileReferencesID><![CDATA[]]></au_fileReferencesID>
-        <au_endPoint><![CDATA[]]></au_endPoint>
-        <au_faultTo><![CDATA[null]]></au_faultTo>
-        <au_outputVariableName><![CDATA[]]></au_outputVariableName>
-        <au_defaultProcessFlow><![CDATA[null]]></au_defaultProcessFlow>
-        <au_outputRoot><![CDATA[]]></au_outputRoot>
-        <au_encodingUsed><![CDATA[UTF-8]]></au_encodingUsed>
-        <au_apiDoc><![CDATA[{"methods":{"post":{"summary":"","notes":"","parameters":[],"responses":[]}},"info":{"contact":{"email":""},"name":"SS_RestProvider","description":"SS_RestProvider","title":"API Documentation","version":"","serverDescription":"API Server"},"success":true}]]></au_apiDoc>
-        <au_entityName><![CDATA[SS_RestProvider]]></au_entityName>
-        <au_modifiedBy><![CDATA[IndigoUser:127000000001107055536473900001]]></au_modifiedBy>
-        <au_comments><![CDATA[null]]></au_comments>
-        <au_transactionID><![CDATA[Transaction:1431176843996508160]]></au_transactionID>
-        <au_inputVariableName><![CDATA[RESTINPUTNAME]]></au_inputVariableName>
-        <au_faultToReferenceParam><![CDATA[null]]></au_faultToReferenceParam>
-        <au_methodType><![CDATA[null]]></au_methodType>
-        <au_synchronized><![CDATA[true]]></au_synchronized>
-        <au_responseHeaderXML><![CDATA[<variables><methodtype methodname = "POST">
-</methodtype></variables>]]></au_responseHeaderXML>
-        <au_inputXMLSchemaID><![CDATA[]]></au_inputXMLSchemaID>
-        <au_publishMode><![CDATA[standalone]]></au_publishMode>
+        <au_wsaReplyTo><![CDATA[null]]></au_wsaReplyTo>
+        <au_previousVersion><![CDATA[]]></au_previousVersion>
         <au_inputRoot><![CDATA[]]></au_inputRoot>
-        <au_wsaAction><![CDATA[null]]></au_wsaAction>
-        <au_responseServiceName><![CDATA[]]></au_responseServiceName>
+        <au_formatType><![CDATA[null]]></au_formatType>
+        <au_userOwner><![CDATA[IndigoUser:1431162416096079872]]></au_userOwner>
+        <au_endPoint><![CDATA[]]></au_endPoint>
+        <au_serviceName><![CDATA[null]]></au_serviceName>
+        <au_creationDate><![CDATA[2025-10-24 07:06:47.0]]></au_creationDate>
         <au_wsaAddressing><![CDATA[false]]></au_wsaAddressing>
+        <au_deleteOnSuccess><![CDATA[false]]></au_deleteOnSuccess>
+        <au_modifiedDate><![CDATA[2025-10-24 10:09:49.0]]></au_modifiedDate>
+        <au_wsaTo><![CDATA[null]]></au_wsaTo>
+        <au_groupOwner><![CDATA[IndigoGroup:192168001075148181566048300002]]></au_groupOwner>
+        <au_methodType><![CDATA[null]]></au_methodType>
+        <au_faultTo><![CDATA[null]]></au_faultTo>
         <au_activeVersion><![CDATA[true]]></au_activeVersion>
         <au_version><![CDATA[1]]></au_version>
-        <au_description><![CDATA[SS_RestProvider]]></au_description>
-        <au_wsdlPath><![CDATA[]]></au_wsdlPath>
-        <au_creationMode><![CDATA[manual]]></au_creationMode>
-        <au_methodParameterXML><![CDATA[<variables><methodtype methodname = "POST">
-</methodtype></variables>]]></au_methodParameterXML>
-        <au_publishType><![CDATA[rest]]></au_publishType>
+        <au_encodingUsed><![CDATA[UTF-8]]></au_encodingUsed>
+        <au_securityPolicyID><![CDATA[]]></au_securityPolicyID>
+        <au_requestServiceName><![CDATA[]]></au_requestServiceName>
+        <au_entityName><![CDATA[SS_RestProvider]]></au_entityName>
         <au_messageID><![CDATA[null]]></au_messageID>
-        <au_outputXMLSchemaID><![CDATA[]]></au_outputXMLSchemaID>
-        <au_providerTemplateMapping><![CDATA[null]]></au_providerTemplateMapping>
-        <au_groupOwner><![CDATA[IndigoGroup:192168001075148181566048300002]]></au_groupOwner>
-        <au_synchronous><![CDATA[false]]></au_synchronous>
-        <au_wsaReplyTo><![CDATA[null]]></au_wsaReplyTo>
-        <au_formatType><![CDATA[null]]></au_formatType>
+        <au_wsdlFilePath><![CDATA[]]></au_wsdlFilePath>
+        <au_publishType><![CDATA[rest]]></au_publishType>
+        <au_soapVersion><![CDATA[]]></au_soapVersion>
+        <au_revision><![CDATA[d5f58092fe93498f94760807ad29b0062d2f1c52]]></au_revision>
+        <au_ports><![CDATA[null]]></au_ports>
+        <au_faultToReferenceParam><![CDATA[null]]></au_faultToReferenceParam>
+        <au_creationMode><![CDATA[manual]]></au_creationMode>
+        <au_id><![CDATA[1431177087895285760]]></au_id>
+        <au_inputXSD><![CDATA[]]></au_inputXSD>
+        <au_apiVersion><![CDATA[]]></au_apiVersion>
+        <au_wsProviderVersion><![CDATA[4.0]]></au_wsProviderVersion>
+        <au_inputVariableName><![CDATA[RESTINPUTNAME]]></au_inputVariableName>
+        <au_enableSSL><![CDATA[on]]></au_enableSSL>
+        <au_resourceEndPath><![CDATA[/SS_RestProvider]]></au_resourceEndPath>
+        <au_wsdlPath><![CDATA[]]></au_wsdlPath>
+        <au_serviceLocation><![CDATA[]]></au_serviceLocation>
+        <au_outputXSD><![CDATA[]]></au_outputXSD>
+        <au_payloadProcessType><![CDATA[stream]]></au_payloadProcessType>
+        <au_wsaAction><![CDATA[null]]></au_wsaAction>
+        <au_transactionID><![CDATA[Transaction:1431176843996508160]]></au_transactionID>
         <au_webServiceVersion><![CDATA[]]></au_webServiceVersion>
-        <au_published><![CDATA[true]]></au_published>
+        <au_apiDoc><![CDATA[{"methods":{"post":{"summary":"","notes":"","parameters":[],"responses":[]}},"info":{"contact":{"email":""},"name":"SS_RestProvider","description":"SS_RestProvider","title":"API Documentation","version":"","serverDescription":"API Server"},"success":true}]]></au_apiDoc>
+        <au_modifiedBy><![CDATA[IndigoUser:127000000001107055536473900001]]></au_modifiedBy>
+        <au_relationshipType><![CDATA[null]]></au_relationshipType>
+        <au_configuration><![CDATA[]]></au_configuration>
+        <au_mustUnderstand><![CDATA[null]]></au_mustUnderstand>
         <au_projectOwner><![CDATA[Project:1431162336580464640]]></au_projectOwner>
-        <au_wsaVersion><![CDATA[null]]></au_wsaVersion>
     </AU_WSPROVIDER>
     <columnInfo dbtype="0">
         <column name="au_id" type="12"/>
