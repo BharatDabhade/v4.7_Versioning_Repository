@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<data>
+    <AC_TRANSACTION_METADATA>
+        <IS_UNIQUE_FILE><![CDATA[0]]></IS_UNIQUE_FILE>
+        <OPERATION><![CDATA[null]]></OPERATION>
+        <ACTIVITY_ID><![CDATA[1442524660317519872]]></ACTIVITY_ID>
+        <TARGET_FILE_EXTENSION><![CDATA[null]]></TARGET_FILE_EXTENSION>
+        <PARAMETER_JSON><![CDATA[{}]]></PARAMETER_JSON>
+        <APP_TYPE><![CDATA[null]]></APP_TYPE>
+        <ACCOUNT_ID><![CDATA[1432988282125193216]]></ACCOUNT_ID>
+        <TRANSACTION_ID><![CDATA[1442524417384755200]]></TRANSACTION_ID>
+        <DISCRIMINATOR_TYPE><![CDATA[null]]></DISCRIMINATOR_TYPE>
+        <TYPE><![CDATA[OAuthEvent]]></TYPE>
+        <SEQUENCE_TYPE><![CDATA[Trigger]]></SEQUENCE_TYPE>
+        <REFERENCE_FIELD><![CDATA[null]]></REFERENCE_FIELD>
+        <FILE_NAME><![CDATA[null]]></FILE_NAME>
+        <SEQUENCE_ID><![CDATA[1]]></SEQUENCE_ID>
+        <ALIAS_NAME><![CDATA[null]]></ALIAS_NAME>
+        <EXTERNAL_ID><![CDATA[null]]></EXTERNAL_ID>
+        <SERVICE_VARIABLE><![CDATA[null]]></SERVICE_VARIABLE>
+        <ID><![CDATA[1442524660640481280]]></ID>
+    </AC_TRANSACTION_METADATA>
+    <AC_TRANSACTION_METADATA>
+        <IS_UNIQUE_FILE><![CDATA[0]]></IS_UNIQUE_FILE>
+        <OPERATION><![CDATA[null]]></OPERATION>
+        <ACTIVITY_ID><![CDATA[1442524739679268864]]></ACTIVITY_ID>
+        <TARGET_FILE_EXTENSION><![CDATA[null]]></TARGET_FILE_EXTENSION>
+        <PARAMETER_JSON><![CDATA[null]]></PARAMETER_JSON>
+        <APP_TYPE><![CDATA[null]]></APP_TYPE>
+        <ACCOUNT_ID><![CDATA[1432988282125193216]]></ACCOUNT_ID>
+        <TRANSACTION_ID><![CDATA[1442524417384755200]]></TRANSACTION_ID>
+        <DISCRIMINATOR_TYPE><![CDATA[null]]></DISCRIMINATOR_TYPE>
+        <TYPE><![CDATA[XMLSchema]]></TYPE>
+        <SEQUENCE_TYPE><![CDATA[Schema]]></SEQUENCE_TYPE>
+        <REFERENCE_FIELD><![CDATA[null]]></REFERENCE_FIELD>
+        <FILE_NAME><![CDATA[null]]></FILE_NAME>
+        <SEQUENCE_ID><![CDATA[2]]></SEQUENCE_ID>
+        <ALIAS_NAME><![CDATA[null]]></ALIAS_NAME>
+        <EXTERNAL_ID><![CDATA[null]]></EXTERNAL_ID>
+        <SERVICE_VARIABLE><![CDATA[null]]></SERVICE_VARIABLE>
+        <ID><![CDATA[1442524741540216832]]></ID>
+    </AC_TRANSACTION_METADATA>
+    <columnInfo dbtype="0">
+        <column name="ID" type="2"/>
+        <column name="ACCOUNT_ID" type="12"/>
+        <column name="ACTIVITY_ID" type="12"/>
+        <column name="APP_TYPE" type="12"/>
+        <column name="DISCRIMINATOR_TYPE" type="12"/>
+        <column name="EXTERNAL_ID" type="12"/>
+        <column name="FILE_NAME" type="12"/>
+        <column name="IS_UNIQUE_FILE" type="2"/>
+        <column name="OPERATION" type="12"/>
+        <column name="PARAMETER_JSON" type="2005"/>
+        <column name="SEQUENCE_ID" type="2"/>
+        <column name="SEQUENCE_TYPE" type="12"/>
+        <column name="SERVICE_VARIABLE" type="2005"/>
+        <column name="TARGET_FILE_EXTENSION" type="12"/>
+        <column name="TYPE" type="12"/>
+        <column name="TRANSACTION_ID" type="2"/>
+        <column name="ALIAS_NAME" type="12"/>
+        <column name="REFERENCE_FIELD" type="2005"/>
+    </columnInfo>
+</data>
