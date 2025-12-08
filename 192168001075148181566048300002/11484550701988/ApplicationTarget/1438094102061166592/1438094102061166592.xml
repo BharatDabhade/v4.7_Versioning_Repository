@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<data>
+    <AU_APPLICATIONTARGET>
+        <AU_SYNCHRONIZED><![CDATA[0]]></AU_SYNCHRONIZED>
+        <AU_DESCRIPTION><![CDATA[dropbox_Action_Trg]]></AU_DESCRIPTION>
+        <AU_ACCOUNTID><![CDATA[OAuthAccount:1438093962705416192]]></AU_ACCOUNTID>
+        <AU_RESSCHEMAID><![CDATA[null]]></AU_RESSCHEMAID>
+        <AU_ADAPTERTYPE><![CDATA[1194601856894001152]]></AU_ADAPTERTYPE>
+        <AU_ENTITYNAME><![CDATA[dropbox_Action_Trg]]></AU_ENTITYNAME>
+        <AU_PROJECTOWNER><![CDATA[Project:11484550701988]]></AU_PROJECTOWNER>
+        <AU_REFERENCEFIELD><![CDATA[null]]></AU_REFERENCEFIELD>
+        <AU_GROUPOWNER><![CDATA[IndigoGroup:192168001075148181566048300002]]></AU_GROUPOWNER>
+        <AU_EXTERNALID><![CDATA[null]]></AU_EXTERNALID>
+        <AU_ID><![CDATA[1438094102061166592]]></AU_ID>
+        <AU_MODIFIEDDATE><![CDATA[2025-11-12 09:12:32.0]]></AU_MODIFIEDDATE>
+        <AU_PARAMETERJSON><![CDATA[{"dynamicParams":[],"pathparams":[{"filePath":"/Target"}],"queryparams":[],"headerparams":[]}]]></AU_PARAMETERJSON>
+        <AU_DELETEONSUCCESS><![CDATA[0]]></AU_DELETEONSUCCESS>
+        <AU_FILENAME><![CDATA[null]]></AU_FILENAME>
+        <AU_DESTACTION><![CDATA[GetFile]]></AU_DESTACTION>
+        <AU_FILEBASELOCATION><![CDATA[null]]></AU_FILEBASELOCATION>
+        <AU_PERMISSIONMASK><![CDATA[770]]></AU_PERMISSIONMASK>
+        <AU_USEROWNER><![CDATA[IndigoUser:1432641384355794944]]></AU_USEROWNER>
+        <AU_MODIFIEDBY><![CDATA[IndigoUser:1432641384355794944]]></AU_MODIFIEDBY>
+        <AU_OPERATION><![CDATA[create]]></AU_OPERATION>
+        <AU_VERSION><![CDATA[1]]></AU_VERSION>
+        <AU_PREVIOUSVERSION><![CDATA[null]]></AU_PREVIOUSVERSION>
+        <AU_CONNECTORID><![CDATA[1194601856894001152]]></AU_CONNECTORID>
+        <AU_FILTERIN><![CDATA[null]]></AU_FILTERIN>
+        <AU_COMMENTS><![CDATA[null]]></AU_COMMENTS>
+        <AU_ADAPTERPROTOCOL><![CDATA[null]]></AU_ADAPTERPROTOCOL>
+        <AU_REQSCHEMAID><![CDATA[null]]></AU_REQSCHEMAID>
+        <AU_ACTIVEVERSION><![CDATA[1]]></AU_ACTIVEVERSION>
+        <AU_FILEPATTERN><![CDATA[0|0|N|undefined]]></AU_FILEPATTERN>
+        <AU_REVISION><![CDATA[null]]></AU_REVISION>
+        <AU_CREATIONDATE><![CDATA[2025-11-12 09:12:32.0]]></AU_CREATIONDATE>
+    </AU_APPLICATIONTARGET>
+    <columnInfo dbtype="2">
+        <column name="AU_ID" type="12"/>
+        <column name="AU_VERSION" type="12"/>
+        <column name="AU_PREVIOUSVERSION" type="12"/>
+        <column name="AU_ACTIVEVERSION" type="2"/>
+        <column name="AU_ENTITYNAME" type="12"/>
+        <column name="AU_USEROWNER" type="12"/>
+        <column name="AU_GROUPOWNER" type="12"/>
+        <column name="AU_PERMISSIONMASK" type="12"/>
+        <column name="AU_DESCRIPTION" type="12"/>
+        <column name="AU_COMMENTS" type="12"/>
+        <column name="AU_MODIFIEDBY" type="12"/>
+        <column name="AU_CREATIONDATE" type="93"/>
+        <column name="AU_MODIFIEDDATE" type="93"/>
+        <column name="AU_REVISION" type="12"/>
+        <column name="AU_SYNCHRONIZED" type="2"/>
+        <column name="AU_PROJECTOWNER" type="12"/>
+        <column name="AU_ADAPTERTYPE" type="12"/>
+        <column name="AU_ACCOUNTID" type="12"/>
+        <column name="AU_ADAPTERPROTOCOL" type="12"/>
+        <column name="AU_OPERATION" type="12"/>
+        <column name="AU_REFERENCEFIELD" type="12"/>
+        <column name="AU_EXTERNALID" type="12"/>
+        <column name="AU_FILEBASELOCATION" type="12"/>
+        <column name="AU_FILENAME" type="12"/>
+        <column name="AU_FILEPATTERN" type="12"/>
+        <column name="AU_PARAMETERJSON" type="2005"/>
+        <column name="AU_DESTACTION" type="12"/>
+        <column name="AU_REQSCHEMAID" type="12"/>
+        <column name="AU_RESSCHEMAID" type="12"/>
+        <column name="AU_FILTERIN" type="2005"/>
+        <column name="AU_DELETEONSUCCESS" type="2"/>
+        <column name="AU_CONNECTORID" type="12"/>
+    </columnInfo>
+</data>
