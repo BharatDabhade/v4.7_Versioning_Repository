@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<data>
+    <AU_DATAINTERFACES>
+        <AU_CONFIGUREXML><![CDATA[null]]></AU_CONFIGUREXML>
+        <AU_NOTIFICATIONACTIVITY1><![CDATA[null]]></AU_NOTIFICATIONACTIVITY1>
+        <AU_TARGETSCHEMATYPE1><![CDATA[TextSchema]]></AU_TARGETSCHEMATYPE1>
+        <AU_TARGETTYPE1><![CDATA[FileTarget]]></AU_TARGETTYPE1>
+        <AU_EVENTTYPE1><![CDATA[FileEvent]]></AU_EVENTTYPE1>
+        <AU_PREVIOUSVERSION><![CDATA[null]]></AU_PREVIOUSVERSION>
+        <AU_ID><![CDATA[192168001075140377884781500014]]></AU_ID>
+        <AU_SOURCEACTIVITY1><![CDATA[none]]></AU_SOURCEACTIVITY1>
+        <AU_EVENTACTIVITY1><![CDATA[FileEvent:192168001075140377737550700002]]></AU_EVENTACTIVITY1>
+        <AU_SOURCESCHEMATYPE1><![CDATA[XMLSchema]]></AU_SOURCESCHEMATYPE1>
+        <AU_REVISION><![CDATA[null]]></AU_REVISION>
+        <AU_ENTITYNAME><![CDATA[BooksDetails_XML_File_to_CSV]]></AU_ENTITYNAME>
+        <AU_SOURCETYPE1><![CDATA[none]]></AU_SOURCETYPE1>
+        <AU_LOGGINGLEVEL><![CDATA[ERROR]]></AU_LOGGINGLEVEL>
+        <AU_USEROWNER><![CDATA[IndigoUser:192168001205130027722316300009]]></AU_USEROWNER>
+        <AU_MODIFIEDDATE><![CDATA[2014-06-27 10:50:01.0]]></AU_MODIFIEDDATE>
+        <AU_NOTIFYCONDITION1><![CDATA[null]]></AU_NOTIFYCONDITION1>
+        <AU_REPOSITORYACTION><![CDATA[L]]></AU_REPOSITORYACTION>
+        <AU_EVENTREGISTRY1><![CDATA[null]]></AU_EVENTREGISTRY1>
+        <AU_SOURCESCHEMAACTIVITY1><![CDATA[XMLSchema:192168001075140377752597500004]]></AU_SOURCESCHEMAACTIVITY1>
+        <AU_TARGETSCHEMAACTIVITY1><![CDATA[TextSchema:192168001075140377764707200006]]></AU_TARGETSCHEMAACTIVITY1>
+        <AU_DESCRIPTION><![CDATA[This is a sample data interface to pull data from XML file to CSV file.]]></AU_DESCRIPTION>
+        <AU_ORIGINALSOURCETYPE><![CDATA[File]]></AU_ORIGINALSOURCETYPE>
+        <AU_TRANSCONTEXTVAR><![CDATA[null]]></AU_TRANSCONTEXTVAR>
+        <AU_COMMENTS><![CDATA[null]]></AU_COMMENTS>
+        <AU_MODIFIEDBY><![CDATA[IndigoUser:1432674214775427072]]></AU_MODIFIEDBY>
+        <AU_PROJECTOWNER><![CDATA[Default]]></AU_PROJECTOWNER>
+        <AU_CREATIONDATE><![CDATA[2014-06-26 16:04:07.0]]></AU_CREATIONDATE>
+        <AU_MAPPINGACTIVITY1><![CDATA[DataMapping:192168001075140377772225800009]]></AU_MAPPINGACTIVITY1>
+        <AU_GROUPOWNER><![CDATA[IndigoGroup:192168001205130027715287200007]]></AU_GROUPOWNER>
+        <AU_SYNCHRONIZED><![CDATA[0]]></AU_SYNCHRONIZED>
+        <AU_PERMISSIONMASK><![CDATA[777]]></AU_PERMISSIONMASK>
+        <AU_TRANSACTIONINSTANCE1><![CDATA[Transaction:049138048006130021025657000002]]></AU_TRANSACTIONINSTANCE1>
+        <AU_EMAILADDRESS><![CDATA[null]]></AU_EMAILADDRESS>
+        <AU_TARGETACTIVITY1><![CDATA[FileTarget:192168001075140377770257500008]]></AU_TARGETACTIVITY1>
+        <AU_VERSION><![CDATA[1]]></AU_VERSION>
+        <AU_ACTIVEVERSION><![CDATA[1]]></AU_ACTIVEVERSION>
+        <AU_ORIGINALTARGETTYPE><![CDATA[File]]></AU_ORIGINALTARGETTYPE>
+    </AU_DATAINTERFACES>
+    <columnInfo dbtype="2">
+        <column name="AU_ID" type="12"/>
+        <column name="AU_VERSION" type="12"/>
+        <column name="AU_PREVIOUSVERSION" type="12"/>
+        <column name="AU_ACTIVEVERSION" type="2"/>
+        <column name="AU_ENTITYNAME" type="12"/>
+        <column name="AU_USEROWNER" type="12"/>
+        <column name="AU_GROUPOWNER" type="12"/>
+        <column name="AU_PERMISSIONMASK" type="12"/>
+        <column name="AU_DESCRIPTION" type="12"/>
+        <column name="AU_COMMENTS" type="12"/>
+        <column name="AU_MODIFIEDBY" type="12"/>
+        <column name="AU_CREATIONDATE" type="93"/>
+        <column name="AU_MODIFIEDDATE" type="93"/>
+        <column name="AU_REVISION" type="12"/>
+        <column name="AU_SYNCHRONIZED" type="2"/>
+        <column name="AU_PROJECTOWNER" type="12"/>
+        <column name="AU_TRANSACTIONINSTANCE1" type="12"/>
+        <column name="AU_EMAILADDRESS" type="12"/>
+        <column name="AU_SOURCETYPE1" type="12"/>
+        <column name="AU_SOURCEACTIVITY1" type="12"/>
+        <column name="AU_SOURCESCHEMATYPE1" type="12"/>
+        <column name="AU_SOURCESCHEMAACTIVITY1" type="12"/>
+        <column name="AU_TARGETTYPE1" type="12"/>
+        <column name="AU_TARGETACTIVITY1" type="12"/>
+        <column name="AU_TARGETSCHEMATYPE1" type="12"/>
+        <column name="AU_TARGETSCHEMAACTIVITY1" type="12"/>
+        <column name="AU_MAPPINGACTIVITY1" type="12"/>
+        <column name="AU_NOTIFICATIONACTIVITY1" type="12"/>
+        <column name="AU_EVENTTYPE1" type="12"/>
+        <column name="AU_EVENTACTIVITY1" type="12"/>
+        <column name="AU_EVENTREGISTRY1" type="12"/>
+        <column name="AU_TRANSCONTEXTVAR" type="12"/>
+        <column name="AU_CONFIGUREXML" type="2005"/>
+        <column name="AU_NOTIFYCONDITION1" type="12"/>
+        <column name="AU_ORIGINALSOURCETYPE" type="12"/>
+        <column name="AU_ORIGINALTARGETTYPE" type="12"/>
+        <column name="AU_LOGGINGLEVEL" type="12"/>
+        <column name="AU_REPOSITORYACTION" type="12"/>
+    </columnInfo>
+</data>
