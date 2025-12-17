@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<data>
+    <AU_ROUTINGRELATIONSHIP>
+        <AU_PERMISSIONMASK><![CDATA[770]]></AU_PERMISSIONMASK>
+        <AU_EVENTNAME><![CDATA[FileEvent:1381933578825748480]]></AU_EVENTNAME>
+        <AU_USEROWNER><![CDATA[IndigoUser:1432656218768158720]]></AU_USEROWNER>
+        <AU_ENCRYPTIONACTIVITY><![CDATA[null]]></AU_ENCRYPTIONACTIVITY>
+        <AU_NOTIFICATIONCHECK><![CDATA[0]]></AU_NOTIFICATIONCHECK>
+        <AU_ISUNENCRYPTEDARCHIVALFILE><![CDATA[0]]></AU_ISUNENCRYPTEDARCHIVALFILE>
+        <AU_ROUTETRANSFORM><![CDATA[null]]></AU_ROUTETRANSFORM>
+        <AU_EVENTTYPE><![CDATA[File]]></AU_EVENTTYPE>
+        <AU_DOCUMENTTYPE><![CDATA[agaddy@yopmail.com]]></AU_DOCUMENTTYPE>
+        <AU_MODIFIEDDATE><![CDATA[2025-06-10 10:38:57.0]]></AU_MODIFIEDDATE>
+        <AU_ISCREATETIMESTAMPFOLDER><![CDATA[0]]></AU_ISCREATETIMESTAMPFOLDER>
+        <AU_PROCESSINGMODE><![CDATA[transform]]></AU_PROCESSINGMODE>
+        <AU_DOCUMENTVERSION><![CDATA[001234567;123456763;SYo^b0YP]]></AU_DOCUMENTVERSION>
+        <AU_CREATIONDATE><![CDATA[2025-06-10 09:54:46.0]]></AU_CREATIONDATE>
+        <AU_TARGETFILENAME><![CDATA[Relationship_Trg_File|MMMMMdd|HHmm|xml|Y]]></AU_TARGETFILENAME>
+        <AU_ISIDENTIFICATIONREQUIRED><![CDATA[0]]></AU_ISIDENTIFICATIONREQUIRED>
+        <AU_IDENTIFIER2VALUE><![CDATA[null]]></AU_IDENTIFIER2VALUE>
+        <AU_OUTBOUNDARCHIVESTRATEGY><![CDATA[null]]></AU_OUTBOUNDARCHIVESTRATEGY>
+        <AU_TARGET><![CDATA[FileTarget:1381933994800041984]]></AU_TARGET>
+        <AU_REVISION><![CDATA[null]]></AU_REVISION>
+        <AU_FORMATTYPE><![CDATA[Text]]></AU_FORMATTYPE>
+        <AU_ID><![CDATA[1381934609710174208]]></AU_ID>
+        <AU_SYNCHRONIZED><![CDATA[0]]></AU_SYNCHRONIZED>
+        <AU_ISARCHIVED><![CDATA[0]]></AU_ISARCHIVED>
+        <AU_ENTITYNAME><![CDATA[sv_file2file_transform_T2X_In_V4_6]]></AU_ENTITYNAME>
+        <AU_IDENTIFIER1VALUE><![CDATA[null]]></AU_IDENTIFIER1VALUE>
+        <AU_ISDECRYPTIONREQUIRED><![CDATA[0]]></AU_ISDECRYPTIONREQUIRED>
+        <AU_OUTBOUNDARCHIVEFILEPATH><![CDATA[null]]></AU_OUTBOUNDARCHIVEFILEPATH>
+        <AU_ISENCRYPTIONNREQUIRED><![CDATA[0]]></AU_ISENCRYPTIONNREQUIRED>
+        <AU_SOURCEACTIVITY><![CDATA[null]]></AU_SOURCEACTIVITY>
+        <AU_MAPPING><![CDATA[DataMapping:1381931041494126592]]></AU_MAPPING>
+        <AU_DESCRIPTION><![CDATA[sv_file2file_transform_T2X_In_V4_6]]></AU_DESCRIPTION>
+        <AU_DECRYPTIONACTIVITY><![CDATA[null]]></AU_DECRYPTIONACTIVITY>
+        <AU_OUTBOUNDARCHIVETARGETTYPE><![CDATA[null]]></AU_OUTBOUNDARCHIVETARGETTYPE>
+        <AU_TARGETTYPE><![CDATA[File]]></AU_TARGETTYPE>
+        <AU_ROUTINGSERVICETYPE><![CDATA[Inbound]]></AU_ROUTINGSERVICETYPE>
+        <AU_PARENTSERVICETYPEDID><![CDATA[EDITradingPartner:010000000162170857441089700002]]></AU_PARENTSERVICETYPEDID>
+        <AU_PROJECTOWNER><![CDATA[Project:1381944749250318336]]></AU_PROJECTOWNER>
+        <AU_OUTBOUNDARCHIVELOCATION><![CDATA[null]]></AU_OUTBOUNDARCHIVELOCATION>
+        <AU_SOURCETYPE1><![CDATA[DatabaseSource]]></AU_SOURCETYPE1>
+        <AU_PROCESSFLOW><![CDATA[Transaction:192168001204129724803778600001]]></AU_PROCESSFLOW>
+        <AU_GROUPOWNER><![CDATA[IndigoGroup:192168001075148181566048300002]]></AU_GROUPOWNER>
+        <AU_ISSKIPCOMPLIANCE><![CDATA[0]]></AU_ISSKIPCOMPLIANCE>
+        <AU_ARCHIVEFILEPATTERN><![CDATA[0|0]]></AU_ARCHIVEFILEPATTERN>
+        <AU_PREVIOUSVERSION><![CDATA[null]]></AU_PREVIOUSVERSION>
+        <AU_COMMENTS><![CDATA[null]]></AU_COMMENTS>
+        <AU_FILTER><![CDATA[null]]></AU_FILTER>
+        <AU_VERSION><![CDATA[1]]></AU_VERSION>
+        <AU_MODIFIEDBY><![CDATA[IndigoUser:1432656218768158720]]></AU_MODIFIEDBY>
+        <AU_ACTIVEVERSION><![CDATA[1]]></AU_ACTIVEVERSION>
+    </AU_ROUTINGRELATIONSHIP>
+    <columnInfo dbtype="2">
+        <column name="AU_ID" type="12"/>
+        <column name="AU_VERSION" type="12"/>
+        <column name="AU_PREVIOUSVERSION" type="12"/>
+        <column name="AU_ACTIVEVERSION" type="2"/>
+        <column name="AU_ENTITYNAME" type="12"/>
+        <column name="AU_USEROWNER" type="12"/>
+        <column name="AU_GROUPOWNER" type="12"/>
+        <column name="AU_PERMISSIONMASK" type="12"/>
+        <column name="AU_DESCRIPTION" type="12"/>
+        <column name="AU_COMMENTS" type="12"/>
+        <column name="AU_MODIFIEDBY" type="12"/>
+        <column name="AU_CREATIONDATE" type="93"/>
+        <column name="AU_MODIFIEDDATE" type="93"/>
+        <column name="AU_REVISION" type="12"/>
+        <column name="AU_SYNCHRONIZED" type="2"/>
+        <column name="AU_PROJECTOWNER" type="12"/>
+        <column name="AU_FORMATTYPE" type="12"/>
+        <column name="AU_FILTER" type="12"/>
+        <column name="AU_ENCRYPTIONACTIVITY" type="12"/>
+        <column name="AU_DECRYPTIONACTIVITY" type="12"/>
+        <column name="AU_PROCESSINGMODE" type="12"/>
+        <column name="AU_SOURCETYPE1" type="12"/>
+        <column name="AU_SOURCEACTIVITY" type="12"/>
+        <column name="AU_DOCUMENTTYPE" type="12"/>
+        <column name="AU_DOCUMENTVERSION" type="12"/>
+        <column name="AU_IDENTIFIER1VALUE" type="12"/>
+        <column name="AU_IDENTIFIER2VALUE" type="12"/>
+        <column name="AU_EVENTTYPE" type="12"/>
+        <column name="AU_EVENTNAME" type="12"/>
+        <column name="AU_ROUTETRANSFORM" type="12"/>
+        <column name="AU_TARGETTYPE" type="12"/>
+        <column name="AU_TARGET" type="12"/>
+        <column name="AU_OUTBOUNDARCHIVELOCATION" type="12"/>
+        <column name="AU_OUTBOUNDARCHIVETARGETTYPE" type="12"/>
+        <column name="AU_OUTBOUNDARCHIVESTRATEGY" type="12"/>
+        <column name="AU_OUTBOUNDARCHIVEFILEPATH" type="12"/>
+        <column name="AU_ARCHIVEFILEPATTERN" type="12"/>
+        <column name="AU_MAPPING" type="12"/>
+        <column name="AU_NOTIFICATIONCHECK" type="2"/>
+        <column name="AU_ISIDENTIFICATIONREQUIRED" type="2"/>
+        <column name="AU_ISDECRYPTIONREQUIRED" type="2"/>
+        <column name="AU_ISENCRYPTIONNREQUIRED" type="2"/>
+        <column name="AU_ISARCHIVED" type="2"/>
+        <column name="AU_ISCREATETIMESTAMPFOLDER" type="2"/>
+        <column name="AU_ISSKIPCOMPLIANCE" type="2"/>
+        <column name="AU_ROUTINGSERVICETYPE" type="12"/>
+        <column name="AU_PROCESSFLOW" type="12"/>
+        <column name="AU_TARGETFILENAME" type="12"/>
+        <column name="AU_ISUNENCRYPTEDARCHIVALFILE" type="2"/>
+        <column name="AU_PARENTSERVICETYPEDID" type="12"/>
+    </columnInfo>
+</data>
